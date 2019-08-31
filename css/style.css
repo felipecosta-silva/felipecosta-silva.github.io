@@ -1,0 +1,90 @@
+body {
+  background: rgba(0, 0, 0);
+  color: #fff;
+}
+
+#borderphoto{
+    border:2px solid #daa520;
+    border-radius:50%;
+    width: 200px;
+    height: 200px;
+}
+
+.corfundo {
+  background-color: black;
+  color: #fff;
+}
+
+
+.dourado {
+color: #daa520;
+}
+
+#NomePerfil{
+margin: 30px 0 20px 0;
+font-weight: 300;
+}
+
+#NomePerfil::after{
+content: "";
+display: block;
+width: 160px;
+height: 2px;
+background: #edce2c;
+margin: 10px auto;
+}
+
+#social {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#social ul{
+display: flex;
+justify-content: center;
+margin-bottom: 50px;
+padding: 0;
+}
+
+#social i {
+  font-size: 30px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: #fff;
+}
+
+li{
+list-style-type: none;
+}
+
+#social ul li a i:hover {
+  color: #edce2c;
+}
+#about{
+  background: #fff;
+  color: #000;
+  padding: 80px 0;
+}
+
+#about .about-content{
+display: block;
+max-width: 850px;
+margin: 0 auto;
+}
+
+#about .about-text {
+  text-align: center;
+}
+
+#about h4,
+#formation h4,
+#experience h4,
+footer h4 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #edce2c;
+}

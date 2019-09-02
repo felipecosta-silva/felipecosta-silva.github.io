@@ -1,6 +1,7 @@
 body {
-  background: rgba(0, 0, 0);
-  color: #fff;
+background: rgba(0, 0, 0);
+color: #fff;
+height: 100%;
 }
 
 #borderphoto{
@@ -18,6 +19,10 @@ body {
 
 .dourado {
 color: #daa520;
+}
+
+.home {
+    height: 825px;
 }
 
 #NomePerfil{

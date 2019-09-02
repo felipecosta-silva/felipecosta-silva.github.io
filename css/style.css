@@ -61,9 +61,53 @@ li{
 list-style-type: none;
 }
 
+button,
+.btn {
+  transition: all 0.3s linear;
+}
+
+#home .btn,
+#home .btn i {
+  color: #ddd;
+  font-size: 12px;
+  margin: 0px;
+}
+
+#home .btn {
+  text-decoration: none;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  letter-spacing: 0.2rem;
+  padding: 15px 40px;
+}
+
+#home .btn:hover {
+  border: 2px solid #edce2c;
+}
+
 #social ul li a i:hover {
   color: #edce2c;
 }
+
+#home .btn,
+#home .btn i {
+  color: #ddd;
+  font-size: 12px;
+  margin: 0px;
+}
+
+#home .btn {
+  text-decoration: none;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  letter-spacing: 0.2rem;
+  padding: 15px 40px;
+}
+
+#home .btn:hover {
+  border: 2px solid #edce2c;
+}
+
+/* About */
+
 #about{
   background: #fff;
   color: #000;
@@ -77,14 +121,76 @@ margin: 0 auto;
 }
 
 #about .about-text {
-  text-align: center;
+text-align: center;
+max-width: 850px; 
+margin: 0 auto;
 }
 
-#about h4,
+#about h5,
 #formation h4,
 #experience h4,
 footer h4 {
   text-transform: uppercase;
   margin-bottom: 30px;
-  color: #edce2c;
+  color: #daa520;
+}
+
+.profile li {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile li span {
+  color: #888888;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.skills ul li strong,
+.profile li strong{
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.2rem;
+  line-height: 2rem;
+}
+
+.skills ul li .progress {
+ background-color: #ddd;
+ height: 8px;
+ margin-bottom: 30px;
+ width: 300px;
+}
+
+.percent50,
+.percent60,
+.percent70,
+.percent80,
+.percent90,
+.percent100 {
+  background-color: blue;
+  height: 100%;
+}
+
+.percent50 {
+  width: 50%;
+}
+
+.percent60 {
+  width: 60%;
+}
+
+.percent70 {
+  width: 70%;
+}
+
+.percent80 {
+  width: 80%;
+}
+
+.percent90 {
+  width: 90%;
+}
+
+.percent100 {
+  width: 100%;
 }

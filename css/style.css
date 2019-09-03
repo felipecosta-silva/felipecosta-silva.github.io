@@ -21,6 +21,11 @@ height: 100%;
 color: #daa520;
 }
 
+.box-shadow {
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,.30),
+              0 5px 9px 0 rgba(0,0,0,.30);
+}
+
 .home {
     height: 825px;
 }
@@ -166,6 +171,7 @@ footer h4 {
  width: 300px;
 }
 
+.percent40,
 .percent50,
 .percent60,
 .percent70,
@@ -174,6 +180,10 @@ footer h4 {
 .percent100 {
   background-color: blue;
   height: 100%;
+}
+
+.percent40 {
+  width: 40%;
 }
 
 .percent50 {

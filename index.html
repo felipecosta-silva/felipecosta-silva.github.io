@@ -21,9 +21,10 @@
 
     
   </head>
-  <body>
-    <head class="corfundo">
-        <nav class="navbar navbar-expand-sm navbar-ligth" style="background-color: #000030;">
+  <body class="corfundo">
+    <head>
+       <div  class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-ligth box-shadow" style="background-color: #000030;">
           <img src="./imagens/logo-narbar-brand.png" width="25" height="20" alt="Logo">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -33,6 +34,9 @@
              <ul class="navbar-nav mr-auto dourado">
                  <li class="nav-item ml-3">
                     <a class="nav-link" href="#perfil">Perfil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Sobre</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#formacao">Formação</a>
@@ -50,14 +54,14 @@
                 </div>
 
         </nav>
+        </div>
     </head>
-    <body class="corfundo">
+    <body>
         <section class="container-fluid" id="home">
             <div class="container">
-                <div id="perfil">
-    
-                      <div class="text-center mt-5">
-                                <img src="https://avatars2.githubusercontent.com/u/15041151?s=460&v=4" class="img-fluid rounded-circle"  id="borderphoto" alt="Felipe Costa">
+                <div id="perfil" class="mt-5">
+                      <div class="text-center">
+                                <img src="https://avatars2.githubusercontent.com/u/15041151?s=460&v=4" class="img-fluid rounded-circle mt-5"  id="borderphoto" alt="Felipe Costa">
 
                                 <h2 class="text-warning" id="NomePerfil">Felipe Costa</h2>
                                 <p class="container text-white-50 col-3 my-5">Hi, my name is Felipe Costa.</p>
@@ -85,7 +89,7 @@
                 </div>
             </div>
         </section>
-        <section class="container text-align-center" id="about">
+        <section class="container text-align-center mt-5" id="about">
          <div class="">
             <div class="about-text">
                     <h4 class="mb-5 dourado"><em>About</em></h4>
@@ -127,16 +131,16 @@
                             <li>
                                 <strong>HTML5</strong>
                                 <div class="progress">
-                                    <div class="percent80"></div>
+                                    <div class="percent60"></div>
                                 </div>
                             </li>
                             <li>
                                 <strong>CSS</strong>
                                 <div class="progress">
-                                    <div class="percent80"></div>
+                                    <div class="percent60"></div>
                                 </div>
                             </li>
-                            <li>
+                           <!-- <li>
                                 <strong>JavaScript</strong>
                                 <div class="progress">
                                     <div class="percent60"></div>
@@ -153,11 +157,11 @@
                                 <div class="progress">
                                     <div class="percent60"></div>
                                 </div>
-                            </li>
+                            </li> -->
                             <li>
                                 <strong>Java</strong>
                                 <div class="progress">
-                                    <div class="percent60"></div>
+                                    <div class="percent40"></div>
                                 </div>
                             </li>
                         </ul>

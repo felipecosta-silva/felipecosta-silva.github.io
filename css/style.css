@@ -4,13 +4,6 @@ color: #fff;
 height: 100%;
 }
 
-#borderphoto{
-    border:2px solid #daa520;
-    border-radius:50%;
-    width: 200px;
-    height: 200px;
-}
-
 .corfundo {
   background-color: black;
   color: #fff;
@@ -33,6 +26,14 @@ color: #daa520;
 
 .home {
     height: 825px;
+}
+
+#home img {
+border:2px solid #daa520;
+width: 100%;
+border-radius: 50%;
+max-width: 220px;
+height: 100%;
 }
 
 #NomePerfil{

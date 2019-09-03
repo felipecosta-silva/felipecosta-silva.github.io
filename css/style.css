@@ -16,6 +16,11 @@ height: 100%;
   color: #fff;
 }
 
+.navbar-toggler{
+background-color: transparent;
+border: 1px solid blue;
+}
+
 
 .dourado {
 color: #daa520;

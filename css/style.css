@@ -40,7 +40,7 @@ content: "";
 display: block;
 width: 160px;
 height: 2px;
-background: #edce2c;
+background: #daa520;
 margin: 10px auto;
 }
 
@@ -91,11 +91,11 @@ button,
 }
 
 #home .btn:hover {
-  border: 2px solid #edce2c;
+  border: 2px solid #daa520;
 }
 
 #social ul li a i:hover {
-  color: #edce2c;
+  color: #daa520;
 }
 
 #home .btn,
@@ -113,7 +113,7 @@ button,
 }
 
 #home .btn:hover {
-  border: 2px solid #edce2c;
+  border: 2px solid #daa520;
 }
 
 /* About */

@@ -1,7 +1,13 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
 body {
-background: rgba(0, 0, 0);
-color: #fff;
-height: 100%;
+  background: rgba(0, 0, 0);
+  color: #fff;
+  height: 100%;
 }
 
 .corfundo {
@@ -9,45 +15,45 @@ height: 100%;
   color: #fff;
 }
 
-.navbar-toggler{
-background-color: transparent;
-border: 1px solid blue;
+#corfundo .container .navbar-toggler{
+  background-color: #daa520;
+  border: 1px solid #0062cc;
 }
 
 
 .dourado {
-color: #daa520;
+  color: #daa520;
 }
 
 .box-shadow {
   box-shadow: 0 3px 6px 0 rgba(0,0,0,.30),
-              0 5px 9px 0 rgba(0,0,0,.30);
+    0 5px 9px 0 rgba(0,0,0,.30);
 }
 
 .home {
-    height: 825px;
+  height: 825px;
 }
 
 #home img {
-border:2px solid #daa520;
-width: 100%;
-border-radius: 50%;
-max-width: 220px;
-height: 100%;
+  border:2px solid #daa520;
+  width: 100%;
+  border-radius: 50%;
+  max-width: 220px;
+  height: 100%;
 }
 
 #NomePerfil{
-margin: 30px 0 20px 0;
-font-weight: 300;
+  margin: 30px 0 20px 0;
+  font-weight: 300;
 }
 
 #NomePerfil::after{
-content: "";
-display: block;
-width: 160px;
-height: 2px;
-background: #daa520;
-margin: 10px auto;
+  content: "";
+  display: block;
+  width: 160px;
+  height: 2px;
+  background: #daa520;
+  margin: 10px auto;
 }
 
 #social {
@@ -60,10 +66,10 @@ margin: 10px auto;
 }
 
 #social ul{
-display: flex;
-justify-content: center;
-margin-bottom: 50px;
-padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding: 0;
 }
 
 #social i {
@@ -74,7 +80,7 @@ padding: 0;
 }
 
 li{
-list-style-type: none;
+  list-style-type: none;
 }
 
 button,
@@ -131,15 +137,16 @@ button,
 }
 
 #about .about-content{
-display: block;
-max-width: 850px;
-margin: 0 auto;
+  display: block;
+  max-width: 850px;
+  margin: 0 auto;
 }
 
-#about .about-text {
-text-align: center;
-max-width: 850px; 
-margin: 0 auto;
+#about .about-text p {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 #about h5,
@@ -151,19 +158,27 @@ footer h4 {
   color: #daa520;
 }
 
-.profile li {
-  display: flex;
-  flex-direction: column;
+#about h5,
+#about h4{
+  margin-left: 3rem;
+  text-align: center;
 }
 
-.profile li span {
+#about .about-and-skills .profile li, 
+#about .about-and-skills .skills li{
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+#about .about-and-skills .profile li span {
   color: #888888;
   margin-bottom: 10px;
   font-size: 14px;
 }
 
-.skills ul li strong,
-.profile li strong{
+#about .about-and-skills .profile li strong,
+#about .about-and-skills .skills ul li strong{
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0.2rem;
@@ -171,10 +186,10 @@ footer h4 {
 }
 
 .skills ul li .progress {
- background-color: #ddd;
- height: 8px;
- margin-bottom: 30px;
- width: 300px;
+  background-color: #ddd;
+  height: 8px;
+  margin-bottom: 30px;
+  width: 300px;
 }
 
 .percent40,
@@ -214,4 +229,128 @@ footer h4 {
 
 .percent100 {
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Header */
+  header {
+    justify-content: flex-end;
+    margin: 20px 50px;
+  }
+
+  /* Introdução */
+  #home {
+    height: 100%;
+    padding: 0 40px;
+  }
+
+  #home img {
+    max-width: 150px;
+  }
+
+  #home .intro p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  #home .intro i {
+    font-size: 25px;
+  }
+
+  /* About */
+  #about {
+    padding: 40px 0;
+  }
+  #about .about-content {
+    max-width: 100%;
+    margin: 0 20px;
+  }
+
+  #about h5,
+  #formation h4,
+  #experience h4,
+  footer h4 {
+    margin: 50px 0 20px 0;
+  }
+
+  #about .about-text p {
+    max-width: 100%;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  #about .about-and-skills {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+  #about .about-and-skills ul{
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  #about .about-and-skills .skills ul li .progress {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 250px;
+  }
+
+  /* Formation and Certificates */
+  #formation,
+  #experience {
+    padding: 40px;
+  }
+
+  #formation h3,
+  #experience h3 {
+    margin: 10px 0;
+  }
+
+  #formation .formation-and-certificates div,
+  #experience .experiences div {
+    margin-bottom: 25px;
+  }
+
+  /* Footer */
+  footer {
+    padding-top: 60px;
+  }
+
+  footer .more,
+  footer .contact-info {
+    display: block;
+  }
+
+  .footer i {
+    font-size: 35px;
+  }
+
+  .footer h3 {
+    font-size: 14px;
+  }
+
+  .footer p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .footer .contact {
+    margin: 60px auto;
+  }
+
+  .footer .contact form {
+    display: block;
+    padding: 0 40px;
+  }
+
+  input[type="submit"] {
+    margin-top: 30px !important;
+  }
+
+  .footer .contact-info {
+    margin-bottom: 100px;
+  }
 }

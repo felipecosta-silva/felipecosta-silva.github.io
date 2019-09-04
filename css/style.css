@@ -84,20 +84,20 @@ button,
 
 #home .btn,
 #home .btn i {
-  color: #ddd;
+  color: #daa520;
   font-size: 12px;
   margin: 0px;
 }
 
 #home .btn {
   text-decoration: none;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(218, 165, 32, 0.3);
   letter-spacing: 0.2rem;
   padding: 15px 40px;
 }
 
 #home .btn:hover {
-  border: 2px solid #daa520;
+  border: 2px solid ;
 }
 
 #social ul li a i:hover {

@@ -15,9 +15,10 @@ body {
   color: #fff;
 }
 
-#corfundo .container .navbar-toggler{
-  background-color: #daa520;
-  border: 1px solid #0062cc;
+.corfundo .navbar-ligth .bnt{
+  background:none;
+  border:3px solid #daa520;
+  /*border: 1px solid #0062cc;*/
 }
 
 
@@ -267,6 +268,7 @@ footer h4 {
   }
 
   #about h5,
+  #about h4,
   #formation h4,
   #experience h4,
   footer h4 {
@@ -284,13 +286,20 @@ footer h4 {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 0 auto;
 
   }
 
   #about .about-and-skills ul{
     margin: 0 auto;
-    padding: 0 auto;
+    padding-left: 0px auto;
   }
+    
+#about .about-and-skills .profile li, 
+#about .about-and-skills .skills li{
+        margin: 0 auto;
+        padding-left: 0 auto;
+    }
 
   #about .about-and-skills .skills ul li .progress {
     margin: 0 auto;

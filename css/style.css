@@ -155,7 +155,7 @@ button,
 #formation h4,
 #experience h4,
 #more h4,
-footer #form-title h4{
+.footer #form-title{
   text-transform: uppercase;
   margin-bottom: 30px;
   color: #daa520;
@@ -285,7 +285,7 @@ form{
   padding-left: 3rem;
 }
 
-.contact-info h4{
+.contact-info h5{
   text-transform: uppercase;
 }
 

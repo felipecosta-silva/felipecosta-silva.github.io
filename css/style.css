@@ -154,7 +154,8 @@ button,
 #about .about-text h4,
 #formation h4,
 #experience h4,
-footer h4{
+#more h4,
+footer #form-title h4{
   text-transform: uppercase;
   margin-bottom: 30px;
   color: #daa520;
@@ -248,12 +249,15 @@ text-align: center;
 #formation i,
 #experience i,
 #formation p,
-#experience p {
+#experience p,
+#more i,
+#more p{
   color: #6e6e6e;
 }
 
 #formation h5,
-#experience h3 {
+#experience h3,
+#more h3{
   color: #313131;
 }
 
@@ -263,6 +267,57 @@ text-align: center;
 #experience ul li{
   padding-left: 0;
 }
+
+
+/*footer*/
+
+.footer #contact form {
+  display: block;
+  padding: 0 80px;
+}
+
+form{
+  padding-bottom: 4rem!important;
+}
+
+.contact-info{
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.contact-info h4{
+  text-transform: uppercase;
+}
+
+
+
+input[type="text"],
+textarea {
+  color: rgba(255, 255, 255, 0.7);
+  outline: none;
+  font-size: 14px;
+  line-height: 2rem;
+  background: transparent;
+  border: 0;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+textarea {
+  max-width: 100%;
+  height: 150px;
+}
+
+input[type="submit"] {
+  margin-top: 20px !important;
+}
+
+.footer{
+  margin-bottom: 100px;
+}
+
 
 @media only screen and (max-width: 600px) {
   /* Header */
@@ -359,7 +414,7 @@ text-align: center;
     padding-top: 60px;
   }
 
-  footer .more,
+  footer,
   footer .contact-info {
     display: block;
   }

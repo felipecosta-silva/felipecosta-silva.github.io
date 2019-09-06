@@ -37,13 +37,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto dourado">
               <li class="nav-item">
-                <a class="nav-link" href="home">Perfil</a>
+                <a class="nav-link" href="#home">Perfil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about">Sobre</a>
+                <a class="nav-link" href="#about">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="formation">Formação</a>
+                <a class="nav-link" href="#formation">Formação</a>
               </li>
             </ul>
             <!--Função para Download do curriculo -->
@@ -61,7 +61,7 @@
       <section class="container-fluid" id="home">
         <div class="container">
           <div>
-            <div class="text-center">
+            <div class="text-center pt-5">
               <img src="https://avatars2.githubusercontent.com/u/15041151?s=460&v=4teste" alt="Felipe Costa">
 
               <h3 class="text-warning" id="NomePerfil">Felipe Costa</h3>
@@ -91,7 +91,7 @@
         </div>
       </section>
       <section class="container text-align-center mt-5" id="about">
-        <div class="">
+        <div>
           <div class="about-text">
             <h4 class="mb-5 dourado"><em>About</em></h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
@@ -154,133 +154,146 @@
         </div>
       </section>
       <section id="formation">
-        <div class="formation-and-certificates">
-          <h4 id="formation-title">Formation and Certificates</h4>
+        <div class="container mt-5">
           <div>
-            <i class="fa fa-mortar-board"></i>
-            <h3 id="formation-1">FATECPE - Faculty of Technology and Sciences of Pernambuco - Computer Science</h3>
-            <p>Recife - PE | 01/13 - 06/17</p>
-          </div>
-          <div>
-            <i class="fa fa-graduation-cap"></i>
-            <h3 id="formation-2">JAVA Academy - Fuctura Tecnologia - Certification Java</h3>
-            <p>Recife - PE | 12/18</p>
-          </div>
-          <div>
-            <i class="fa fa-graduation-cap"></i>
-            <h3 id="formation-3">LINUX Academy - Fuctura Tecnologia - Certification Linux LPI Essentials</h3>
-            <p>Recife - PE | 04/19 - 09/19</p>
-          </div>
-          <div>
-            <i class="fa fa-graduation-cap"></i>
-            <h3 id="formation-4">Projeto Integrado de Cursos - Curso de Inglês básico</h3>
-            <p>10/11</p>
+            <div id="fomation-and-certificantes">
+              <h4>Formation and Certificates</h4>
+            </div>
+            <div class="row" id="formationblock">
+              <div>
+                <i class="fa fa-mortar-board"></i>
+                <h5>FATECPE - Faculty of Technology and Sciences of Pernambuco - Computer Science</h5>
+                <p>Recife - PE | 01/13 - 06/17</p>
+              </div>
+              <div>
+                <i class="fa fa-graduation-cap"></i>
+                <h5>JAVA Academy - Fuctura Tecnologia - Certification Java</h5>
+                <p>Recife - PE | 12/18</p>
+              </div>
+              <div>
+                <i class="fa fa-graduation-cap"></i>
+                <h5>LINUX Academy - Fuctura Tecnologia - Certification Linux LPI Essentials</h5>
+                <p>Recife - PE | 04/19 - 09/19</p>
+              </div>
+              <div>
+                <i class="fa fa-graduation-cap"></i>
+                <h5>Projeto Integrado de Cursos - Curso de Inglês básico</h5>
+                <p>10/11</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section id="experience">
-        <div class="experiences">
-          <h4 id="experiences-title">Professional Experiences</h4>
-          <div>
-            <i class="fa fa-briefcase"></i>
-            <h3>Motoparts Comercio e Importação LTDA</h3>
-            <p>Técnico em Manutenção de Equipamentos de informática</p>
-            <p>Recife | 03/12 - 03/18</p>
-            <p id="experiences-1">Instalação e remoção de programas;
-              ● Manutenção de usuários e resolução de problemas;
-              ● Desenvolvimento de rotinas de suporte;
-              ● Manutenção Hardware e software;
-              ● Suporte remoto via ferramentas diversas (Teamviewer, Anydesk, TS);
-              ● Suporte ao usuário/funcionário em todos os departamentos.
-            </p>
-          </div>
-          <div>
-            <i class="fa fa-briefcase"></i>
-            <h3>Motoparts Comercio e Importação LTDA</h3>
-            <p>Analista de Suporte Júnior</p>
-            <p>Recife | 04/18</p>
-            <p id="experiences-2">Instalação e remoção de programas;
-              ● Manutenção de usuários e resolução de problemas;
-              ● Desenvolvimento de rotinas de suporte;
-              ● Manutenção Hardware e software;
-              ● Suporte remoto via ferramentas diversas (Teamviewer, Anydesk, TS);
-              ● Suporte ao usuário/funcionário em todos os departamentos.
-              ● Conciliação de cartão de crédito.</p>
+      <section class="container mt-5" id="experience">
+        <div>
+          <h5 class="mb-5 dourado">Professional Experiences</h5>
+          <div class="row">
+            <div class="col">
+              <i class="fa fa-briefcase"></i>
+              <h3>Motoparts Comercio e Importação LTDA</h3>
+              <p>Técnico em Manutenção de Equipamentos de informática</p>
+              <p>Recife | 03/12 - 03/18</p>
+              <ul class=""id="experiences-1">
+                <li>Instalação e remoção de programas;</li>
+                <li> Manutenção de usuários e resolução de problemas;</li>
+                <li> Desenvolvimento de rotinas de suporte;</li>
+                <li> Manutenção Hardware e software;</li>
+                <li> Suporte remoto via ferramentas diversas (Teamviewer, Anydesk, TS);</li>
+                <li> Suporte ao usuário/funcionário em todos os departamentos.</li>
+              </ul>
+            </div>
+            <div class="col">
+              <i class="fa fa-briefcase"></i>
+              <h3>Motoparts Comercio e Importação LTDA</h3>
+              <p>Analista de Suporte Júnior</p>
+              <p>Recife | 04/18</p>
+              <ul id="experiences-2"><li>Instalação e remoção de programas;</li>
+                <li> Manutenção de usuários e resolução de problemas;</li>
+                <li> Desenvolvimento de rotinas de suporte;</li>
+                <li> Manutenção Hardware e software;</li>
+                <li> Suporte remoto via ferramentas diversas (Teamviewer, Anydesk, TS);</li>
+                <li> Suporte ao usuário/funcionário em todos os departamentos;</li>
+                <li> Conciliação de cartão de crédito.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
     </body>
     <footer>
-      <div class="footer">
-        <h4 id="more-title">More</h4>
-        <div class="more">
-          <div>
-            <i class="fas fa-user-secret"></i>
-            <h3 id="personality">Personality</h3>
-            <p id="personality-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            </p>
+      <div class="container">
+        <div class="footer">
+          <h4 id="more-title">More</h4>
+          <div class="more">
+            <div>
+              <i class="fas fa-user-secret"></i>
+              <h3 id="personality">Personality</h3>
+              <p id="personality-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </p>
+            </div>
+            <div>
+              <i class="fas fa-code"></i>
+              <h3 id="interests">Interests</h3>
+              <p id="interests-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </p>
+            </div>
+            <div>
+              <i class="fa fa-briefcase"></i>
+              <h3>Hobbies</h3>
+              <p id="hobbies-text">
+                Cell phone game and read books.</p>
+            </div>
+            <div>
+              <i class="fa fa-users"></i>
+              <h3>Voluntary Activity</h3>
+              <p id="hobbies-text">ONG SiriEco
+                Cargo: Diretor administrativo
+                Descrição das Atividades : Captação de recursos;
+                Festas comunitárias;
+                Distribuição de roupas, alimentos e cestas básicas;
+                Atuação em projetos ambientais na cidade de Sirinhaém.</p>
+            </div>
           </div>
-          <div>
-            <i class="fas fa-code"></i>
-            <h3 id="interests">Interests</h3>
-            <p id="interests-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            </p>
+          <div class="contact">
+            <h4 id="form-title">Contact</h4>
+            <form action="https://formspree.io/felipecostati@gmail.com" id="contact" method="POST">
+              <input id="form-name" type="text" name="name" placeholder="Your name." required>
+              <input id="form-email" type="text" name="email" placeholder="Your e-mail." required>
+              <textarea id="form-message" name="message" placeholder="Your message." required></textarea>
+              <input id="form-submit" type="submit" value="Submit">
+            </form>
           </div>
-          <div>
-            <i class="fa fa-briefcase"></i>
-            <h3>Hobbies</h3>
-            <p id="hobbies-text">
-              Cell phone game and read books.</p>
-          </div>
-          <div>
-            <i class="fa fa-briefcase"></i>
-            <h3>Voluntary Activity</h3>
-            <p id="hobbies-text">ONG SiriEco
-              Cargo: Diretor administrativo
-              Descrição das Atividades : Captação de recursos;
-              Festas comunitárias;
-              Distribuição de roupas, alimentos e cestas básicas;
-              Atuação em projetos ambientais na cidade de Sirinhaém.</p>
+          <div class="contact-info">
+            <div>
+              <i class="fa fa-briefcase"></i>
+              <h3 id="contact-title1">To contact me</h3>
+              <p id="contact-text1">Av. Floriano Peixoto - 29, Santana - Jaboatão dos Guararapes, PE</p>
+            </div>
+            <div>
+              <i class="fa fa-envelope-o"></i>
+              <h3 id="contact-title2">Send me an email</h3>
+              <p>felipecostati@gmail.com</p>
+            </div>
+            <div>
+              <i class="fa fa-briefcase"></i>
+              <h3 id="contact-title3">Call me</h3>
+              <p>+55 (81) 99526-6005</p>
+            </div>
           </div>
         </div>
-        <div class="contact">
-          <h4 id="form-title">Contact</h4>
-          <form action="https://formspree.io/felipecostati@gmail.com" id="contact" method="POST">
-            <input id="form-name" type="text" name="name" placeholder="Your name." required>
-            <input id="form-email" type="text" name="email" placeholder="Your e-mail." required>
-            <textarea id="form-message" name="message" placeholder="Your message." required></textarea>
-            <input id="form-submit" type="submit" value="Submit">
-          </form>
-        </div>
-        <div class="contact-info">
-          <div>
-            <i class="fa fa-briefcase"></i>
-            <h3 id="contact-title1">To contact me</h3>
-            <p id="contact-text1">Av. Floriano Peixoto - 29, Santana - Jaboatão dos Guararapes, PE</p>
-          </div>
-          <div>
-            <i class="fa fa-envelope-o"></i>
-            <h3 id="contact-title2">Send me an email</h3>
-            <p>felipecostati@gmail.com</p>
-          </div>
-          <div>
-            <i class="fa fa-briefcase"></i>
-            <h3 id="contact-title3">Call me</h3>
-            <p>+55 (81) 99526-6005</p>
-          </div>
-        </div>
+      </div> 
       </div>
     </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="./js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="./js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 
   </body>
 </html>

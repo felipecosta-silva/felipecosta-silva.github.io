@@ -239,6 +239,11 @@ button,
 
 /*formation*/
 
+#formation{
+  background: #fff;
+  color: #000;
+  padding: 90px 0;
+}
 
 #formation #fomation-and-certificantes h4{
 text-transform: uppercase;
@@ -262,6 +267,12 @@ text-align: center;
 }
 
 /*experiencia*/
+
+#experience{
+  background: #fff;
+  color: #000;
+  padding: 80px 0;
+}
 
 #experience ul,
 #experience ul li{

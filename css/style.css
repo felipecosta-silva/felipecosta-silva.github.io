@@ -240,9 +240,8 @@ button,
 /*formation*/
 
 #formation{
-  background: #fff;
-  color: #000;
-  padding: 90px 0;
+  background: #DCDCDC;
+  padding: 50px 0;
 }
 
 #formation #fomation-and-certificantes h4{
@@ -261,7 +260,7 @@ text-align: center;
 }
 
 #formation h5,
-#experience h3,
+#experience h5,
 #more h3{
   color: #313131;
 }

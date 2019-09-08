@@ -44,8 +44,9 @@ body {
 }
 
 #NomePerfil{
-  margin: 30px 0 20px 0;
-  font-weight: 300;
+margin: 30px 0 20px 0;
+font-weight: 300;
+color: #daa520;
 }
 
 #NomePerfil::after{
@@ -84,17 +85,6 @@ li{
   list-style-type: none;
 }
 
-button,
-.btn {
-  transition: all 0.3s linear;
-}
-
-#home .btn,
-#home .btn i {
-  color: #daa520;
-  font-size: 12px;
-  margin: 0px;
-}
 
 #home .btn {
   text-decoration: none;
@@ -111,30 +101,16 @@ button,
   color: #daa520;
 }
 
-#home .btn,
-#home .btn i {
-  color: #ddd;
-  font-size: 12px;
-  margin: 0px;
-}
-
-#home .btn {
-  text-decoration: none;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  letter-spacing: 0.2rem;
-  padding: 15px 40px;
-}
-
 #home .btn:hover {
   border: 2px solid #daa520;
-}
+}*/
 
 /* About */
 
 #about{
   background: #fff;
   color: #000;
-  padding: 80px 0;
+padding: 80px 0 40px 0;
 }
 
 #about .about-content,
@@ -241,7 +217,7 @@ button,
 
 #formation{
   background: #DCDCDC;
-  padding: 50px 0;
+  padding: 80px 0 40px 0;
 }
 
 #formation #fomation-and-certificantes h4{
@@ -270,7 +246,7 @@ text-align: center;
 #experience{
   background: #fff;
   color: #000;
-  padding: 80px 0;
+  padding: 80px 0 40px 0;
 }
 
 #experience ul,
@@ -335,10 +311,13 @@ input[type="submit"] {
     justify-content: flex-end;
     margin: 20px 50px;
   }
+    
+body .navbar #btnDownload{
+        padding-left: 0;
+    }
 
   /* Introdução */
   #home {
-    height: 100%;
     padding: 0 40px;
   }
 
@@ -375,8 +354,8 @@ input[type="submit"] {
   #about .about-text p {
     max-width: 100%;
     margin-bottom: 0;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
   }
 
   #about .about-and-skills {
@@ -446,9 +425,9 @@ input[type="submit"] {
     margin: 60px auto;
   }
 
-  .footer .contact form {
+  .footer #contact form {
     display: block;
-    padding: 0 40px;
+    padding: 0;
   }
 
   input[type="submit"] {

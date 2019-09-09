@@ -210,7 +210,6 @@ text-align: center;
 #experience i,
 #formation p,
 #experience p,
-#more i,
 #more p{
   color: #6e6e6e;
 }
@@ -233,6 +232,13 @@ text-align: center;
 #experience ul li{
   padding-left: 0;
 }
+
+/*More*/
+
+#more i{
+  color: #daa520;
+}
+
 
 
 /*footer*/
@@ -315,6 +321,7 @@ body .navbar #btnDownload{
   /* About */
   #about {
     padding: 40px 0;
+    display: flex;
   }
   #about .about-content {
     max-width: 100%;
@@ -323,20 +330,22 @@ body .navbar #btnDownload{
 
   #about h5,
   #about h4,
+  #about .about-and-skills h5,
   #formation h4,
   #experience h4,
   footer h4 {
     margin: 50px 0 20px 0;
+    padding: 0 auto;
   }
 
   #about .about-text p {
     max-width: 100%;
     margin-bottom: 0;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin:0 10px 0 10px;
   }
 
-  #about .about-and-skills {
+  #about .about-and-skills,
+  #about .about-and-skills row{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -349,6 +358,7 @@ body .navbar #btnDownload{
 #about .about-and-skills .skills ul,
 #about .about-and-skills .skills li,
 #about .about-and-skills .profile,
+#about .about-and-skills .profile ul,
 #about .about-and-skills .profile li{
     margin: 0 auto;
     padding-left: 0;
@@ -364,7 +374,7 @@ body .navbar #btnDownload{
   /* Formation and Certificates */
   #formation,
   #experience {
-    padding: 40px;
+    padding: 20px;
   }
 
   #formation h3,
@@ -372,9 +382,26 @@ body .navbar #btnDownload{
     margin: 10px 0;
   }
 
-  #formation .formation-and-certificates div,
-  #experience .experiences div {
+  #formation .formation-and-certificates #formationblock,
+  #experience .experiences #jobs {
     margin-bottom: 25px;
+    margin: 0 auto;
+  }
+  
+  #experience #experiences-1 li,
+#experience #experiences-2 li{
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  
+  /*More*/
+  
+  
+  #more #personality,
+  #more #interests,
+  #more #hobbies,
+  #more #voluntary{
+    margin: 10px 0;
   }
 
   /* Footer */

@@ -341,6 +341,7 @@ body .navbar #btnDownload{
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
+    padding: 0 auto;
 
   }
 

@@ -85,36 +85,16 @@ li{
   list-style-type: none;
 }
 
-
-#home .btn {
-  text-decoration: none;
-  border: 2px solid rgba(218, 165, 32, 0.3);
-  letter-spacing: 0.2rem;
-  padding: 15px 40px;
-}
-
-#home .btn:hover {
-  border: 2px solid ;
-}
-
-#social ul li a i:hover {
-  color: #daa520;
-}
-
-#home .btn:hover {
-  border: 2px solid #daa520;
-}*/
-
 /* About */
 
-#about{
-  background: #fff;
-  color: #000;
+#about {
+background: #fff;
+color: #000;
 padding: 80px 0 40px 0;
 }
 
 #about .about-content,
-#formationblock{
+#formationblock {
   display: block;
   max-width: 850px;
   margin: 0 auto;
@@ -131,14 +111,14 @@ padding: 80px 0 40px 0;
 #formation h4,
 #experience h4,
 #more h4,
-.footer #form-title{
+.footer #form-title {
   text-transform: uppercase;
   margin-bottom: 30px;
   color: #daa520;
   text-align: center;
 }
 
-#about .about-and-skills h5{
+#about .about-and-skills h5 {
   margin-left: 3rem;
   text-transform: uppercase;
   color: #daa520;
@@ -274,8 +254,6 @@ form{
 .contact-info h5{
   text-transform: uppercase;
 }
-
-
 
 input[type="text"],
 textarea {

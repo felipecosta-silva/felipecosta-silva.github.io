@@ -291,7 +291,7 @@ input[type="submit"] {
    color: #daa520
 }
 
-.footer .contacto-info p{
+.footer .contact-info p{
   color: #6e6e6e;
 }
 
@@ -448,6 +448,9 @@ body .navbar #btnDownload{
   }
 
   .footer .contact-info {
-    margin-bottom: 100px;
+    margin-bottom: 8%;
+    text-align: center;
   }
+  
+
 }

@@ -9,6 +9,14 @@ body {
   color: #fff;
   height: 100%;
 }
+.navbar {
+  background-color: #000030;
+}
+
+.navbar button{
+background: #00000000;
+border: 1px solid #daa520;
+}
 
 .corfundo {
   background-color: black;

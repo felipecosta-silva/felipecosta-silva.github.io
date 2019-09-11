@@ -328,15 +328,6 @@ body .navbar #btnDownload{
     max-width: 150px;
   }
 
-  #home .intro p {
-    font-size: 14px;
-    margin-bottom: 20px;
-  }
-
-  #home .intro i {
-    font-size: 25px;
-  }
-
   /* About */
  #about {
     padding: 40px 0;
@@ -353,7 +344,7 @@ body .navbar #btnDownload{
   #formation h4,
   #experience h4,
   footer h4 {
-    margin: 50px 0 20px 0;
+    margin: 8% 0 4% 0;
     padding: 0 auto;
   }
 
@@ -389,7 +380,7 @@ body .navbar #btnDownload{
   /* Formation and Certificates */
   #formation,
   #experience {
-    padding: 20px;
+    padding: 8%;
   }
 
   #formation h3,
@@ -411,13 +402,18 @@ body .navbar #btnDownload{
   
   /*More*/
   
+  #more {
+    margin-top: 8%
+  }
   
   #more #personality,
   #more #interests,
   #more #hobbies,
   #more #voluntary{
-    margin: 15px 0;
+    margin: 4% 0;
+    text-align: center;
   }
+  
 
   /* Footer */
   footer {

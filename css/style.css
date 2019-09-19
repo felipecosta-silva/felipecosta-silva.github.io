@@ -230,11 +230,16 @@ text-align: center;
 }
 
 #formation i,
+#formation img,
 #experience i,
 #formation p,
 #experience p,
 #more p{
   color: #6e6e6e;
+}
+
+#formation img:hover {
+  color: #edce2c;
 }
 
 #formation h5,

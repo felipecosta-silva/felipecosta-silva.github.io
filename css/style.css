@@ -10,6 +10,10 @@ body {
   height: 100%;
   padding-top: 70px;
 }
+
+/*linear-gradient(45deg, blue, red)*/
+
+
 .navbar {
   background-color: #000030;
 }
@@ -69,6 +73,10 @@ color: #daa520;
   height: 2px;
   background: #daa520;
   margin: 10px auto;
+}
+
+#home #subtitle{
+  color: #3A5FCD;
 }
 
 #social {
@@ -219,7 +227,7 @@ padding: 80px 0 0 0;
 /*formation*/
 
 #formation{
-  background: #DCDCDC;
+  background:rgb(241, 239, 255);
   padding: 8% 3%;
 }
 
@@ -251,7 +259,7 @@ text-align: center;
 /*experiencia*/
 
 #experience{
-  background: #fff;
+  background: #DCDCDC;
   color: #000;
   padding: 8% 0 5% 0;
 }

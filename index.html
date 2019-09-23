@@ -21,292 +21,285 @@
 
   </head>
   <body class="corfundo">
-    <head>
-      <nav class="navbar fixed-top navbar-expand-sm navbar-ligth box-shadow">
-        <div class="container">
-          <a href="#home"><img src="./imagens/logo-narbar-brand.png" width="25" height="20" alt="Logo" class="mr-3"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span><i class="fas fa-bars" style="background: #daa520;"></i></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Perfil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#formation">Formação</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#experience">Experiencia</a>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-ligth box-shadow">
+      <div class="container">
+        <a href="#home"><img src="./imagens/logo-narbar-brand.png" width="25" height="20" alt="Logo" class="mr-3"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fas fa-bars" style="background: #daa520;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#formation">Formação</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experiencia</a>
+            </li>
+          </ul>
+          <!--Função para Download do curriculo -->
+          <div class="navbar-nav">
+            <ul id="btnbaixar">
+              <li>
+                <a class="btn btn-outline-gray" href="imagens/pdf/Curr%C3%ADculo%20Felipe%20Costa%20da%20Silva.pdf" id="btnDownload" download="Currículo Felipe Costa da Silva.pdf">Baixar Curriculo</a>
               </li>
             </ul>
-            <!--Função para Download do curriculo -->
-            <div class="navbar-nav">
-              <ul id="btnbaixar">
+          </div>
+        </div>
+      </div>
+    </nav>   
+    <section class="container-fluid" id="home">
+      <div class="container">
+        <div>
+          <div class="text-center pt-5">
+            <img src="https://avatars2.githubusercontent.com/u/15041151?s=460&v=4teste" alt="Felipe Costa">
+
+            <h3 id="NomePerfil">Felipe Costa</h3>
+            <p class="container my-5" id="subtitle">Hi, my name is Felipe Costa.</p>
+          </div >
+          <div class="text-center" id="social">
+            <ul>
+              <li>
+                <a href="https://github.com/felipecosta-silva/" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/felipe-costa-087ab7161/" target="_blank">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/lipetoody/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container" id="about">
+      <div>
+        <div class="about-text">
+          <h4 class="mb-5">About</h4>
+          <p class=" px-2">Sei trabalhar em equipe, gosto de trabalhar com pessoas, conhecer gente nova e diferente. Tenho uma boa comunicação com os colegas de trabalho. Sou focado, aprendo relativamente rápido e tendo a ser um pouco detalhista, sou bastante realista ao estabelecer minhas metas, sempre faço o possível para alcançal-las e me esforço mais ainda para quem sabe superá-las.
+            Procuro ajudar as pessoas sempre que posso, o bom senso auxilia em minhas tomadas de decisões, ofereço sempre o meu melhor em busca de evoluir como ser humano que sou.</p>
+        </div>
+        <div class="container mt-5 about-and-skills">
+          <div class="row">
+            <div class="col-sm-12 col-md-6 pl-sm-5">
+              <h5>Profile</h5>
+              <ul class="profile">
                 <li>
-                  <a class="btn btn-outline-gray pl-3-sm" href="imagens/pdf/Curr%C3%ADculo%20Felipe%20Costa%20da%20Silva.pdf" id="btnDownload" download="Currículo Felipe Costa da Silva.pdf">Baixar Curriculo</a>
+                  <strong id="profile-name"><i class="far fa-user"></i> Name</strong>
+                  <span>Felipe Costa da Silva</span>
+                </li>
+                <li>
+                  <strong id="profile-birth"><i class="fas fa-gift"></i> Date of Birth</strong>
+                  <span>13/03/1992</span>
+                </li>
+                <li>
+                  <strong><i class="fas fa-at"></i> Email</strong>
+                  <span>felipecostati@gmail.com</span>
+                </li>
+                <li>
+                  <strong id="profile-address"><i class="fas fa-map-marker-alt"></i> Address</strong>
+                  <span id="profile-address-text">Av. Floriano Peixoto, Santana - Jaboatão, PE</span>
+                </li>
+                <li>
+                  <strong id="profile-telefone"><i class="fas fa-mobile-alt"></i> Telephone</strong>
+                  <span>+55 (81) 99523-6005</span>
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-      </nav>   
-    </head>
-    <body>
-      <section class="container-fluid" id="home">
-        <div class="container">
-          <div>
-            <div class="text-center pt-5">
-              <img src="https://avatars2.githubusercontent.com/u/15041151?s=460&v=4teste" alt="Felipe Costa">
-
-              <h3 id="NomePerfil">Felipe Costa</h3>
-              <p class="container my-5" id="subtitle">Hi, my name is Felipe Costa.</p>
-            </div >
-            <div class="text-center" id="social">
+            <div class="col-sm-12 col-md-6 pl-md-5 skills">
+              <h5>Skills <i class="fas fa-code"></i></h5>
               <ul>
                 <li>
-                  <a href="https://github.com/felipecosta-silva/" target="_blank">
-                    <i class="fab fa-github"></i>
-                  </a>
+                  <strong><i class="fab fa-html5"></i> HTML5</strong>
+                  <div class="progress">
+                    <div class="percent60"></div>
+                  </div>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/felipe-costa-087ab7161/" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
+                  <strong><i class="fab fa-css3-alt"></i> CSS</strong>
+                  <div class="progress">
+                    <div class="percent60"></div>
+                  </div>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/lipetoody/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                  </a>
+                  <strong><i class="fab fa-java"></i>Java</strong>
+                  <div class="progress">
+                    <div class="percent40"></div>
+                  </div>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="container" id="about">
-        <div>
-          <div class="about-text">
-            <h4 class="mb-5">About</h4>
-            <p class=" px-2">Sei trabalhar em equipe, gosto de trabalhar com pessoas, conhecer gente nova e diferente. Tenho uma boa comunicação com os colegas de trabalho. Sou focado, aprendo relativamente rápido e tendo a ser um pouco detalhista, sou bastante realista ao estabelecer minhas metas, sempre faço o possível para alcançal-las e me esforço mais ainda para quem sabe superá-las.
-              Procuro ajudar as pessoas sempre que posso, o bom senso auxilia em minhas tomadas de decisões, ofereço sempre o meu melhor em busca de evoluir como ser humano que sou.</p>
-          </div>
-          <div class="container mt-5 about-and-skills">
-            <div class="row">
-              <div class="col-sm-12 col-md-6 pl-sm-5">
-                <h5>Profile</h5>
-                <ul class="profile">
-                  <li>
-                    <strong id="profile-name"><i class="far fa-user"></i> Name</strong>
-                    <span>Felipe Costa da Silva</span>
-                  </li>
-                  <li>
-                    <strong id="profile-birth"><i class="fas fa-gift"></i> Date of Birth</strong>
-                    <span>13/03/1992</span>
-                  </li>
-                  <li>
-                    <strong><i class="fas fa-at"></i> Email</strong>
-                    <span>felipecostati@gmail.com</span>
-                  </li>
-                  <li>
-                    <strong id="profile-address"><i class="fas fa-map-marker-alt"></i> Address</strong>
-                    <span id="profile-address-text">Av. Floriano Peixoto, Santana - Jaboatão, PE</span>
-                  </li>
-                  <li>
-                    <strong id="profile-telefone"><i class="fas fa-mobile-alt"></i> Telephone</strong>
-                    <span>+55 (81) 99523-6005</span>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-sm-12 col-md-6 pl-md-5 skills">
-                <h5>Skills <i class="fas fa-code"></i></h5>
-                <ul>
-                  <li>
-                    <strong><i class="fab fa-html5"></i> HTML5</strong>
-                    <div class="progress">
-                      <div class="percent60"></div>
-                    </div>
-                  </li>
-                  <li>
-                    <strong><i class="fab fa-css3-alt"></i> CSS</strong>
-                    <div class="progress">
-                      <div class="percent60"></div>
-                    </div>
-                  </li>
-                  <li>
-                    <strong><i class="fab fa-java"></i>Java</strong>
-                    <div class="progress">
-                      <div class="percent40"></div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="container" id="formation">
-        <div class="container">
-          <div>
-            <div id="fomation-and-certificantes">
-              <h4>Formation and Certificates</h4>
-            </div>
-            <div class="row" id="formationblock">
-              <div>
-                <i class="fa fa-graduation-cap"></i>
-                <img src="./imagens/YodaTeste-Cinza.webp" width="15" height="20" alt="Yoda" class="pb-1">
-                <h5>FATECPE - Faculty of Technology and Sciences of Pernambuco - Computer Science</h5>
-                <p>Recife - PE | 01/13 - 06/17</p>
-              </div>
-              <div>
-                <img src="imagens/certification.ico" width="15" height="15" alt="Certificado">
-                <i class="fab fa-java"></i>
-                <i class=""></i>
-                <h5>JAVA Academy (102h) - Fuctura Tecnologia - Certification Java</h5>
-                <p>Recife - PE | 12/18</p>
-              </div>
-              <div>
-                <i class="fa fa-graduation-cap"></i>
-                <img src="imagens/certification.ico" width="15" height="15" alt="Certificado">
-                <i class="fab fa-linux"></i>
-                <h5>LINUX Academy (108h) - Fuctura Tecnologia - Certification Linux LPI Essentials</h5>
-                <p>Recife - PE | 04/19 - 09/19</p>
-              </div>
-              <div>
-                <i class="fa fa-graduation-cap"></i>
-                <img src="imagens/certification.ico" width="15" height="15" alt="Certificado">
-                <h5>Projeto Integrado de Cursos - Curso de Inglês básico</h5>
-                <p>10/11</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="container" id="experience">
-        <div class="container px-md-5">
-          <div>
-            <h4 class="mb-5 dourado">Professional Experiences</h4>
-          </div>
-          <div class="row mt-5" id="jobs">
-            <div class="col-xs-12 col-md-6">
-              <i class="far fa-building"></i>
-              <i class="fa fa-briefcase"></i>
-              <h5>Motoparts Comercio e Importação LTDA</h5>
-              <p><b>Técnico em Manutenção de Equipamentos de informática</b></p>
-              <p>Recife | 03/12 - 03/18</p>
-              <ul class="" id="experiences-1">
-                <li>Instalação e remoção de programas;</li>
-                <li> Manutenção de usuários e resolução de problemas;</li>
-                <li> Desenvolvimento de rotinas de suporte;</li>
-                <li> Manutenção Hardware e software;</li>
-                <li> Suporte remoto via ferramentas diversas (Teamviewer, Anydesk, RDP);</li>
-                <li> Suporte ao usuário/funcionário em todos os departamentos.</li>
-              </ul>
-            </div>
-            <div class="col-xs-12 col-md-6">
-              <i class="far fa-building"></i>
-              <i class="fa fa-briefcase"></i>
-              <h5>Motoparts Comercio e Importação LTDA</h5>
-              <p><b>Analista de Suporte Júnior</b></p>
-              <p>Recife | 04/18</p>
-              <ul id="experiences-2">
-                <li>Instalação e remoção de programas (windows/Linux);</li>
-                <li> Manutenção de usuários e resolução de problemas;</li>
-                <li> Desenvolvimento de rotinas de suporte;</li>
-                <li> Manutenção Hardware e software (windows/Linux);</li>
-                <li> Suporte remoto via ferramentas diversas (Teamviewer, Anydesk, RDP);</li>
-                <li> Suporte ao usuário/funcionário em todos os departamentos;</li>
-                <li> Suporte interno ao sistema vision (homologado pela Honda)</li>
-                <li> Conciliação de cartão de crédito.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section  class="container" id="more">
-        <div class="container px-md-3">
-          <div>
-            <h4 id="more-title">More</h4>
-          </div>
-          <div class="row pt-3">
-            <div class="col-xs-12 col-md-4 my-sm-3" id="personality">
-              <i class="fas fa-fingerprint"></i>
-              <h3>Personality</h3>
-              <p id="personality-text">I have a calm and calm personality, I am proactive and I always try to do good.
-              </p>
-            </div>
-            <div class="col-xs-12 col-md-4 my-sm-3" id="interests">
-              <i class="fas fa-code"></i>
-              <h3>Interests</h3>
-              <p id="interests-text">Acting as a Front End Developer, dedicating myself as best I can to the company.
-              </p>
-            </div>
-            <div class="col-xs-12 col-md-4 my-sm-3" id="hobbies">
-              <i class="fas fa-book"></i>
-              <i class="fas fa-gamepad"></i>
-              <h3>Hobbies</h3>
-              <p>Cell phone game and read books.</p>
-            </div>
-            <div class="col-xs-12 col-md-4 my-sm-3" id="voluntary">
-              <i class="fa fa-users"></i>
-              <i class="fas fa-fist-raised"></i>
-              <i class="far fa-heart"></i>
-              <i class="fas fa-seedling"></i>
-              <h3>Voluntary Activity</h3>
-              <p><b>ONG SiriEco</b><br>
-                <b>Cargo:</b> Diretor administrativo.<br>
-                <b>Descrição das Atividades:</b><br>
-                Captação de recursos;<br>
-                Festas comunitárias;<br>
-                Distribuição de roupas, alimentos e cestas básicas;<br>
-                Atuação em projetos ambientais na cidade de Sirinhaém.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </body>
-    <footer class="footer">
-      <div class="container">
-        <div class="pb-5">
-          <h4 id="form-title">Contact</h4>
-        </div>
-        <div class="row px-xs-3">
-          <div class="col-xs-12 col-md-6 pb-5 mt-0">
-            <form action="https://formspree.io/felipecostati@gmail.com" id="contact" method="POST">
-              <input id="form-name" type="text" name="name" placeholder="Your name." required>
-              <input id="form-email" type="text" name="email" placeholder="Your e-mail." required>
-              <textarea id="form-message" name="message" placeholder="Your message." required></textarea>
-              <input id="form-submit" type="submit" value="Submit">
-            </form>
-          </div>
-          <div class="row col-xs-12 col-md-6">
-            <div class="contact-info">
-              <div class="col">
-                <h5><i class="fas fa-map-marked-alt"></i></h5>
-                <p>Av. Floriano Peixoto - 29, Santana - Jaboatão dos Guararapes, PE</p>
-              </div>
-              <div class="col pt-3">
-                <h5><i class="fas fa-at"></i></h5>
-                <p>felipecostati@gmail.com</p>
-              </div>
-              <div class="col pt-3">
-                <h5><i class="fas fa-mobile-alt"></i></h5>
-                <p>+55 (81) 99523-6005</p>
-              </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    </section>
+    <section class="container" id="formation">
+      <div>
+        <div id="fomation-and-certificantes">
+          <h4>Formation and Certificates</h4>
+        </div>
+        <div class="row" id="formationblock">
+          <div>
+            <i class="fa fa-graduation-cap"></i>
+            <img src="./imagens/YodaTeste-Cinza.webp" width="15" height="20" alt="Yoda" class="pb-1">
+            <h5>FATECPE - Faculty of Technology and Sciences of Pernambuco - Computer Science</h5>
+            <p>Recife - PE | 01/13 - 06/17</p>
+          </div>
+          <div>
+            <img src="imagens/certification.ico" width="15" height="15" alt="Certificado">
+            <i class="fab fa-java"></i>
+            <i class=""></i>
+            <h5>JAVA Academy (102h) - Fuctura Tecnologia - Certification Java</h5>
+            <p>Recife - PE | 12/18</p>
+          </div>
+          <div>
+            <i class="fa fa-graduation-cap"></i>
+            <img src="imagens/certification.ico" width="15" height="15" alt="Certificado">
+            <i class="fab fa-linux"></i>
+            <h5>LINUX Academy (108h) - Fuctura Tecnologia - Certification Linux LPI Essentials</h5>
+            <p>Recife - PE | 04/19 - 09/19</p>
+          </div>
+          <div>
+            <i class="fa fa-graduation-cap"></i>
+            <img src="imagens/certification.ico" width="15" height="15" alt="Certificado">
+            <h5>Projeto Integrado de Cursos - Curso de Inglês básico</h5>
+            <p>10/11</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container" id="experience">
+      <div class="px-md-5">
+        <div>
+          <h4 class="mb-5 dourado">Professional Experiences</h4>
+        </div>
+        <div class="row mt-5" id="jobs">
+          <div class="col-xs-12 col-md-6">
+            <i class="far fa-building"></i>
+            <i class="fa fa-briefcase"></i>
+            <h5>Motoparts Comercio e Importação LTDA</h5>
+            <p><b>Técnico em Manutenção de Equipamentos de informática</b></p>
+            <p>Recife | 03/12 - 03/18</p>
+            <ul class="" id="experiences-1">
+              <li>Instalação e remoção de programas;</li>
+              <li> Manutenção de usuários e resolução de problemas;</li>
+              <li> Desenvolvimento de rotinas de suporte;</li>
+              <li> Manutenção Hardware e software;</li>
+              <li> Suporte remoto via ferramentas diversas (Teamviewer, Anydesk, RDP);</li>
+              <li> Suporte ao usuário/funcionário em todos os departamentos.</li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <i class="far fa-building"></i>
+            <i class="fa fa-briefcase"></i>
+            <h5>Motoparts Comercio e Importação LTDA</h5>
+            <p><b>Analista de Suporte Júnior</b></p>
+            <p>Recife | 04/18</p>
+            <ul id="experiences-2">
+              <li>Instalação e remoção de programas (windows/Linux);</li>
+              <li> Manutenção de usuários e resolução de problemas;</li>
+              <li> Desenvolvimento de rotinas de suporte;</li>
+              <li> Manutenção Hardware e software (windows/Linux);</li>
+              <li> Suporte remoto via ferramentas diversas (Teamviewer, Anydesk, RDP);</li>
+              <li> Suporte ao usuário/funcionário em todos os departamentos;</li>
+              <li> Suporte interno ao sistema vision (homologado pela Honda)</li>
+              <li> Conciliação de cartão de crédito.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section  class="container" id="more">
+      <div class="container px-md-3">
+        <div>
+          <h4 id="more-title">More</h4>
+        </div>
+        <div class="row pt-3">
+          <div class="col-xs-12 col-md-4 my-sm-3" id="personality">
+            <i class="fas fa-fingerprint"></i>
+            <h3>Personality</h3>
+            <p id="personality-text">I have a calm and calm personality, I am proactive and I always try to do good.
+            </p>
+          </div>
+          <div class="col-xs-12 col-md-4 my-sm-3" id="interests">
+            <i class="fas fa-code"></i>
+            <h3>Interests</h3>
+            <p id="interests-text">Acting as a Front End Developer, dedicating myself as best I can to the company.
+            </p>
+          </div>
+          <div class="col-xs-12 col-md-4 my-sm-3" id="hobbies">
+            <i class="fas fa-book"></i>
+            <i class="fas fa-gamepad"></i>
+            <h3>Hobbies</h3>
+            <p>Cell phone game and read books.</p>
+          </div>
+          <div class="col-xs-12 col-md-4 my-sm-3" id="voluntary">
+            <i class="fa fa-users"></i>
+            <i class="fas fa-fist-raised"></i>
+            <i class="far fa-heart"></i>
+            <i class="fas fa-seedling"></i>
+            <h3>Voluntary Activity</h3>
+            <p><b>ONG SiriEco</b><br>
+              <b>Cargo:</b> Diretor administrativo.<br>
+              <b>Descrição das Atividades:</b><br>
+              Captação de recursos;<br>
+              Festas comunitárias;<br>
+              Distribuição de roupas, alimentos e cestas básicas;<br>
+              Atuação em projetos ambientais na cidade de Sirinhaém.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
+  <footer class="footer p-md-5">
+    <div>
+      <div class="px-md-3">
+        <h4 id="form-title">Contact</h4>
+      </div>
+      <div class="row px-xs-3">
+        <div class="col-xs-12 col-md-6 pb-5 mt-0">
+          <form action="https://formspree.io/felipecostati@gmail.com" id="contact" method="POST">
+            <input id="form-name" type="text" name="name" placeholder="Your name." required>
+            <input id="form-email" type="text" name="email" placeholder="Your e-mail." required>
+            <textarea id="form-message" name="message" placeholder="Your message." required></textarea>
+            <input id="form-submit" type="submit" value="Submit">
+          </form>
+        </div>
+        <div class="row col-xs-12 col-md-6">
+          <div class="contact-info">
+            <div class="col">
+              <h3><i class="fas fa-map-marked-alt"></i></h3>
+              <p>Av. Floriano Peixoto - 29, Santana - Jaboatão dos Guararapes, PE</p>
+            </div>
+            <div class="col pt-3">
+              <h3><i class="fas fa-at"></i></h3>
+              <p>felipecostati@gmail.com</p>
+            </div>
+            <div class="col pt-3">
+              <h3><i class="fas fa-mobile-alt"></i></h3>
+              <p>+55 (81) 99523-6005</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>

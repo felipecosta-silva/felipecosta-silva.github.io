@@ -322,7 +322,7 @@ input[type="submit"] {
   padding: 0 5%;
 }
 
-.contact-info h5{
+.contact-info h3{
   text-transform: uppercase;
    color: #daa520
 }
@@ -331,9 +331,9 @@ input[type="submit"] {
   color: #6e6e6e;
 }
 
-.footer{
-  margin-bottom: 5%;
-}
+/*.footer{
+  margin-bottom: 3%;
+}*/
 
 
 @media only screen and (max-width: 600px) {
@@ -343,7 +343,8 @@ input[type="submit"] {
     margin: 20px 50px;
   }
     
-body .navbar #btnDownload{
+.navbar-nav #btnbaixar,
+.navbar-nav #btnDownload{
         padding-left: 0;
     }
 

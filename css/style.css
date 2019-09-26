@@ -110,9 +110,9 @@ li{
 /* About */
 
 #about {
-background: #fff;
+background: #5b3f9a;
 color: #000;
-padding: 80px 0 0 0;
+padding: 80px 3% 8% 3%;
 }
 
 #about .about-content,
@@ -127,6 +127,8 @@ padding: 80px 0 0 0;
   margin: auto;
   margin-bottom: 100px;
   text-align: center;
+  color: #fff;
+  opacity: 0.50;
 }
 
 #about .about-text h4,
@@ -189,7 +191,7 @@ padding: 80px 0 0 0;
 .percent80,
 .percent90,
 .percent100 {
-  background-color: #0047ab;
+  background-color: #daa520;
   height: 100%;
 }
 
@@ -224,7 +226,8 @@ padding: 80px 0 0 0;
 /*formation*/
 
 #formation{
-  background:rgb(241, 239, 255);
+  background: #997bb4;
+  color: #000;
   padding: 8% 3%;
 }
 
@@ -235,30 +238,24 @@ text-align: center;
 }
 
 #formation i,
-#formation img,
-#experience i,
-#formation p,
-#experience p,
-#more p{
-  color: #6e6e6e;
+#experience i{
+  color: #daa520;
+}
+
+#formation p{
+  color: #313131;
 }
 
 #formation img:hover {
   color: #edce2c;
 }
 
-#formation h5,
-#experience h5,
-#more h3{
-  color: #313131;
-}
-
 /*experiencia*/
 
 #experience{
-  background: #DCDCDC;
+  background: #1c4784;
   color: #000;
-  padding: 8% 0 5% 0;
+  padding: 8% 3%;
 }
 
 #experience ul,
@@ -266,13 +263,37 @@ text-align: center;
   padding-left: 0;
 }
 
+#experience li{
+  color: #fff;
+  opacity: 0.40;
+}
+
+#experience h6{
+  color: #fff;
+  opacity: 0.60;
+  
+}
+
+#experience p{
+  color: #888888;
+}
+
 /*More*/
 #more{
+  background-color: #005e96;
+  color: #000;
   padding: 8% 3%;
 }
 
+
 #more i{
   color: #daa520;
+}
+
+#more p{
+  /*color: #313131;*/
+  color: #fff;
+  opacity: 0.30;
 }
 
 
@@ -280,84 +301,18 @@ text-align: center;
 /*footer*/
 
 .footer{
-  bottom: 0;
+    bottom: 0;
     width: 100%;
-    height: auto;
+    height: 340px;
     background: #3f4344;
     padding: 20px 0;
     line-height: 16px;
     color: #fff;
 }
 
-
-.footer #SendMessage form {
-  display: block;
-  padding: 0;
-}
-
-.footer .contact-info #SendMessage{
-  text-align: center;
-   float: left;
-    width: 100%;
-  height: 340px;
-  
-}
-
-input[type="text"],
-textarea {
-  color: rgba(255, 255, 255, 0.7);
-  outline: none;
-  font-size: 14px;
-  line-height: 2rem;
-  background: transparent;
-  border: 0;
-  width: 100%;
-  margin: 5px 0;
-  padding: 10px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-textarea {
-  max-width: 100%;
-  height: 100px;
-}
-
-input[type="submit"] {
-  margin: 10% 0 2% !important;
-  
-}
-
-.contact-info,
-#SendMessage{
-  margin-left: 10%;
-}
-
-
-.contact-info ul,
-#SendMessage ul{
-    margin: 10px 15px;
-    width: 370px;
-    float: left;
-    padding: 0;
-    list-style-type: none;
-}
-
-#SendMessage ul{
-  width: 100%! important;
-}
-
-.contact-info .tituloRodape, 
-#SendMessage .tituloRodape{
-    text-transform: uppercase;
-    padding-left: 0;
-    margin-left: 0!important;
-    margin: 15px auto;
-}
-
-#SendMessage li{
-  padding: 7px 0 7px 0;
+#contact{
   margin: 0 auto;
-  width: 80%;
+  
 }
 
 .contact-info li{
@@ -379,11 +334,85 @@ input[type="submit"] {
 }
 
 .contact-info a:hover{
-    color: #A9A9A9;
+    color: #fff;
+    opacity: 0.50;
     text-decoration: none;
     transition: all 0.5s;
     cursor: pointer;
 }
+
+
+.footer #SendMessage form {
+  display: block;
+  padding: 0;
+}
+
+#SendMessage{
+  text-align: center;
+   float: left;
+    width: 100%;
+}
+
+input[type="text"],
+textarea {
+  color: rgba(255, 255, 255, 0.7);
+  outline: none;
+  font-size: 14px;
+  line-height: 2rem;
+  background: transparent;
+  border: 0;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+textarea {
+  max-width: 100%;
+  height: 100%;
+}
+
+input[type="submit"] {
+  margin: 5% 0 2% !important;
+  
+}
+
+.contact-info,
+#SendMessage{
+  margin-left: 10%;
+}
+
+
+.contact-info ul,
+#SendMessage ul{
+    margin: 10px 15px;
+    width: 370px;
+    float: left;
+    padding: 0;
+    list-style-type: none;
+}
+
+#SendMessage ul{
+  width: 100%! important;
+  margin-bottom: 0! important;
+}
+
+.contact-info .tituloRodape, 
+#SendMessage .tituloRodape{
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0!important;
+    margin: 15px auto;
+}
+
+#SendMessage li{
+  padding: 0 auto;
+  margin: 0 auto;
+  width: 80%;
+}
+
+
 
 /*.footer{
   margin-bottom: 3%;

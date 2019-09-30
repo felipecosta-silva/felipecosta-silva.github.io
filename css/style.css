@@ -187,6 +187,8 @@ padding: 80px 3% 8% 3%;
   width: 80%;
 }
 
+.percent30,
+.percent35,
 .percent40,
 .percent50,
 .percent60,
@@ -196,6 +198,13 @@ padding: 80px 3% 8% 3%;
 .percent100 {
   background-color: #daa520;
   height: 100%;
+}
+.percent30 {
+  width: 30%;
+}
+
+.percent35 {
+  width: 35%;
 }
 
 .percent40 {

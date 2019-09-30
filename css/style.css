@@ -284,8 +284,8 @@ opacity: 0.50;
 /*More*/
 #more{
   /*background-color: #005e96;
-  background-color: #212635;*/
-  background-color: #484b57;
+  background-color: #212635;484b57*/
+  background-color: #365b7f;
   color: #fff;
   padding: 8% 3%;
 }
@@ -298,7 +298,7 @@ opacity: 0.50;
 #more p{
   /*color: #313131;*/
   color: #fff;
-  opacity: 0.30;
+  opacity: 0.50;
 }
 
 

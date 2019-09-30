@@ -573,6 +573,8 @@ input[type="submit"] {
   }
   
      
-  .footer #SendMessage{
+  .footer #SendMessage,
+  .footer .contact-info{
     margin-top: 5%;
+    margin-left: 0;
 }

@@ -576,6 +576,9 @@ input[type="submit"] {
   .footer .contact-info {
     margin-bottom: 8%;
   }
+  .footer #SendMessage ul{
+    margin: auto;
+  }
   
   .footer #SendMessage ul li{
     margin-left: auto;
@@ -584,6 +587,5 @@ input[type="submit"] {
      
   .footer #SendMessage,
   .footer .contact-info{
-    margin-top: 5%;
-    margin-left: 0;
+    margin: 5% 0 0 0;
 }

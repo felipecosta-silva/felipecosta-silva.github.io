@@ -537,8 +537,8 @@ input[type="submit"] {
 
   /* Footer */
   #footer{
-    padding: auto;
-    margin: auto;
+    padding:0 auto;
+    margin:0 auto;
   }
 
   

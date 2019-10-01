@@ -475,7 +475,7 @@ input[type="submit"] {
   }
 
   #about .about-and-skills .profile,
-  #about .about-and-skills .skills,{
+  #about .about-and-skills .skills{
     margin: 40px 0;
     padding-left: 0;
   }

@@ -138,7 +138,7 @@ padding: 80px 3% 8% 3%;
 #formation h4,
 #experience h4,
 #more h4,
-.footer #form-title {
+#footer #form-title {
   text-transform: uppercase;
   margin-bottom: 30px;
   color: #daa520;
@@ -314,7 +314,7 @@ opacity: 0.50;
 
 /*footer*/
 
-.footer{
+#footer{
     bottom: 0;
     width: 100%;
     /*background: #3e474f;*/
@@ -336,7 +336,7 @@ opacity: 0.50;
     width: 70%;
 }
 
-.footer .contact-info img {
+#footer .contact-info img {
     float: left;
     margin-left: -40px;
     margin-top: -7px;
@@ -357,7 +357,7 @@ opacity: 0.50;
 }
 
 
-.footer #SendMessage form {
+#footer #SendMessage form {
   display: block;
   padding: 0;
 }
@@ -417,8 +417,7 @@ input[type="submit"] {
     text-transform: uppercase;
     text-align: left;
     padding-left: 0;
-    margin-left: 0!important;
-    margin: 15px auto;
+    margin: 15px auto 15px 0;
 }
 
 #SendMessage li{
@@ -537,7 +536,7 @@ input[type="submit"] {
   
 
   /* Footer */
-  .footer{
+  #footer{
     padding: auto;
     margin: auto;
   }
@@ -551,20 +550,20 @@ input[type="submit"] {
     display: block;
   }
 
-  .footer i {
+  #footer i {
     font-size: 35px;
   }
 
-  .footer h3 {
+  #footer h3 {
     font-size: 14px;
   }
 
-  .footer p {
+  #footer p {
     margin-top: 10px;
     font-size: 14px;
   }
 
-  .footer #contact form {
+  #footer #contact form {
     display: block;
     padding: 0;
   }
@@ -573,19 +572,21 @@ input[type="submit"] {
     margin: 30px !important;
   }
 
-  .footer .contact-info {
+  #footer .contact-info {
     margin-bottom: 8%;
   }
-  .footer #SendMessage ul{
+  
+  #footer #SendMessage ul{
     margin: auto;
   }
+
   
-  .footer #SendMessage ul li{
-    margin-left: auto;
+  #SendMessage .tituloRodape{
+    margin-left: 15px;
   }
   
      
-  .footer #SendMessage,
-  .footer .contact-info{
+  #footer #SendMessage,
+  #footer .contact-info{
     margin: 5% 0 0 0;
 }

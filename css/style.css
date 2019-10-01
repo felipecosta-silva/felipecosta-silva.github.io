@@ -421,8 +421,8 @@ input[type="submit"] {
 }
 
 #SendMessage li{
-  padding: 0 auto;
-  margin: 0 auto;
+  padding: auto;
+  margin: auto;
   width: 80%;
 }
 

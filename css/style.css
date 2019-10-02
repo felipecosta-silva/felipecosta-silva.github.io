@@ -364,8 +364,6 @@ opacity: 0.50;
 
 #SendMessage{
   text-align: center;
-   float: left;
-    width: 100%;
 }
 
 input[type="text"],

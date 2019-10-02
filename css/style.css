@@ -263,6 +263,14 @@ opacity: 0.50;
   color: #edce2c;
 }
 
+#formation #yoda {
+    width:10%;
+    height:10%;
+    /*float: left;
+    margin-left: -20px;
+    margin-top: -7px;*/
+}
+
 /*experiencia*/
 
 #experience{

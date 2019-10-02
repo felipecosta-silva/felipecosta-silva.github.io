@@ -281,19 +281,17 @@ opacity: 0.50;
   opacity: 0.40;
 }
 
-#experience h6{
-  color: #000;
-  
-}
-
+#experience h6,
 #experience p{
-  color: #001125;
+  color: #edce2c;
+  opacity: 0.80;
+  
 }
 
 /*More*/
 #more{
   /*background-color: #005e96;
-  background-color: #212635;484b57*/
+  background-color: #212635;#484b57*/
   background-color: #365b7f;
   color: #fff;
   padding: 8% 3%;

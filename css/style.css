@@ -405,14 +405,13 @@ input[type="submit"] {
 .contact-info ul,
 #SendMessage ul{
     margin: 10px 15px;
-    width: 370px;
+    width: 100%;
     float: left;
     padding: 0;
     list-style-type: none;
 }
 
 #SendMessage ul{
-  width: 100%! important;
   margin-bottom: 0! important;
 }
 
@@ -580,8 +579,13 @@ input[type="submit"] {
     margin-bottom: 8%;
   }
   
-  #footer #SendMessage ul{
+  #footer #SendMessage ul,
+  #footer .contact-info ul{
     margin: auto;
+  }
+  
+  #footer .contact-info ul{
+    padding-left: 15px;
   }
 
   

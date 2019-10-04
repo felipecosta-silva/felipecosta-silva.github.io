@@ -73,7 +73,8 @@ color: #daa520;
 }
 
 #home #subtitle{
-  color: #3A5FCD;
+  color: #fff;
+  opacity: 0.50;
 }
 
 #social {

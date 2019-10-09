@@ -29,16 +29,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#home">Perfil</a>
+              <a class="nav-link" href="#home" id="perfil">Perfil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">Sobre</a>
+              <a class="nav-link" href="#about" id="sobre">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#formation">Formação</a>
+              <a class="nav-link" href="#formation" id="formacao">Formação</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#experience">Experiencia</a>
+              <a class="nav-link" href="#experience" id="experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#more" id="mais">Saber Mais</a>
             </li>
           </ul>
           <!-- Função para Download do curriculo -->
@@ -283,18 +286,21 @@
                   , Jaboatão/PE - Brasil
                 </a>
               </li>
+              <li id="downloadfooter">
+                <a class="btn btn-outline-warning" href="documentos/pdf/Curr%C3%ADculo%20Felipe%20Costa%20da%20Silva.pdf" id="btndownloadfooter" download="Currículo Felipe Costa da Silva.pdf">Baixar Curriculo</a>
+              </li>
             </ul>
           </div>
         </div>
         <div class="col-xs-12 col-md-6" id="message">
           <div id="SendMessage">
             <ul>
-              <li class="tituloRodape">Send Message</li>
+              <li class="form-titulo">Enviar mensagem</li>
               <li>
                 <form action="https://formspree.io/felipecostati@gmail.com" method="POST">
-                  <input id="form-name" type="text" name="name" placeholder="Your name." required>
-                  <input id="form-email" type="text" name="email" placeholder="Your e-mail." required>
-                  <textarea id="form-message" name="message" placeholder="Your message." required></textarea>
+                  <input id="form-name" type="text" name="name" placeholder="Seu nome." required>
+                  <input id="form-email" type="text" name="email" placeholder="Seu e-mail." required>
+                  <textarea id="form-message" name="message" placeholder="Sua mensagem" required></textarea>
                   <input class="btn btn-outline-warning p-1" id="form-submit" type="submit" value="Enviar">
                 </form>
               </li>

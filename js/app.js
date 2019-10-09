@@ -1,22 +1,27 @@
-$("#btn-about").on("click", function(e) {
-  e.preventDefault();
-  var id = $(this).attr("href"),
-      targetOffset = $(id).offset().top;
+$("#btn-about").on("click", function(e) 
+  {
+    e.preventDefault();
+    var id = $(this).attr("href"),
+        targetOffset = $(id).offset().top;
 
-  $("html, body").animate(
-    {
-      scrollTop: targetOffset
-    },
-    500
-  );
-});
+      $("html, body").animate(
+        {
+          scrollTop: targetOffset
+        },
+        500
+      );
+  }
+);
 
 function languagePt() {
   //Menu Navbar
-
+  document.getElementById("perfil").innerHTML = "Profile";
+  document.getElementById("sobre").innerHTML = "About";
+  document.getElementById("formacao").innerHTML = "Formation";
+  document.getElementById("experiencia").innerHTML = "Experiences";
+  document.getElementById("mais").innerHTML = "KNOW MORE";
   //Home
-  document.getElementById("subtitle").innerHTML =
-    "Welcome, you will know a little about me.";
+  document.getElementById("subtitle").innerHTML = "Welcome, you will know a little about me.";
   //Sobre
   document.getElementById("about-title").innerHTML = "More";
   document.getElementById("about-text").innerHTML =
@@ -62,17 +67,15 @@ function languagePt() {
   document.getElementById("interests-title").innerHTML = "Interests";
   document.getElementById("interests-text").innerHTML = "Acting as Front End Developer, dedicating myself in the best way possible always aiming to progress as a person and as a professional.";
   document.getElementById("hobbies-text").innerHTML = "Read books and volunteer for social actions";
-  document.getElementById("form-title").innerHTML = "Contato";
-  document.getElementById("form-name").placeholder = "Seu nome.";
-  document.getElementById("form-email").placeholder = "Seu email.";
-  document.getElementById("form-message").placeholder = "Sua mensagem.";
-  document.getElementById("form-submit").value = "Enviar";
-  document.getElementById("contact-title1").innerHTML =
-    "Para entrar em contato comigo";
+  //Contact
+  document.getElementById("tituloRodape").innerHTML = "Contact";
   document.getElementById("contact-text1").innerHTML =
-    "Rua Real da Torre, Madalena - Recife, PE";
-  document.getElementById("contact-title2").innerHTML = "Mande-me um email";
-  document.getElementById("contact-title3").innerHTML = "Para me liguar";
+    "Floriano Peixoto Avenue, Santana -";
+  document.getElementById("form-titulo").innerHTML = "Send Message";
+  document.getElementById("form-name").placeholder = "Your name.";
+  document.getElementById("form-email").placeholder = "Your e-mail.";
+  document.getElementById("form-message").placeholder = "Message";
+  document.getElementById("form-submit").value = "Submit";
 }
 
 function languageEn() {

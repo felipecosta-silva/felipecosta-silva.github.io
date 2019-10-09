@@ -363,6 +363,20 @@ opacity: 0.50;
     cursor: pointer;
 }
 
+.contact-info #downloadfooter {
+  text-align: center;
+  width: auto;
+}
+
+.contact-info #btndownloadfooter{
+  color: #ffc107;
+  padding: 1%;
+}
+
+.contact-info #btndownloadfooter:hover{
+  color: #000;
+  opacity: 0.90 !important;
+}
 
 #footer #SendMessage form {
   display: block;

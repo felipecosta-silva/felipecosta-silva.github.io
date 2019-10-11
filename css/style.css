@@ -364,13 +364,14 @@ opacity: 0.50;
 }
 
 .contact-info #downloadfooter {
-  text-align: center;
+  margin-left: 25%;
   width: auto;
+  margin-bottom: 0;
 }
 
 .contact-info #btndownloadfooter{
   color: #ffc107;
-  padding: 1%;
+  padding: 2%;
 }
 
 .contact-info #btndownloadfooter:hover{
@@ -431,17 +432,35 @@ input[type="submit"] {
 }
 
 .contact-info .tituloRodape, 
-#SendMessage .tituloRodape{
+#SendMessage .form-titulo{
     text-transform: uppercase;
     text-align: left;
     padding-left: 0;
     margin: 15px auto 15px 0;
 }
 
+#SendMessage .form-titulo{
+  padding: 7px 0 0 0;
+  margin-bottom: 0;
+}
+
+#form-name{
+  margin-top: 0;
+}
+
 #SendMessage li{
   padding: auto;
   margin: auto;
   width: 80%;
+}
+
+blockquote{
+  margin: 0;
+  padding: 0;
+}
+
+blockquote p{
+  font-size: 15px;
 }
 
 

@@ -45,12 +45,16 @@
             </li>
           </ul>
           <!-- Função para Download do curriculo -->
-          <div class="navbar-nav">
-            <ul id="btnbaixar">
+          <div class="navbar-nav ml-auto">
+            <ul class="pl-0" id="btnbaixar">
               <li>
                 <a class="btn btn-outline-gray" href="documentos/pdf/Curr%C3%ADculo%20Felipe%20Costa%20da%20Silva.pdf" id="btnDownload" download="Currículo Felipe Costa da Silva.pdf">Curriculo</a>
               </li>
             </ul>
+          </div>
+          <div class="navbar-nav" id="btn-about">
+            <img src="./img/brl.png" onclick="languagePt();" alt="Brazilian">
+            <img src="./img/usd.png" onclick="languageEn();" alt="English">
           </div>
         </div>
       </div>
@@ -121,7 +125,7 @@
               </ul>
             </div>
             <div class="col-sm-12 col-md-6 pl-md-5 skills">
-              <h5>Habilidades<i class="fas fa-code"></i></h5>
+              <h5 id="skills-title">Habilidades <i class="fas fa-code"></i></h5>
               <ul>
                 <li>
                   <strong><i class="fab fa-html5"></i> HTML5</strong>
@@ -322,4 +326,5 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="./js/app.js"></script>
 </html>

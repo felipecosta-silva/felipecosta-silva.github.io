@@ -1,25 +1,25 @@
-$("#btn-about").on("click", function(e) 
-  {
-    e.preventDefault();
-    var id = $(this).attr("href"),
-        targetOffset = $(id).offset().top;
+$("#btn-about").on("click", function(e) {
+  e.preventDefault();
+  var id = $(this).attr("href"),
+    targetOffset = $(id).offset().top;
 
-      $("html, body").animate(
-        {
-          scrollTop: targetOffset
-        },
-        500
-      );
-  }
-);
+  $("html, body").animate(
+    {
+      scrollTop: targetOffset
+    },
+    500
+  );
+});
 
 function languageEn() {
-  //Menu Navbar
+  //Navbar
   document.getElementById("perfil").innerHTML = "Profile";
   document.getElementById("sobre").innerHTML = "About";
   document.getElementById("formacao").innerHTML = "Formation";
   document.getElementById("experiencia").innerHTML = "Experiences";
-  document.getElementById("mais").innerHTML = "Know more";
+  document.getElementById("mais").innerHTML = "More";
+  document.getElementById("btnDownload").innerHTML = "Curriculum";
+
   //Home
   document.getElementById("subtitle").innerHTML = "Welcome, you will know a little about me.";
   //Sobre
@@ -36,31 +36,31 @@ function languageEn() {
   //Skills
   document.getElementById("skills-title").innerHTML = "Skills";
   //Formation and Certificates
-  document.getElementById("formation-title").innerHTML ="Formation and Certificates";
+  document.getElementById("formation-title").innerHTML = "Formation and Certificates";
   document.getElementById("formation-1").innerHTML = "FATECPE - Faculty of Technology and Science of Pernanbuco - Computer Science";
   document.getElementById("formation-2").innerHTML = "JAVA Academy (102h) - Fuctura Tecnologia - Java Certification";
   document.getElementById("formation-3").innerHTML = "LINUX Academy (108h) - Fuctura Tecnologia - Linux LPI Essentials Certification";
   document.getElementById("formation-4").innerHTML = "Integrated Course Design - Basic English Course";
   //Professional Experiences
   document.getElementById("experiences-title").innerHTML = "Professional Experiences";
+  //experiences 2
   document.getElementById("function-1").innerHTML = "Computer Equipment Maintenance Technician";
-  document.getElementById("experiences-1").innerHTML =
-    "Installation and removal of programs;"
-    "User maintenance and troubleshooting;"
-    "Development of support routines;"
-    "Maintenance Hardware and software;"
-    "Remote support via various tools (Teamviewer, Anydesk, RDP);"
-    "User / employee support in all departments.";
+  document.getElementById("experiences-1-1").innerHTML = "Installation and removal of programs;"
+  document.getElementById("experiences-1-2").innerHTML= "User maintenance and troubleshooting;"
+  document.getElementById("experiences-1-3").innerHTML= "Development of support routines;"
+  document.getElementById("experiences-1-4").innerHTML= "Maintenance Hardware and software;"
+  document.getElementById("experiences-1-5").innerHTML= "Remote support via various tools (Teamviewer, Anydesk, RDP);"
+  document.getElementById("experiences-1-6").innerHTML= "User / employee support in all departments.";
+  //experiences 2
   document.getElementById("function-2").innerHTML = "Junior Support Analyst";
-  document.getElementById("experiences-2").innerHTML =
-    "Installation and removal of programs (windows / Linux);"
-    "User maintenance and troubleshooting;"
-    "Development of support routines;"
-    "Maintenance Hardware and software (windows / Linux);"
-    "Remote support via various tools (Teamviewer, Anydesk, RDP);"
-    "User / employee support in all departments;"
-    "Internal support for vision system (Honda approved)"
-    "Credit card reconciliation.";
+  document.getElementById("experiences-2-1").innerHTML = "Installation and removal of programs (windows / Linux);";
+  document.getElementById("experiences-2-2").innerHTML= "User maintenance and troubleshooting;";
+  document.getElementById("experiences-2-3").innerHTML= "Development of support routines;";
+  document.getElementById("experiences-2-4").innerHTML= "Maintenance Hardware and software (windows / Linux);";
+  document.getElementById("experiences-2-5").innerHTML= "Remote support via various tools (Teamviewer, Anydesk, RDP);";
+  document.getElementById("experiences-2-6").innerHTML= "User / employee support in all departments;";
+  document.getElementById("experiences-2-7").innerHTML= "Internal support for vision system (Honda approved)";
+  document.getElementById("experiences-2-8").innerHTML= "Credit card reconciliation.";
   //More
   document.getElementById("more-title").innerHTML = "More";
   document.getElementById("personality-title").innerHTML = "Personality";

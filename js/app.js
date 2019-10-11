@@ -13,13 +13,13 @@ $("#btn-about").on("click", function(e)
   }
 );
 
-function languagePt() {
+function languageEn() {
   //Menu Navbar
   document.getElementById("perfil").innerHTML = "Profile";
   document.getElementById("sobre").innerHTML = "About";
   document.getElementById("formacao").innerHTML = "Formation";
   document.getElementById("experiencia").innerHTML = "Experiences";
-  document.getElementById("mais").innerHTML = "KNOW MORE";
+  document.getElementById("mais").innerHTML = "Know more";
   //Home
   document.getElementById("subtitle").innerHTML = "Welcome, you will know a little about me.";
   //Sobre
@@ -35,6 +35,7 @@ function languagePt() {
   document.getElementById("profile-telefone").innerHTML = "Telephone";
   //Skills
   document.getElementById("skills-title").innerHTML = "Skills";
+  //Formation and Certificates
   document.getElementById("formation-title").innerHTML ="Formation and Certificates";
   document.getElementById("formation-1").innerHTML = "FATECPE - Faculty of Technology and Science of Pernanbuco - Computer Science";
   document.getElementById("formation-2").innerHTML = "JAVA Academy (102h) - Fuctura Tecnologia - Java Certification";
@@ -78,14 +79,14 @@ function languagePt() {
   document.getElementById("form-submit").value = "Submit";
 }
 
-function languageEn() {
+function languagePt() {
   document.location.reload(true);
 }
 
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({
-    pageLanguage: 'pt',
-    includedLanguages: 'en,es',
+    pageLanguage: 'en,es',
+    includedLanguages: 'pt',
     layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
   }, 'google_translate_element');
 

@@ -31,6 +31,17 @@ nav img {
   margin: 0 5px;
 }
 
+#google_translate_element,
+.goog-te-banner-frame{
+display: none;
+}
+
+#flagBr,
+#flagEn{
+  width: 20px;
+  height: 20px;
+}
+
 #btnbaixar {
   margin-bottom: 0;
 }

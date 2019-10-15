@@ -4,6 +4,17 @@ body,
   height: 100%;
 }
 
+/*#google_translate_element,
+.goog-te-banner-frame,
+.goog-te-balloon-frame,
+#goog-gt-tt,
+.goog-te-balloon-frame,
+.goog-tooltip,
+.goog-tooltip:hover {
+ display:none !important;
+}
+*/
+
 body {
   padding-top: 70px;
 }

@@ -4,16 +4,6 @@ body,
   height: 100%;
 }
 
-/*#google_translate_element,
-.goog-te-banner-frame,
-.goog-te-balloon-frame,
-#goog-gt-tt,
-.goog-te-balloon-frame,
-.goog-tooltip,
-.goog-tooltip:hover {
- display:none !important;
-}
-*/
 
 body {
   padding-top: 70px;
@@ -54,6 +44,13 @@ border: 1px solid #daa520;
 .corfundo {
   background-color: #010405;
   color: #fff;
+}
+
+#Fundo{ 
+ background-size: auto 100%;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-image: url("/img/background.png");
 }
 
 .corfundo .navbar-ligth .bnt{

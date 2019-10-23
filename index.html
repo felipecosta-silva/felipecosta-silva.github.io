@@ -5,21 +5,26 @@
     <meta charset="utf-8">
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+    <meta name="author" content="Felipe Costa">
+    <!-- Definindo uma descrição para o site, melhora a performance nas buscas do google -->
+    <meta name="description" content="Curriculo Felipe Costa">
     <title>Felipe Costa</title>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    <!-- icone aba do navegador -->
     <link rel="shortcut icon" href="img/icon-navbar/logo-narbar-brand.png" type="image/x-icon" />
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
     <link rel='stylesheet' type='text/css' media='screen' href='./css/brands.min.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='./css/regular.min.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='./css/solid.min.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='./css/fontawesome.min.css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+    <!-- javascript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-
   </head>
+  
   <body class="corfundo" id="Fundo" style="background-image:url(img/design.png)">
     <nav class="navbar fixed-top navbar-expand-md navbar-ligth box-shadow">
       <div class="container">
@@ -49,11 +54,11 @@
           <div class="navbar-nav ml-auto">
             <ul class="pl-0" id="btnbaixar">
               <li>
-                <a class="btn btn-outline-gray" href="documentos/pdf/Curr%C3%ADculo%20Felipe%20Costa%20da%20Silva.pdf" id="btnDownload" download="Currículo Felipe Costa da Silva.pdf">Curriculo</a>
+                <a class="btn btn-outline-gray" href="documentos/pdf/Curr%C3%ADculo%20Felipe%20Costa%20da%20Silva.pdf" id="btnDownload" download="Currículo Felipe Costa da Silva.pdf">Curriculo <i style="font-size:15px" class="fa">&#xf1c1;</i></a>
               </li>
             </ul>
           </div>
-          <!-- Tradutor dee página -->
+          <!-- Tradutor da página inglês e português -->
           <div id="google_translate_element" class="boxTradutor"></div>
           <a href="javascript:trocarIdioma('pt')"><img id="flagBr" alt="Traduzir para o Portugues-br" src="img/icon-navbar/Brazil.ico"></a>
           <a href="javascript:trocarIdioma('en')"><img id="flagEn" alt="Traduzir para o Ingles" src="img/icon-navbar/United-States.ico"></a>
@@ -61,7 +66,7 @@
       </div>
     </nav>   
     <section class="container-fluid" id="home">
-      <div class="container">
+      <header class="container">
         <div>
           <div class="text-center pt-5">
             <img src="https://avatars2.githubusercontent.com/u/15041151?s=460&v=4teste" alt="Felipe Costa">
@@ -89,10 +94,10 @@
             </ul>
           </div>
         </div>
-      </div>
+      </header>
     </section>
     <section class="container" id="about">
-      <div>
+      <article>
         <div class="about-text">
           <h4 class="mb-5" id="about-title">Sobre</h4>
           <p class=" px-2" id="about-text">Sei trabalhar em equipe, gosto de trabalhar com pessoas, conhecer gente nova e diferente. Tenho uma boa comunicação com os colegas de trabalho. Sou focado, aprendo relativamente rápido e tendo a ser um pouco detalhista, sou bastante realista ao estabelecer minhas metas, sempre faço o possível para alcançal-las e me esforço mais ainda para quem sabe superá-las.
@@ -156,10 +161,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </article>
     </section>
     <section class="container" id="formation">
-      <div>
+      <article>
         <div id="fomation-and-certificantes">
           <h4><img class="mr-2" id="yoda" src="img/icon-formation/yoda-vector-yellow.png" alt="yoda">Formações e Certificados</h4>
         </div>
@@ -168,32 +173,32 @@
             <i class="fa fa-graduation-cap"></i>
             <img class="mb-1" src="./img/Icon-formation/Yoda-yellow.png" width="15" height="15" alt=""/>
             <h5 id="formation-1">FATECPE - Faculdade de Tecnologia e Ciência de Pernanbuco - Ciência da Computação</h5>
-            <p>Recife - PE | 01/13 - 06/17</p>
+            <p>Recife - PE | <time pubdate>01/2013 - 06/2017</time></p>
           </div>
           <div>
             <img src="img/icon-formation/certification-yellow.png" width="15" height="15" alt="Certificado">
             <i class="fab fa-java"></i>
             <h5 id="formation-2">Academia JAVA (102h) - Fuctura Tecnologia - Certificação Java</h5>
-            <p>Recife - PE | 12/18</p>
+            <p>Recife - PE | <time pubdate>06/2018 - 12/2018</time></p>
           </div>
           <div>
             <i class="fa fa-graduation-cap"></i>
             <img src="img/icon-formation/certification-yellow.webp" width="15" height="15" alt="Certificado">
             <i class="fab fa-linux"></i>
             <h5 id="formation-3">Academia LINUX (108h) - Fuctura Tecnologia - Certificação Linux LPI Essentials</h5>
-            <p>Recife - PE | 04/19 - 09/19</p>
+            <p>Recife - PE | <time pubdate>04/2019 - 09/2019</time></p>
           </div>
           <div>
             <i class="fa fa-graduation-cap"></i>
             <img src="img/icon-formation/certification-yellow.webp" width="15" height="15" alt="Certificado">
             <h5 id="formation-4">Projeto Integrado de Cursos - Curso de Inglês básico</h5>
-            <p>10/11</p>
+            <p>Jaboatão dos Guararapes - PE | <time pubdate>10/2011</time></p>
           </div>
         </div>
-      </div>
+      </article>
     </section>
     <section class="container" id="experience">
-      <div class="px-3">
+      <article class="px-3">
         <div>
           <h4 class="mb-5 dourado">Experiências Profissionais</h4>
         </div>
@@ -203,7 +208,7 @@
             <i class="fa fa-briefcase"></i>
             <h5>Motoparts Comercio e Importação LTDA</h5>
             <h6 id="function-1">Técnico em Manutenção de Equipamentos de informática</h6>
-            <p>Recife | 03/12 - 03/18</p>
+            <p>Recife | <time pubdate>03/2012 - 03/2018</time></p>
             <ul id="experiences-1">
               <li id="experiences-1-1">Instalação e remoção de programas;</li>
               <li id="experiences-1-2"> Manutenção de usuários e resolução de problemas;</li>
@@ -218,7 +223,7 @@
             <i class="fa fa-briefcase"></i>
             <h5>Motoparts Comercio e Importação LTDA</h5>
             <h6 id="function-2">Analista de Suporte Júnior</h6>
-            <p>Recife | 04/18</p>
+            <p>Recife | <time pubdate>04/2018</time></p>
             <ul id="experiences-2">
               <li id="experiences-2-1">Instalação e remoção de programas (windows/Linux);</li>
               <li id="experiences-2-2"> Manutenção de usuários e resolução de problemas;</li>
@@ -231,10 +236,10 @@
             </ul>
           </div>
         </div>
-      </div>
+      </article>
     </section>
     <section  class="container" id="more">
-      <div class="container px-md-3">
+      <article class="container px-md-3">
         <div>
           <h4 id="more-title">Mais</h4>
         </div>
@@ -271,7 +276,7 @@
               Atuação em projetos ambientais na cidade de Sirinhaém.</p>
           </div>
         </div>
-      </div>
+      </article>
     </section>
   </body>
   <footer id="footer">
@@ -298,7 +303,7 @@
                 </a>
               </li>
               <li id="downloadfooter">
-                <a class="btn btn-outline-warning" href="documentos/pdf/Curr%C3%ADculo%20Felipe%20Costa%20da%20Silva.pdf" id="btndownloadfooter" download="Currículo Felipe Costa da Silva.pdf">Baixar Curriculo</a>
+                <a class="btn btn-outline-warning" href="documentos/pdf/Curr%C3%ADculo%20Felipe%20Costa%20da%20Silva.pdf" id="btndownloadfooter" download="Currículo Felipe Costa da Silva.pdf">Curriculo <i style="font-size:15px" class="fa">&#xf1c1;</i></a>
               </li>
             </ul>
           </div>
@@ -309,8 +314,8 @@
               <li class="form-titulo">Enviar mensagem</li>
               <li>
                 <form action="https://formspree.io/felipecostati@gmail.com" method="POST">
-                  <input id="form-name" type="text" name="name" placeholder="Seu nome." required>
-                  <input id="form-email" type="text" name="email" placeholder="Seu e-mail." required>
+                  <input id="form-name" type="text" name="name" placeholder="Seu nome." required/>
+                  <input id="form-email" type="text" name="email" placeholder="Seu e-mail." required/>
                   <textarea id="form-message" name="message" placeholder="Sua mensagem" required></textarea>
                   <input class="btn btn-outline-warning p-1" id="form-submit" type="submit" value="Enviar">
                 </form>

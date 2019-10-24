@@ -163,7 +163,7 @@ padding: 80px 3% 8% 3%;
 #formation h4,
 #experience h4,
 #more h4,
-#footer #form-title {
+footer #form-title {
   text-transform: uppercase;
   margin-bottom: 30px;
   color: #daa520;
@@ -345,7 +345,7 @@ opacity: 0.50;
 
 /*footer*/
 
-#footer{
+footer{
     bottom: 0;
     width: 100%;
     /*background: #3e474f;*/
@@ -367,7 +367,7 @@ opacity: 0.50;
     width: 70%;
 }
 
-#footer .contact-info img {
+footer .contact-info img {
     float: left;
     margin-left: -40px;
     margin-top: -7px;
@@ -403,7 +403,7 @@ opacity: 0.50;
   opacity: 0.90 !important;
 }
 
-#footer #SendMessage form {
+footer #SendMessage form {
   display: block;
   padding: 0;
 }
@@ -597,7 +597,7 @@ blockquote p{
   
 
   /* Footer */
-  #footer{
+  footer{
     padding:0 auto;
     margin:0 auto;
   }
@@ -611,20 +611,20 @@ blockquote p{
     display: block;
   }
 
-  #footer i {
+  footer i {
     font-size: 35px;
   }
 
-  #footer h3 {
+  footer h3 {
     font-size: 14px;
   }
 
-  #footer p {
+  footer p {
     margin-top: 10px;
     font-size: 14px;
   }
 
-  #footer #contact form {
+  footer #contact form {
     display: block;
     padding: 0;
   }
@@ -633,16 +633,16 @@ blockquote p{
     margin: 30px !important;
   }
 
-  #footer .contact-info {
+  footer .contact-info {
     margin-bottom: 8%;
   }
   
-  #footer #SendMessage ul,
-  #footer .contact-info ul{
+  footer #SendMessage ul,
+  footer .contact-info ul{
     margin: auto;
   }
   
-  #footer .contact-info ul{
+  footer .contact-info ul{
     padding-left: 15px;
   }
 
@@ -651,7 +651,7 @@ blockquote p{
     margin-left: 15px;
   }
        
-  #footer #SendMessage,
-  #footer .contact-info{
+  footer #SendMessage,
+  footer .contact-info{
     margin: 5% 0 0 0;
 }

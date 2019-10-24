@@ -20,11 +20,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
     <!-- javascript -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   </head>
-  
+
   <body class="corfundo" id="Fundo" style="background-image:url(img/design.png)">
     <nav class="navbar fixed-top navbar-expand-md navbar-ligth box-shadow">
       <div class="container">
@@ -69,8 +68,9 @@
       <header class="container">
         <div>
           <div class="text-center pt-5">
-            <img src="https://avatars2.githubusercontent.com/u/15041151?s=460&v=4teste" alt="Felipe Costa">
-
+            <figure>
+              <img src="https://avatars2.githubusercontent.com/u/15041151?s=460&v=4teste" alt="Felipe Costa">
+            </figure>
             <h3 id="NomePerfil">Felipe Costa</h3>
             <p class="container my-5" id="subtitle">Bem vindo, você ira conhecer um pouco ao meu respeito.</p>
           </div >
@@ -163,40 +163,46 @@
         </div>
       </article>
     </section>
+    <!-- Formação -->
     <section class="container" id="formation">
       <article>
         <div id="fomation-and-certificantes">
-          <h4><img class="mr-2" id="yoda" src="img/icon-formation/yoda-vector-yellow.png" alt="yoda">Formações e Certificados</h4>
+          <h4>
+            <figure>
+              <img class="mr-2" id="yoda" src="img/icon-formation/yoda-vector-yellow.png" alt="yoda">Formações e Certificados
+            </figure>  
+          </h4>
         </div>
         <div class="row" id="formationblock">
           <div>
             <i class="fa fa-graduation-cap"></i>
             <img class="mb-1" src="./img/Icon-formation/Yoda-yellow.png" width="15" height="15" alt=""/>
             <h5 id="formation-1">FATECPE - Faculdade de Tecnologia e Ciência de Pernanbuco - Ciência da Computação</h5>
-            <p>Recife - PE | <datatime pubdate>01/2013 - 06/2017</datatime></p>
+            <p>Recife - PE | 01/2013 - 06/2017</p>
           </div>
           <div>
             <img src="img/icon-formation/certification-yellow.png" width="15" height="15" alt="Certificado">
             <i class="fab fa-java"></i>
             <h5 id="formation-2">Academia JAVA (102h) - Fuctura Tecnologia - Certificação Java</h5>
-            <p>Recife - PE | <time pubdate>06/2018 - 12/2018</time></p>
+            <p>Recife - PE | 06/2018 - 12/2018</p>
           </div>
           <div>
             <i class="fa fa-graduation-cap"></i>
             <img src="img/icon-formation/certification-yellow.webp" width="15" height="15" alt="Certificado">
             <i class="fab fa-linux"></i>
             <h5 id="formation-3">Academia LINUX (108h) - Fuctura Tecnologia - Certificação Linux LPI Essentials</h5>
-            <p>Recife - PE | <time pubdate>04/2019 - 09/2019</time></p>
+            <p>Recife - PE | 04/2019 - 09/2019</p>
           </div>
           <div>
             <i class="fa fa-graduation-cap"></i>
             <img src="img/icon-formation/certification-yellow.webp" width="15" height="15" alt="Certificado">
             <h5 id="formation-4">Projeto Integrado de Cursos - Curso de Inglês básico</h5>
-            <p>Jaboatão dos Guararapes - PE | <time pubdate>10/2011</time></p>
+            <p>Jaboatão dos Guararapes - PE | 10/2011</p>
           </div>
         </div>
       </article>
     </section>
+    <!-- Experiência -->
     <section class="container" id="experience">
       <article class="px-3">
         <div>
@@ -238,6 +244,7 @@
         </div>
       </article>
     </section>
+    <!-- Mais -->
     <section  class="container" id="more">
       <article class="container px-md-3">
         <div>
@@ -279,7 +286,8 @@
       </article>
     </section>
   </body>
-  <footer id="footer">
+  <!-- Rodape -->
+  <footer>
     <div class="container">
       <div class="row px-xs-3" >
         <div class="col-xs-12 col-md-6" id="contact">
@@ -323,6 +331,7 @@
             </ul>
           </div>
         </div>
+        <!-- Citação -->
         <div class="col-12 mt-5">
           <blockquote class="blockquote text-center">
             <p class="mb-0" id="phrase-footer">Nunca deixe que lhe digam que não vale a pena acreditar no sonho que se tem...</p>

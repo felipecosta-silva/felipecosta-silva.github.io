@@ -4,13 +4,11 @@ body,
   height: 100%;
 }
 
-
 body {
   padding-top: 70px;
 }
 
 /*linear-gradient(45deg, blue, red)*/
-
 
 .navbar {
   background-color: #000030;
@@ -65,8 +63,11 @@ nav img {
 }
 
 .box-shadow {
-  box-shadow: 0 3px 6px 0 rgba(0,0,0,.30),
-    0 5px 9px 0 rgba(0,0,0,.30);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.30),
+              0 2px 2px 0 rgba(0,0,0,.30),
+              0 4px 4px 0 rgba(0,0,0,.30),
+              0 6px 6px 0 rgba(0,0,0,.30),
+              0 8px 8px 0 rgba(0,0,0,.30);
 }
 
 .home {
@@ -87,6 +88,7 @@ nav img {
   color: #daa520;
 }
 
+/* Linha abaixo do Nome
 #NomePerfil::after{
   content: "";
   display: block;
@@ -94,7 +96,7 @@ nav img {
   height: 2px;
   background: #daa520;
   margin: 10px auto;
-}
+}*/
 
 #home #subtitle{
   color: #fff;
@@ -481,6 +483,30 @@ blockquote footer{
 blockquote p{
   font-size: 15px;
 }
+
+/*Animation home bolline */
+#animationbox{
+  width: 160px;
+  margin: 0 auto;
+}
+
+@keyframes linha {
+  0% {margin-left: 0%;}
+  100% {margin-left: 96%;}
+}
+
+.linhaNome {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #daa520;
+  animation-name: linha;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+
 
 
 @media only screen and (max-width: 768px) {

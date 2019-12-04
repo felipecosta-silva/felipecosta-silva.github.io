@@ -31,26 +31,26 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#home" id="perfil">Inicio</a>
+                <a class="nav-link" href="#home">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about" id="sobre">Sobre</a>
+                <a class="nav-link" href="#about">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#formation" id="formacao">Formação</a>
+                <a class="nav-link" href="#formation">Formação</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#experience" id="experiencia">Experiencia</a>
+                <a class="nav-link" href="#experience">Experiencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#more" id="mais">Mais</a>
+                <a class="nav-link" href="#more">Mais</a>
               </li>
             </ul>
             <!-- Função para Download do curriculo -->
             <div class="navbar-nav ml-auto">
               <ul class="pl-0" id="btnbaixar">
                 <li>
-                  <a class="btn btn-outline-gray" href="documentos/pdf/Curr%C3%ADculo%20Felipe%20Costa%20da%20Silva.pdf" id="btnDownload" download="Currículo Felipe Costa da Silva.pdf">Curriculo <i style="font-size:15px" class="fa">&#xf1c1;</i></a>
+                  <a class="btn btn-outline-gray" href="documents/pdf/Curr%C3%ADculo%20Felipe%20Costa%20da%20Silva.pdf" id="btnDownload" download="Currículo Felipe Costa da Silva.pdf">Curriculo <i style="font-size:15px" class="fa">&#xf1c1;</i></a>
                 </li>
               </ul>
             </div>
@@ -61,7 +61,7 @@
           </div>
         </div>
       </nav>   
-      <section class="container-fluid" id="home">
+      <section id="home">
         <div class="container">
           <div>
             <div class="text-center pt-5">
@@ -98,7 +98,7 @@
       </section>
     </header>
     <main>
-      <section class="container" id="about">
+      <section class="container padding-section" id="about">
         <div>
           <div class="about-text">
             <h4 class="mb-5" id="about-title">Sobre</h4>
@@ -154,6 +154,12 @@
                     </div>
                   </li>
                   <li>
+                    <strong><i class="fab fa-js-square"></i> JavaScript</strong>
+                    <div class="progress">
+                      <div class="percent20"></div>
+                    </div>
+                  </li>
+                  <li>
                     <strong><i class="fab fa-bootstrap"></i> Bootstrap</strong>
                     <div class="progress">
                       <div class="percent40"></div>
@@ -166,50 +172,62 @@
         </div>
       </section>
       <!-- Formação -->
-      <section class="container" id="formation">
-        <article>
+      <section class="container padding-section" id="formation">
           <div id="fomation-and-certificantes">
             <h4>Formação e certificados</h4>
           </div>
           <div class="row" id="formationblock">
-            <div>
+            <div id="formation1">
               <i class="fas fa-user-graduate"></i>
               <h5 id="formation-1">FATECPE - Faculdade de Tecnologia e Ciência de Pernanbuco - Ciência da Computação</h5>
               <p>Recife - PE | 01/2013 - 06/2017</p>
             </div>
-            <div>
+             <div id="formation2">
+              <i class="fa fa-graduation-cap"></i>
+              <h5 id="formation-4">Projeto Integrado de Cursos - Curso de Inglês básico</h5>
+              <p>Jaboatão dos Guararapes - PE | 10/2011</p>
+            </div>
+            <div id="formation3">
               <i class="fa fa-graduation-cap"></i>
               <i class="fab fa-java"></i>
               <h5 id="formation-2">Academia JAVA (102h) - Fuctura Tecnologia - Certificação Java</h5>
               <p>Recife - PE | 06/2018 - 12/2018</p>
             </div>
-            <div>
-              <i class="fas fa-laptop-code"></i>
-              <h5 id="formation-3">HTML5 e CSS3 - Udemy - Técnicas Avançadas (Com Flexbox e 3 Projetos)</h5>
-              <p>Recife - PE | 11/2019</p>
-            </div>
-            <div>
+            <div id="formation4">
               <i class="fa fa-graduation-cap"></i>
               <i class="fab fa-linux"></i><i class="fas fa-laptop-code"></i>
               <h5 id="formation-3">Academia LINUX (108h) - Fuctura Tecnologia - Certificação Linux LPI Essentials</h5>
               <p>Recife - PE | 04/2019 - 09/2019</p>
             </div>
-            <div>
-              <i class="fa fa-graduation-cap"></i>
-              <h5 id="formation-4">Projeto Integrado de Cursos - Curso de Inglês básico</h5>
-              <p>Jaboatão dos Guararapes - PE | 10/2011</p>
+            <div id="formation5">
+              <i class="fas fa-laptop-code"></i>
+              <i class="fab fa-html5"></i>
+              <i class="fab fa-css3-alt"></i>
+              <h5 id="formation-3">HTML5 e CSS3 - Udemy - Técnicas Avançadas (Com Flexbox e 3 Projetos)</h5>
+              <p>Recife - PE | 11/2019</p>
+            </div>
+            <div id="formation6">
+              <i class="fas fa-laptop-code"></i>
+              <i class="fab fa-js-square"></i>
+              <h5 id="formation-3">Curso Web moderno com JavaScript Completo - Udemy </h5>
+              <p>Recife - PE | início 11/2019</p>
+            </div>
+            <div id="formation7">
+              <i class="fas fa-laptop-code"></i>
+              <i class="fas fa-layer-group"></i>
+              <h5 id="formation-3">Fullstack Master - DevPleno </h5>
+              <p>Recife - PE | início 11/2019</p>
             </div>
           </div>
-        </article>
       </section>
       <!-- Experiência -->
-      <section class="container" id="experience">
+      <section class="container padding-section" id="experience">
         <div class="px-3">
           <div>
             <h4 class="mb-5 dourado">Experiências Profissionais</h4>
           </div>
-          <div class="row mt-5" id="jobs">
-            <div class="col-xs-12 col-md-6">
+          <div class="container mt-5" id="jobs">
+            <div class="col-xs-12 col-md-6" id="job1">
               <i class="far fa-building"></i>
               <i class="fa fa-briefcase"></i>
               <h5>Motoparts Comercio e Importação LTDA</h5>
@@ -224,7 +242,7 @@
                 <li id="experiences-1-6"> Suporte ao usuário/funcionário em todos os departamentos.</li>
               </ul>
             </div>
-            <div class="col-xs-12 col-md-6">
+            <div class="col-xs-12 col-md-6" id="job2">
               <i class="far fa-building"></i>
               <i class="fa fa-briefcase"></i>
               <h5>Motoparts Comercio e Importação LTDA</h5>
@@ -245,46 +263,46 @@
         </div>
       </section>
       <!-- Mais -->
-      <section  class="container" id="more">
+      <section  class="container padding-section" id="more">
         <div class="container px-md-3">
           <div>
             <h4 id="more-title">Um pouco mais</h4>
           </div>
-          <div class="row pt-3">
-            <div class="col-xs-12 col-md-4 my-sm-3" id="personality">
-              <i class="fas fa-fingerprint"></i>
-              <h3 id="personality-title">Personalidade</h3>
-              <p id="personality-text">Tenho uma personalidade calma e tranquila, proativo, procuro sempre ajudar quando me for permitido ofereçendo o meu melhor.
-              </p>
-            </div>
-            <div class="col-xs-12 col-md-4 my-sm-3" id="interests">
-              <i class="fas fa-code"></i>
-              <h3>interesses</h3>
-              <p id="interests-text">Atuar como Front End Developer, me dedicando da melhor forma possível visando sempre progredir como pessoa e como profissional.
-              </p>
-            </div>
-            <div class="col-xs-12 col-md-4 my-sm-3" id="hobbies">
-              <i class="fas fa-book"></i>
-              <i class="fas fa-book-reader"></i>
-              <h3>Hobbies</h3>
-              <p>Ler livros e atuar como voluntário em açoes sociais</p>
-            </div>
-            <div class="col-xs-12 col-md-4 my-sm-3" id="voluntary">
-              <i class="fa fa-users"></i>
-              <i class="fas fa-fist-raised"></i>
-              <i class="far fa-heart"></i>
-              <i class="fas fa-seedling"></i>
-              <h3>Atividade Voluntaria</h3>
-              <p><b>ONG SiriEco</b><br>
-                <b>Cargo:</b> Diretor administrativo.<br>
-                <b>Descrição das Atividades:</b><br>
-                Captação de recursos;<br>
-                Festas comunitárias;<br>
-                Distribuição de roupas, alimentos e cestas básicas;<br>
-                Atuação em projetos ambientais na cidade de Sirinhaém.</p>
+            <div class="row pt-3">
+              <div class="col-xs-12 col-md-6" id="personality">
+                <i class="fas fa-fingerprint"></i>
+                <h3 id="personality-title">Personalidade</h3>
+                <p id="personality-text">Tenho uma personalidade calma e tranquila, proativo, procuro sempre ajudar quando me for permitido ofereçendo o meu melhor.
+                </p>
+              </div>
+              <div class="col-xs-12 col-md-6" id="interests">
+                <i class="fas fa-code"></i>
+                <h3>interesses</h3>
+                <p id="interests-text">Atuar como Front End Developer, me dedicando da melhor forma possível visando sempre progredir como pessoa e como profissional.
+                </p>
+              </div>
+              <div class="col-xs-12 col-md-6" id="hobbies">
+                <i class="fas fa-book"></i>
+                <i class="fas fa-book-reader"></i>
+                <h3>Hobbies</h3>
+                <p>Ler livros e atuar como voluntário em açoes sociais</p>
+              </div>
+              <div class="col-xs-12 col-md-6" id="voluntary">
+                <i class="fa fa-users"></i>
+                <i class="fas fa-fist-raised"></i>
+                <i class="far fa-heart"></i>
+                <i class="fas fa-seedling"></i>
+                <h3>Atividade Voluntaria</h3>
+                <p><b>ONG SiriEco</b><br>
+                  <b>Cargo:</b> Diretor administrativo.<br>
+                  <b>Descrição das Atividades:</b><br>
+                  Captação de recursos;<br>
+                  Festas comunitárias;<br>
+                  Distribuição de roupas, alimentos e cestas básicas;<br>
+                  Atuação em projetos ambientais na cidade de Sirinhaém.</p>
+              </div>
             </div>
           </div>
-        </div>
       </section>
     </main>
     <!-- Rodape -->
@@ -312,7 +330,7 @@
                   </a>
                 </li>
                 <li id="downloadfooter">
-                  <a class="btn btn-outline-warning" href="documentos/pdf/Curr%C3%ADculo%20Felipe%20Costa%20da%20Silva.pdf" id="btndownloadfooter" download="Currículo Felipe Costa da Silva.pdf">Curriculo <i style="font-size:15px" class="fa">&#xf1c1;</i></a>
+                  <a class="btn btn-outline-warning" href="documents/pdf/Curr%C3%ADculo%20Felipe%20Costa%20da%20Silva.pdf" id="btndownloadfooter" download="Currículo Felipe Costa da Silva.pdf">Curriculo <i style="font-size:15px" class="fa">&#xf1c1;</i></a>
                 </li>
               </ul>
             </div>

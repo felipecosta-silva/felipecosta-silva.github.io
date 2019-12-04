@@ -65,10 +65,6 @@ nav img {
               0 8px 8px 0 rgba(0,0,0,.30);
 }
 
-.home {
-  height: 825px;
-}
-
 #home figure img {
   border:2px solid #daa520;
   width: 100%;
@@ -79,7 +75,6 @@ nav img {
 
 #NomePerfil{
   margin: 30px 0 20px 0;
-  font-weight: 300;
   color: #daa520;
 }
 
@@ -100,11 +95,7 @@ nav img {
 
 #social {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  text-align: center;
 }
 
 #social ul{
@@ -121,15 +112,18 @@ nav img {
   color: #fff;
 }
 
-#home #social ul li a i:hover {
+#social i:hover {
   color: #daa520;
+}
+
+.padding-section{
+  padding: 8% 3%;
 }
 
 /* About */
 
 #about {
   background: #fff;
-  padding: 80px 3% 3% 3%;
 }
 
 #about {
@@ -162,12 +156,6 @@ footer #form-title {
   margin-bottom: 30px;
   color: #daa520;
   text-align: center;
-}
-
-#about .profile,
-#about .skills{
-  padding-bottom: 15%;
-
 }
 
 #about .about-and-skills h5 {
@@ -206,18 +194,22 @@ footer #form-title {
   width: 80%;
 }
 
+.percent20,
 .percent30,
 .percent35,
 .percent40,
 .percent50,
 .percent60,
 .percent70,
-.percent80,
-.percent90,
-.percent100 {
+.percent80 {
   background-color: #003bc4;
   height: 100%;
 }
+
+.percent20 {
+  width: 20%;
+}
+
 .percent30 {
   width: 30%;
 }
@@ -246,24 +238,19 @@ footer #form-title {
   width: 80%;
 }
 
-.percent90 {
-  width: 90%;
-}
-
-.percent100 {
-  width: 100%;
-}
-
 /*formation*/
 
 #formation{
   background-color: #f7ede7;
   color: #000;
-  padding: 8% 3%;
 }
 
 #formation #fomation-and-certificantes h4{ 
   text-align: center;
+}
+
+#jobs{
+ display: flex;
 }
 
 #formation p{
@@ -275,7 +262,6 @@ footer #form-title {
 #experience{
   background: #E1D7D2;
   color: #000;
-  padding: 8% 3%;
 }
 
 #experience ul,
@@ -300,9 +286,17 @@ footer #form-title {
 
 /*More*/
 #more{
+  display: flex;
   background-color: #CAC2BD;
   color: #000;
-  padding: 8% 3%;
+}
+
+#personality,
+#interests,
+#hobbies,
+#voluntary {
+  max-width: 350px;
+  margin: 1rem auto;
 }
 
 #more p{
@@ -477,10 +471,9 @@ blockquote p{
   animation-direction: alternate;
   animation-iteration-count: infinite;
   animation-play-state: running;
+}
 
-
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px){
   /* Header */
   header {
     justify-content: flex-end;
@@ -550,10 +543,24 @@ blockquote p{
 
   }
 
+  /* experience  */
+
+  #job1,
+  #job2{
+    margin: 1rem auto;
+  }
+  
+  #experience #experiences-1 li,
+  #experience #experiences-2 li{
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  
   /* Formation and Certificates */
   #formation,
-  #experience {
-    padding: 8%;
+  #experience,
+  #more{
+    padding: 12% 8%;
   }
 
   #formation h3,
@@ -561,30 +568,31 @@ blockquote p{
     margin: 10px 0;
   }
 
-  #formation .formation-and-certificates #formationblock,
-  #experience .experiences #jobs {
+  #formation #formationblock,
+  #experience #jobs {
     margin-bottom: 25px;
-    margin: 0 auto;
+    margin: 2rem auto;
+  }
+  
+  #formation1,
+  #formation2,
+  #formation3,
+  #formation4,
+  #formation5,
+  #formation6,
+  #formation7{
+    margin: 2rem auto;
+    text-align: center;
   }
 
-  #experience #experiences-1 li,
-  #experience #experiences-2 li{
-    margin: 0 auto;
-    padding: 0 auto;
-  }
 
   /*More*/
 
-  #more {
-    padding: 8%
-  }
-
-  #more #personality,
-  #more #interests,
-  #more #hobbies,
-  #more #voluntary{
-    margin: 4% 0;
-    text-align: center;
+#personality,
+#interests,
+#hobbies,
+#voluntary{
+  text-align: center;
   }
 
 
@@ -647,3 +655,4 @@ blockquote p{
   footer .contact-info{
     margin: 5% 0 0 0;
   }
+}

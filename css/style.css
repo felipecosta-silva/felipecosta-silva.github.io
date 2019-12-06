@@ -15,6 +15,13 @@ li{
   list-style-type: none;
 }
 
+/*h5 {
+  text-shadow: 1px 0px 0px gray, 
+               -1px 0px 0px gray, 
+               0px 1px 0px gray, 
+               0px -1px 0px gray;
+}*/
+
 /*linear-gradient(45deg, blue, red)*/
 
 .navbar {

@@ -1,0 +1,25 @@
+@font-face {
+    src: url(../webfonts/Tamira-lwA0.ttf);
+    font-family: 'Tamira';    
+    font-weight: normal;
+} 
+
+@font-face {
+    src: url(../webfonts/aladdin.ttf);
+    font-family: 'aladdin';    
+    font-weight: normal;
+} 
+
+@font-face {
+    src: url(../webfonts/BLKCHCRY.ttf);
+    font-family: 'BLKCHCRY';    
+    font-weight: normal;
+} 
+
+#NomePerfil{
+  font-family: 'BLKCHCRY';
+}
+
+/*h4{
+  font-family: 'Tamira';
+}*/

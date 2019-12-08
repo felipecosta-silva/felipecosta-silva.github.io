@@ -258,6 +258,7 @@ footer #form-title {
 
 #jobs{
  display: flex;
+ flex-wrap: wrap;
 }
 
 #formation p{
@@ -364,7 +365,7 @@ footer .contact-info img {
 .contact-info #btndownloadfooter{
   color: #ffc107;
   padding: 2%;
-}
+} 
 
 .contact-info #btndownloadfooter:hover{
   color: #000;
@@ -575,9 +576,25 @@ blockquote p{
   #formation #formationblock,
   #experience #jobs {
     margin-bottom: 25px;
-    margin: 2rem auto;
+    margin: 2rem 0;
+    padding: 0;
+  }
+
+  #job1,
+  #job2{
+    padding-right: 0;
+    padding-left: 0;
   }
   
+  #experiences-1 li,
+  #experiences-2 li{
+    padding-left: 0 !important;
+  }
+
+  #job1 i, #job2 i{
+    justify-items: center;
+  }
+
   #formation1,
   #formation2,
   #formation3,
@@ -589,7 +606,7 @@ blockquote p{
     text-align: center;
   }
 
-  /*additional-information*/
+  /* additional-information */
   #personality,
   #interests,
   #hobbies,

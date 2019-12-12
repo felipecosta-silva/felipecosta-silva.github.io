@@ -15,6 +15,10 @@ li{
   list-style-type: none;
 }
 
+.section i{
+  color: #68809D;
+}
+
 /*h5 {
   text-shadow: 1px 0px 0px gray, 
                -1px 0px 0px gray, 
@@ -45,9 +49,10 @@ nav img {
   margin
 }
 
-#btnbaixar {
+.btnbaixar {
   margin-bottom: 0;
 }
+
 
 .navbar button{
   background: #00000000;
@@ -124,7 +129,8 @@ nav img {
   color: #daa520;
 }
 
-.padding-section{
+.section{
+  color: #000;
   padding: 8% 3%;
 }
 
@@ -132,10 +138,6 @@ nav img {
 
 #about {
   background: #fff;
-}
-
-#about {
-  color: #000;
 }
 
 #about .about-content,
@@ -153,11 +155,7 @@ nav img {
   color: #000;
 }
 
-#about .about-text h4,
-#formation h4,
-#experience h4,
-#fomation-and-certificantes h4,
-#additional-information h4,
+.title-section,
 footer #form-title {
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -171,10 +169,10 @@ footer #form-title {
   color: #daa520;
 }
 
-#about .about-and-skills .profile li, 
-#about .about-and-skills .skills li,
-#experience #experiences-1 li,
-#experience #experiences-2 li{
+.profile li, 
+.skills li,
+#experiences-1 li,
+#experiences-2 li{
   display: flex;
   flex-direction: column;
   padding-left: 30px;
@@ -194,7 +192,7 @@ footer #form-title {
   line-height: 2rem;
 }
 
-.skills ul li .progress {
+li .progress {
   background-color: #ddd;
   height: 8px;
   margin-bottom: 30px;
@@ -249,15 +247,11 @@ footer #form-title {
 
 #formation{
   background-color: #f7ede7;
-  color: #000;
 }
 
-#formation #fomation-and-certificantes h4{ 
-  text-align: center;
-}
-
-#jobs{
- display: flex;
+#certificate-courses{
+  margin: 4rem auto 2rem auto;
+  
 }
 
 #formation p{
@@ -268,7 +262,10 @@ footer #form-title {
 
 #experience{
   background: #E1D7D2;
-  color: #000;
+}
+
+#jobs{
+ display: flex;
 }
 
 #experience ul,
@@ -276,17 +273,13 @@ footer #form-title {
   padding-left: 0;
 }
 
-#about i,
-#formation i,
 #formation li,
-#experience i,
-#experience li,
-#additional-information i{
+#experience li{
   color: #68809D;
 
 }
 
-#experience h6{
+.office {
   color: #000;
   opacity: 0.5;
 }
@@ -298,11 +291,8 @@ footer #form-title {
   color: #000;
 }
 
-#personality,
-#interests,
-#hobbies,
-#voluntary {
-  max-width: 350px;
+.information {
+  max-width: 350px !important;
   margin: 1rem auto;
 }
 
@@ -434,7 +424,8 @@ input[type="submit"] {
   margin-bottom: 0;
 }
 
-#form-name{
+#form-name,
+#form-email{
   margin-top: 0;
 }
 
@@ -554,8 +545,8 @@ blockquote p{
     margin: 1rem auto;
   }
   
-  #experience #experiences-1 li,
-  #experience #experiences-2 li{
+ #experiences-1 li,
+ #experiences-2 li{
     margin: 0 auto;
     padding: 0 auto;
   }
@@ -579,21 +570,13 @@ blockquote p{
   }
   
   #formation1,
-  #formation2,
-  #formation3,
-  #formation4,
-  #formation5,
-  #formation6,
-  #formation7{
+  .curso{
     margin: 2rem auto;
     text-align: center;
   }
 
   /*additional-information*/
-  #personality,
-  #interests,
-  #hobbies,
-  #voluntary{
+  .information {
     text-align: center;
   }
 

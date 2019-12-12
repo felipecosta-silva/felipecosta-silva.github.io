@@ -267,6 +267,7 @@ li .progress {
 
 #jobs{
  display: flex;
+ flex-wrap: wrap;
 }
 
 #experience ul,
@@ -484,12 +485,13 @@ blockquote p{
 
   /* home */
   #home {
-    padding: 0 40px;
+    padding: auto;
   }
 
   #home img {
-    max-width: 150px;
+    max-width: 80%;
   }
+  
 
   /* About */
   #about {
@@ -541,9 +543,17 @@ blockquote p{
   }
 
   /* experience  */
+  
+  #experience .container{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
   #job1,
   #job2{
     margin: 1rem auto;
+    padding-left: 0! important;
+    padding-right: 0! important;
   }
   
  #experiences-1 li,
@@ -573,7 +583,6 @@ blockquote p{
   #formation1,
   .curso{
     margin: 2rem auto;
-    text-align: center;
   }
 
   /*additional-information*/

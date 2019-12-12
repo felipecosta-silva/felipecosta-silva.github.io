@@ -15,10 +15,6 @@ li{
   list-style-type: none;
 }
 
-.section i{
-  color: #68809D;
-}
-
 /*h5 {
   text-shadow: 1px 0px 0px gray, 
                -1px 0px 0px gray, 
@@ -49,10 +45,9 @@ nav img {
   margin
 }
 
-.btnbaixar {
+#btnbaixar {
   margin-bottom: 0;
 }
-
 
 .navbar button{
   background: #00000000;
@@ -129,8 +124,7 @@ nav img {
   color: #daa520;
 }
 
-.section{
-  color: #000;
+.padding-section{
   padding: 8% 3%;
 }
 
@@ -138,6 +132,10 @@ nav img {
 
 #about {
   background: #fff;
+}
+
+#about {
+  color: #000;
 }
 
 #about .about-content,
@@ -155,7 +153,11 @@ nav img {
   color: #000;
 }
 
-.title-section,
+#about .about-text h4,
+#formation h4,
+#experience h4,
+#fomation-and-certificantes h4,
+#additional-information h4,
 footer #form-title {
   text-transform: uppercase;
   margin-bottom: 30px;
@@ -169,10 +171,10 @@ footer #form-title {
   color: #daa520;
 }
 
-.profile li, 
-.skills li,
-#experiences-1 li,
-#experiences-2 li{
+#about .about-and-skills .profile li, 
+#about .about-and-skills .skills li,
+#experience #experiences-1 li,
+#experience #experiences-2 li{
   display: flex;
   flex-direction: column;
   padding-left: 30px;
@@ -192,7 +194,7 @@ footer #form-title {
   line-height: 2rem;
 }
 
-li .progress {
+.skills ul li .progress {
   background-color: #ddd;
   height: 8px;
   margin-bottom: 30px;
@@ -247,11 +249,15 @@ li .progress {
 
 #formation{
   background-color: #f7ede7;
+  color: #000;
 }
 
-#certificate-courses{
-  margin: 4rem auto 2rem auto;
-  
+#formation #fomation-and-certificantes h4{ 
+  text-align: center;
+}
+
+#jobs{
+ display: flex;
 }
 
 #formation p{
@@ -262,10 +268,7 @@ li .progress {
 
 #experience{
   background: #E1D7D2;
-}
-
-#jobs{
- display: flex;
+  color: #000;
 }
 
 #experience ul,
@@ -273,13 +276,17 @@ li .progress {
   padding-left: 0;
 }
 
+#about i,
+#formation i,
 #formation li,
-#experience li{
+#experience i,
+#experience li,
+#additional-information i{
   color: #68809D;
 
 }
 
-.office {
+#experience h6{
   color: #000;
   opacity: 0.5;
 }
@@ -291,8 +298,11 @@ li .progress {
   color: #000;
 }
 
-.information {
-  max-width: 350px !important;
+#personality,
+#interests,
+#hobbies,
+#voluntary {
+  max-width: 350px;
   margin: 1rem auto;
 }
 
@@ -424,8 +434,7 @@ input[type="submit"] {
   margin-bottom: 0;
 }
 
-#form-name,
-#form-email{
+#form-name{
   margin-top: 0;
 }
 
@@ -545,8 +554,8 @@ blockquote p{
     margin: 1rem auto;
   }
   
- #experiences-1 li,
- #experiences-2 li{
+  #experience #experiences-1 li,
+  #experience #experiences-2 li{
     margin: 0 auto;
     padding: 0 auto;
   }
@@ -570,13 +579,21 @@ blockquote p{
   }
   
   #formation1,
-  .curso{
+  #formation2,
+  #formation3,
+  #formation4,
+  #formation5,
+  #formation6,
+  #formation7{
     margin: 2rem auto;
     text-align: center;
   }
 
   /*additional-information*/
-  .information {
+  #personality,
+  #interests,
+  #hobbies,
+  #voluntary{
     text-align: center;
   }
 

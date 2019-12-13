@@ -244,10 +244,14 @@ li .progress {
 }
 
 
-/*############# formation##############*/
+/*############# formation ##############*/
 
 #formation{
   background-color: #f7ede7;
+}
+
+#formation #tcc{
+  color: #000;
 }
 
 #certificate-courses{

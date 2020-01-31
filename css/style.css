@@ -2,12 +2,13 @@ html,
 body,
 #root {
   height: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
+  background-color: #fff;
   padding-top: 70px;
-  color: #000;
+  color: #fff;
 }
 
 li{
@@ -16,20 +17,41 @@ li{
 }
 
 .section i{
-  color: #68809D;
+  color: #a4a4a4;
 }
 
-/*h5 {
-  text-shadow: 1px 0px 0px gray, 
-               -1px 0px 0px gray, 
-               0px 1px 0px gray, 
-               0px -1px 0px gray;
-}*/
+h5 {
+  color: #daa520;
+}
 
 /*linear-gradient(45deg, blue, red)*/
 
+
+
 .navbar {
-  background: linear-gradient(100deg, #241178 0%,#000030 100%);
+  background: #fec63e;
+  /*background: linear-gradient(100deg, #000010 0%, #fec63e 100%);*/
+  line-height: 80px;
+  padding: 0! important;
+}
+
+nav a {
+  color: #000;
+  padding: 10px;
+}
+
+.nav-link {
+  margin: 0;
+  padding: 10px! important;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all .3s ease;
+  
+}
+
+nav li:hover > a{ 
+  background: #000;
+  color: #daa520! important;
 }
 
 nav img {
@@ -37,7 +59,7 @@ nav img {
   margin: 0 5px;
 }
 
-#google_translate_element,
+.boxTradutor,
 .goog-te-banner-frame{
   display: none;
 }
@@ -46,24 +68,7 @@ nav img {
 #flagEn{
   width: 20px;
   height: 20px;
-  margin
 }
-
-.btnbaixar {
-  margin-bottom: 0;
-}
-
-
-.navbar button{
-  background: #00000000;
-  border: 1px solid #daa520;
-}
-
-.corfundo {
-  background-color: #010405;
-  color: #fff;
-}
-
 
 .dourado,
 #dourado{
@@ -79,31 +84,33 @@ nav img {
 }
 
 #home figure img {
-  border:2px solid #daa520;
+  border: 4px groove #daa520;
   width: 100%;
   border-radius: 50%;
   max-width: 220px;
   height: 100%;
 }
 
-#NomePerfil{
-  margin: 30px 0 20px 0;
-  color: #daa520;
+#home figure img:after {
+  content: "";
+  z-index: -1;
+top: -10px;
+left: -10px;
+right: -10px;
+bottom: -10px;
+border: 5px solid #A9FDAC;
 }
 
-/* Linha abaixo do Nome
-#NomePerfil::after{
-  content: "";
-  display: block;
-  width: 160px;
-  height: 2px;
-  background: #daa520;
-  margin: 10px auto;
-}*/
+#NomePerfil{
+  margin: 30px 0 20px 0;
+  color: #000;
+}
 
 #home #subtitle{
-  color: #fff;
+  color: #000;
   opacity: 0.50;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 #social {
@@ -122,22 +129,43 @@ nav img {
   font-size: 30px;
   cursor: pointer;
   margin: 0 10px;
-  color: #fff;
+  color: #000;
 }
 
 #social i:hover {
-  color: #daa520;
+  color: #fec63e;
 }
 
 .section{
-  color: #000;
-  padding: 8% 3%;
+  padding: 5% 3%;
+  border-top: 2px solid #fec63e;
 }
 
 /* About */
 
 #about {
   background: #fff;
+  
+}
+
+.img-about {
+  background-image: url(../img/sections/group-job.webp);
+  background-position: center;
+  background-size: cover;
+  padding: 5em 0 ;
+  position: relative;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.img-about h6 {
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-shadow: 0.1em 0.1em 0.15em #000;
+  text-indent: 1.5em;
 }
 
 #about .about-content,
@@ -147,45 +175,48 @@ nav img {
   margin: 0 auto;
 }
 
-#about .about-text p {
-  max-width: 600px;
+#introduction {
+  margin-bottom: 50px;
+  
+}
+
+#introduction p {
   margin: auto;
-  margin-bottom: 100px;
-  text-align: center;
   color: #000;
+  text-indent: 1.5em;
 }
 
 .title-section,
 footer #form-title {
   text-transform: uppercase;
   margin-bottom: 30px;
-  color: #daa520;
+  color: #fec63e;
   text-align: center;
 }
 
 #about .about-and-skills h5 {
   margin-left: 3rem;
   text-transform: uppercase;
-  color: #daa520;
+  color: #fec63e;
 }
 
 .profile li, 
 .skills li,
-#experiences-1 li,
-#experiences-2 li{
+#experience li,
+#experience li{
   display: flex;
   flex-direction: column;
   padding-left: 30px;
 }
 
-#about .about-and-skills .profile li span {
+#about .profile li span {
   color: #888888;
   margin-bottom: 10px;
   font-size: 14px;
 }
 
-#about .about-and-skills .profile li strong,
-#about .about-and-skills .skills ul li strong{
+#about .profile li strong,
+#about .skills ul li strong{
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0.2rem;
@@ -199,6 +230,7 @@ li .progress {
   width: 80%;
 }
 
+/* Referente as linhas de progresso */
 .percent20,
 .percent30,
 .percent35,
@@ -207,38 +239,30 @@ li .progress {
 .percent60,
 .percent70,
 .percent80 {
-  background-color: #003bc4;
+  background-color: #3d58ff;
   height: 100%;
 }
-
 .percent20 {
   width: 20%;
 }
-
 .percent30 {
   width: 30%;
 }
-
 .percent35 {
   width: 35%;
 }
-
 .percent40 {
   width: 40%;
 }
-
 .percent50 {
   width: 50%;
 }
-
 .percent60 {
   width: 60%;
 }
-
 .percent70 {
   width: 70%;
 }
-
 .percent80 {
   width: 80%;
 }
@@ -247,11 +271,17 @@ li .progress {
 /*############# formation ##############*/
 
 #formation{
-  background-color: #f7ede7;
+  background-color: #000;
+  color: #fec63e;
+}
+
+
+#formation i {
+  color: #888888;
 }
 
 #formation #tcc{
-  color: #000;
+  color: #fff;
 }
 
 #certificate-courses{
@@ -260,13 +290,14 @@ li .progress {
 }
 
 #formation p{
-  color: #daa520;
+  color: #fff;
 }
 
-/*experiencia*/
 
+/*    experiencia   */
 #experience{
-  background: #E1D7D2;
+  background: #FFD292;
+  color: #000;
 }
 
 #jobs{
@@ -281,8 +312,11 @@ li .progress {
 
 #formation li,
 #experience li{
-  color: #68809D;
+  color: #000;
+}
 
+#experience h4{
+  color: #000! important;
 }
 
 .office {
@@ -290,31 +324,75 @@ li .progress {
   opacity: 0.5;
 }
 
-/*additional-information*/
+
+/*    additional-information    */
 #additional-information{
   display: flex;
-  background-color: #CAC2BD;
   color: #000;
+}
+
+#infadd {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Linha abaixo do Nome*/
+#infadd::after{
+  content: "";
+  display: block;
+  width: 300px;
+  height: 2px;
+  background: #daa520;
+  margin: 10px auto;
 }
 
 .information {
   max-width: 350px !important;
   margin: 1rem auto;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 200px;
+  color: #fff;
+  text-shadow: 0.1em 0.1em 0.15em #000;
+  opacity: 0.6;
 }
 
-#additional-information p{
-  color: #000;
-  opacity: 0.8;
+.information:hover {
+  opacity: 1;
 }
 
+.personalidade {
+  background-image: url(../img/sections/Felipe-Image.jpeg);
+}
+
+.interesses {
+  background-image: url(../img/sections/laptop-computer.webp);
+}
+
+.hobbies {
+  background-image: url(../img/sections/book-read.jpg);
+}
+
+.voluntary {
+  background-image: url(../img/sections/hand-man.webp);
+  height: auto;
+}
+
+#frase {
+  max-width: 350px;
+  width: auto;
+  text-indent: 1.5em;
+  margin-top: 3rem;
+  color: #3d58ff;
+}
 
 /*footer*/
-
 footer{
   bottom: 0;
   width: 100%;
   background-color: #1d171f;
-  padding: 20px 0;
+  padding-top: 20px;
   line-height: 16px;
   color: #fff;
 }
@@ -441,14 +519,24 @@ input[type="submit"] {
   width: 80%;
 }
 
+.blockquote {
+  padding: 15px 0!important;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0!important;
+}
+
 blockquote,
 blockquote footer{
   margin: 0;
   padding: 0;
+  background: #fec63e;
 }
 
 blockquote p{
   font-size: 15px;
+  color: #000;
+  margin-bottom: 0;
 }
 
 /*Animation home bolline */
@@ -486,6 +574,11 @@ blockquote p{
   .navbar-nav #btnDownload{
     padding-left: 0;
   }
+  
+  .nav-link {
+    padding: 1rem;
+    line-height: 30px;
+  }
 
   /* home */
   #home {
@@ -509,7 +602,6 @@ blockquote p{
   }
 
   #about h5,
-  #about h4,
   #about .about-and-skills h5,
   #formation h4,
   #experience h4,
@@ -518,7 +610,7 @@ blockquote p{
     padding: 0 auto;
   }
 
-  #about .about-text p {
+  #about p {
     max-width: 100%;
     margin-bottom: 0;
     margin:0 10px 0 10px;
@@ -560,8 +652,7 @@ blockquote p{
     padding-right: 0! important;
   }
   
- #experiences-1 li,
- #experiences-2 li{
+ #jobs ul li{
     margin: 0 auto;
     padding: 0 auto;
   }
@@ -593,6 +684,11 @@ blockquote p{
   .information {
     text-align: center;
   }
+  
+  #frase {
+  margin-left: auto;
+  margin-right: auto;
+}
 
   /* Footer */
   footer{

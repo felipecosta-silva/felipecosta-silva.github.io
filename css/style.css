@@ -12,8 +12,7 @@ body {
 }
 
 li{
- 
-  list-style-type: none;
+   list-style-type: none;
 }
 
 .section i{
@@ -156,6 +155,7 @@ border: 5px solid #A9FDAC;
   position: relative;
   height: 250px;
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 .img-about h6 {
@@ -363,7 +363,7 @@ li .progress {
 }
 
 .personalidade {
-  background-image: url(../img/sections/Felipe-Image.jpeg);
+  background-image: url(../img/sections/Felipe-Image.webp);
 }
 
 .interesses {
@@ -371,7 +371,7 @@ li .progress {
 }
 
 .hobbies {
-  background-image: url(../img/sections/book-read.jpg);
+  background-image: url(../img/sections/book-read.webp);
 }
 
 .voluntary {
@@ -384,7 +384,8 @@ li .progress {
   width: auto;
   text-indent: 1.5em;
   margin-top: 3rem;
-  color: #3d58ff;
+  color: #daa520;
+  font-weight: bold;
 }
 
 /*footer*/
@@ -596,6 +597,10 @@ blockquote p{
     display: flex;
   }
   
+  .img-about {
+    padding: 1em 0;
+  }
+  
   #about .about-content {
     max-width: 100%;
     margin: 0 20px;
@@ -685,6 +690,10 @@ blockquote p{
     text-align: center;
   }
   
+  #infadd::after {
+    width: auto;
+  }
+  
   #frase {
   margin-left: auto;
   margin-right: auto;
@@ -697,7 +706,7 @@ blockquote p{
   }
 
   footer {
-    padding: 20% 0;
+    padding: 20% 0 0 0;
   }
 
   footer .contact-info {

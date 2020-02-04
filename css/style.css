@@ -82,22 +82,16 @@ nav img {
               0 8px 8px 0 rgba(0,0,0,.30);
 }
 
-#home figure img {
+#fotoPerfil {
   border: 4px groove #daa520;
+  max-width: 200px;
   width: 100%;
+  height: 200px;
+  background: transparent url('https://avatars2.githubusercontent.com/u/15041151?s=460&v=4teste'); 
   border-radius: 50%;
-  max-width: 220px;
-  height: 100%;
-}
-
-#home figure img:after {
-  content: "";
-  z-index: -1;
-top: -10px;
-left: -10px;
-right: -10px;
-bottom: -10px;
-border: 5px solid #A9FDAC;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #NomePerfil{

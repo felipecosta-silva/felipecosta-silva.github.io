@@ -15,6 +15,10 @@ li{
    list-style-type: none;
 }
 
+a {
+  text-decoration: none!important;
+}
+
 .section i{
   color: #a4a4a4;
 }
@@ -134,7 +138,7 @@ nav img {
 }
 
 #social i:hover {
-  color: #fec63e;
+  color: #f4cc6c;
 }
 
 /* About */
@@ -285,6 +289,15 @@ li .progress {
 #formation p{
   color: #fff;
 }
+
+#formation a {
+  color: #fec63e;
+}
+
+#formation a:hover {
+  color: #daa520;
+}
+
 
 
 /*    experiencia   */

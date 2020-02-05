@@ -23,9 +23,28 @@ h5 {
   color: #daa520;
 }
 
-/*linear-gradient(45deg, blue, red)*/
+.dourado,
+#dourado{
+  color: #daa520;
+}
 
 
+/* Box Shadow da Navbar e do #skill */
+.box-shadow {
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.30),
+              0 2px 2px 0 rgba(0,0,0,.30),
+              0 4px 4px 0 rgba(0,0,0,.30),
+              0 6px 6px 0 rgba(0,0,0,.30),
+              0 8px 8px 0 rgba(0,0,0,.30);
+}
+
+
+.section {
+  padding: 5% 3%;
+  border-top: 2px solid #fec63e;
+}
+
+/* Navbar */
 
 .navbar {
   background: #fec63e;
@@ -69,18 +88,7 @@ nav img {
   height: 20px;
 }
 
-.dourado,
-#dourado{
-  color: #daa520;
-}
-
-.box-shadow {
-  box-shadow: 0 1px 1px 0 rgba(0,0,0,.30),
-              0 2px 2px 0 rgba(0,0,0,.30),
-              0 4px 4px 0 rgba(0,0,0,.30),
-              0 6px 6px 0 rgba(0,0,0,.30),
-              0 8px 8px 0 rgba(0,0,0,.30);
-}
+/* parte inicial da página #home */
 
 #fotoPerfil {
   border: 4px groove #daa520;
@@ -129,16 +137,10 @@ nav img {
   color: #fec63e;
 }
 
-.section{
-  padding: 5% 3%;
-  border-top: 2px solid #fec63e;
-}
-
 /* About */
 
 #about {
   background: #fff;
-  
 }
 
 .img-about {
@@ -170,8 +172,7 @@ nav img {
 }
 
 #introduction {
-  margin-bottom: 50px;
-  
+  margin-bottom: 50px;  
 }
 
 #introduction p {
@@ -269,7 +270,6 @@ li .progress {
   color: #fec63e;
 }
 
-
 #formation i {
   color: #888888;
 }
@@ -280,7 +280,6 @@ li .progress {
 
 #certificate-courses{
   margin: 4rem auto 2rem auto;
-  
 }
 
 #formation p{
@@ -556,198 +555,4 @@ blockquote p{
   animation-direction: alternate;
   animation-iteration-count: infinite;
   animation-play-state: running;
-}
-
-@media only screen and (max-width: 768px){
-  /* Header */
-  header {
-    justify-content: flex-end;
-    margin: 20px 50px;
-  }
-
-  .navbar-nav #btnbaixar,
-  .navbar-nav #btnDownload{
-    padding-left: 0;
-  }
-  
-  .nav-link {
-    padding: 1rem;
-    line-height: 30px;
-  }
-
-  /* home */
-  #home {
-    padding: auto;
-  }
-
-  #home img {
-    max-width: 80%;
-  }
-  
-
-  /* About */
-  #about {
-    padding: 40px 0;
-    display: flex;
-  }
-  
-  .img-about {
-    padding: 1em 0;
-  }
-  
-  #about .about-content {
-    max-width: 100%;
-    margin: 0 20px;
-  }
-
-  #about h5,
-  #about .about-and-skills h5,
-  #formation h4,
-  #experience h4,
-  footer h4 {
-    margin: 8% 0 4% 0;
-    padding: 0 auto;
-  }
-
-  #about p {
-    max-width: 100%;
-    margin-bottom: 0;
-    margin:0 10px 0 10px;
-  }
-
-  #about .about-and-skills .profile,
-  #about .about-and-skills .skills{
-    margin: 40px 0;
-    padding-left: 0;
-  }
-
-  #about .about-and-skills h5,
-  #about .about-and-skills .skills ul,
-  #about .about-and-skills .skills li,
-  #about .about-and-skills .profile,
-  #about .about-and-skills .profile li{
-    text-align: center;
-    padding-left: 0;
-  }
-
-  #about .about-and-skills .skills ul li .progress {
-    margin: 10px 0 auto;
-    margin-left: 10%;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-
-  /* experience  */
-  
-  #experience .container{
-    padding-left: 0;
-    padding-right: 0;
-  }
-  
-  #job1,
-  #job2{
-    margin: 1rem auto;
-    padding-left: 0! important;
-    padding-right: 0! important;
-  }
-  
- #jobs ul li{
-    margin: 0 auto;
-    padding: 0 auto;
-  }
-  
-  /* Formation and Certificates */
-  #formation,
-  #experience,
-  #additional-information{
-    padding: 12% 8%;
-  }
-
-  #formation h3,
-  #experience h3 {
-    margin: 10px 0;
-  }
-
-  #formation #formationblock,
-  #experience #jobs {
-    margin-bottom: 25px;
-    margin: 2rem auto;
-  }
-  
-  #formation1,
-  .curso{
-    margin: 2rem auto;
-  }
-
-  /*additional-information*/
-  .information {
-    text-align: center;
-  }
-  
-  #infadd::after {
-    width: auto;
-  }
-  
-  #frase {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-  /* Footer */
-  footer{
-    padding:0 auto;
-    margin:0 auto;
-  }
-
-  footer {
-    padding: 20% 0 0 0;
-  }
-
-  footer .contact-info {
-    display: block;
-  }
-
-  footer i {
-    font-size: 35px;
-  }
-
-  footer h3 {
-    font-size: 14px;
-  }
-
-  footer p {
-    margin-top: 10px;
-    font-size: 14px;
-  }
-
-  footer #contact form {
-    display: block;
-    padding: 0;
-  }
-
-  input[type="submit"] {
-    margin: 30px !important;
-  }
-
-  footer .contact-info {
-    margin-bottom: 8%;
-  }
-
-  footer #SendMessage ul,
-  footer .contact-info ul{
-    margin: auto;
-  }
-
-  footer .contact-info ul{
-    padding-left: 15px;
-  }
-
-  #SendMessage .tituloRodape{
-    margin-left: 15px;
-  }
-
-  footer #SendMessage,
-  footer .contact-info{
-    margin: 5% 0 0 0;
-  }
 }

@@ -7,7 +7,7 @@ body,
 
 body {
   background-color: #fff;
-  padding-top: 70px;
+  padding-top: 100px;
   color: #fff;
 }
 
@@ -95,7 +95,6 @@ nav img {
 /* parte inicial da página #home */
 
 #fotoPerfil {
-  border: 4px groove #daa520;
   max-width: 200px;
   width: 100%;
   height: 200px;
@@ -105,6 +104,24 @@ nav img {
   margin-left: auto;
   margin-right: auto;
 }
+
+.borders {
+  position: relative;
+  border: 2px solid #daa520;
+}
+
+.borders::after {
+content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  background: #000;
+  z-index: -1;
+  border-radius: 50%;
+}
+
 
 #NomePerfil{
   margin: 30px 0 20px 0;
@@ -220,6 +237,15 @@ footer #form-title {
   font-size: 14px;
   letter-spacing: 0.2rem;
   line-height: 2rem;
+}
+
+#about .profile li strong a{
+  color: #212529! important;
+  
+}
+
+#about .profile li strong a:hover {
+  text-decoration: underline!important;
 }
 
 li .progress {
@@ -362,10 +388,14 @@ li .progress {
   color: #fff;
   text-shadow: 0.1em 0.1em 0.15em #000;
   opacity: 0.6;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
 }
 
-.information:hover {
+.information:hover, .information:focus {
   opacity: 1;
+  box-shadow: 0 8px 6px -6px black;
+  transform: translateY(-0.25em);
 }
 
 .personalidade {

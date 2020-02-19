@@ -85,11 +85,14 @@
     padding-right: 0;
   }
   
-  #job1,
-  #job2{
+  #jobs {
+	flex-wrap: wrap;
+}
+  
+  .job{
     margin: 1rem auto;
-    padding-left: 0! important;
-    padding-right: 0! important;
+    padding-left: auto! important;
+    padding-right: auto! important;
   }
   
  #jobs ul li{

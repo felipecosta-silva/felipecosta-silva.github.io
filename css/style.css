@@ -322,19 +322,41 @@ li .progress {
 
 #formation a:hover {
   color: #daa520;
+  opacity: .9;
+}
+
+.curso {
+  background-color: rgb(31, 31, 36);
+  padding: 20px;
+  border-radius: 5px;
+  margin: .5rem 0;
 }
 
 
 
 /*    experiencia   */
 #experience{
-  background: #FFD292;
-  color: #000;
+  background: rgb(23, 23, 26);
+  color: #fec63e;
+}
+
+#experience i {
+  color: #fff;
 }
 
 #jobs{
- display: flex;
- flex-wrap: wrap;
+ display: flex;  
+}
+
+.job {
+	background-color: rgb(31, 31, 36);
+  padding: 20px;
+  border-radius: 5px;
+  margin: .5rem;
+}
+
+#jobs li {
+  color: rgb(168, 168, 179);
 }
 
 #experience ul,
@@ -342,18 +364,12 @@ li .progress {
   padding-left: 0;
 }
 
-#formation li,
-#experience li{
+#formation li{
   color: #000;
-}
-
-#experience h4{
-  color: #000! important;
 }
 
 .office {
-  color: #000;
-  opacity: 0.5;
+  color: #fff;
 }
 
 

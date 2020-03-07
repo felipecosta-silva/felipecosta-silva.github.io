@@ -11,15 +11,15 @@ body {
   color: #fff;
 }
 
-li{
-   list-style-type: none;
+li {
+  list-style-type: none;
 }
 
 a {
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
 
-.section i{
+.section i {
   color: #a4a4a4;
 }
 
@@ -28,24 +28,36 @@ h5 {
 }
 
 .dourado,
-#dourado{
+#dourado {
   color: #daa520;
 }
 
 
 /* Box Shadow da Navbar e do #skill */
 .box-shadow {
-  box-shadow: 0 1px 1px 0 rgba(0,0,0,.30),
-              0 2px 2px 0 rgba(0,0,0,.30),
-              0 4px 4px 0 rgba(0,0,0,.30),
-              0 6px 6px 0 rgba(0,0,0,.30),
-              0 8px 8px 0 rgba(0,0,0,.30);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .30),
+    0 2px 2px 0 rgba(0, 0, 0, .30),
+    0 4px 4px 0 rgba(0, 0, 0, .30),
+    0 6px 6px 0 rgba(0, 0, 0, .30),
+    0 8px 8px 0 rgba(0, 0, 0, .30);
 }
 
 
 .section {
-  padding: 5% 3%;
-  border-top: 2px solid #fec63e;
+  padding: 0px 3% 5%;
+/*  border-top: 2px solid #fec63e;*/
+}
+
+.linha::before {
+    margin: 0px auto 50px;;
+}
+
+.linha::before{
+    content: "";
+    width: 50%;
+    height: 2px;
+    display: block !important;
+    background: rgb(254,198,61);
 }
 
 /* Navbar */
@@ -54,7 +66,7 @@ h5 {
   background: #fec63e;
   /*background: linear-gradient(100deg, #000010 0%, #fec63e 100%);*/
   line-height: 80px;
-  padding: 0! important;
+  padding: 0 ! important;
 }
 
 nav a {
@@ -64,16 +76,16 @@ nav a {
 
 .nav-link {
   margin: 0;
-  padding: 10px! important;
+  padding: 10px ! important;
   text-transform: uppercase;
   font-weight: bold;
   transition: all .3s ease;
-  
+
 }
 
-nav li:hover > a{ 
+nav li:hover > a {
   background: #000;
-  color: #daa520! important;
+  color: #daa520 ! important;
 }
 
 nav img {
@@ -82,14 +94,24 @@ nav img {
 }
 
 .boxTradutor,
-.goog-te-banner-frame{
+.goog-te-banner-frame {
   display: none;
 }
 
 #flagBr,
-#flagEn{
+#flagEn {
   width: 20px;
   height: 20px;
+  transition: transform 1s;
+/*  transform: translateX(10) scale(0.5);*/
+}
+
+#flagBr:hover,
+#flagEn:hover,
+#flagBr:focus,
+#flagEn:focus {
+  transform: scale(1.2);
+  
 }
 
 /* parte inicial da página #home */
@@ -98,7 +120,7 @@ nav img {
   max-width: 200px;
   width: 100%;
   height: 200px;
-  background: transparent url('https://avatars2.githubusercontent.com/u/15041151?s=460&v=4teste'); 
+  background: transparent url('https://avatars2.githubusercontent.com/u/15041151?s=460&v=4teste');
   border-radius: 50%;
   background-size: cover;
   margin-left: auto;
@@ -111,7 +133,7 @@ nav img {
 }
 
 .borders::after {
-content: '';
+  content: '';
   position: absolute;
   top: -5px;
   left: -5px;
@@ -123,12 +145,12 @@ content: '';
 }
 
 
-#NomePerfil{
+#NomePerfil {
   margin: 30px 0 20px 0;
   color: #000;
 }
 
-#home #subtitle{
+#home #subtitle {
   color: #000;
   opacity: 0.50;
   margin-top: 1rem;
@@ -140,7 +162,7 @@ content: '';
   flex-wrap: wrap;
 }
 
-#social ul{
+#social ul {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -168,10 +190,11 @@ content: '';
   background-image: url(../img/sections/group-job.webp);
   background-position: center;
   background-size: cover;
-  padding: 5em 0 ;
+  padding: 5em 0;
   position: relative;
   height: 250px;
   margin-bottom: 20px;
+  border-radius: 5px;
   box-sizing: border-box;
 }
 
@@ -193,7 +216,7 @@ content: '';
 }
 
 #introduction {
-  margin-bottom: 50px;  
+  margin-bottom: 50px;
 }
 
 #introduction p {
@@ -205,89 +228,111 @@ content: '';
 .title-section,
 footer #form-title {
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   color: #fec63e;
   text-align: center;
 }
 
-#about .about-and-skills h5 {
-  margin-left: 3rem;
-  text-transform: uppercase;
-  color: #fec63e;
-}
-
-.profile li, 
-.skills li,
-#experience li,
-#experience li{
+#experience li {
   display: flex;
   flex-direction: column;
   padding-left: 30px;
 }
 
-#about .profile li span {
-  color: #888888;
-  margin-bottom: 10px;
-  font-size: 14px;
+.skills-title {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
-#about .profile li strong,
-#about .skills ul li strong{
+.skills-title::before {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    margin-right: 20px;
+    background: rgb(254,198,61);
+}
+
+#skills {
+	display: flex;
+  flex-wrap: wrap;
+}
+
+#skills ul li strong {
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0.2rem;
   line-height: 2rem;
 }
 
-#about .profile li strong a{
-  color: #212529! important;
-  
-}
-
-#about .profile li strong a:hover {
-  text-decoration: underline!important;
-}
-
 li .progress {
   background-color: #ddd;
   height: 8px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   width: 80%;
 }
 
-/* Referente as linhas de progresso */
-.percent20,
-.percent30,
-.percent35,
-.percent40,
-.percent50,
-.percent60,
-.percent70,
-.percent80 {
-  background-color: #3d58ff;
-  height: 100%;
+.progress #html {
+  background-color: #e26932;
 }
+
+.progress #css {
+  background-color: #3d58ff;
+}
+
+.progress #java {
+  background-color: #ec5453;
+}
+.progress #js {
+  background-color: #f9bf3e;
+}
+.progress #bootstrap {
+  background-color: rgb(170,104,241);
+}
+
+.progress #sass {
+  background-color: rgb(207,100,154);
+}
+
+.progress #github {
+  background-color: #4dac6c;
+}
+
+/* Referente as linhas de progresso */
+
 .percent20 {
   width: 20%;
 }
+
 .percent30 {
   width: 30%;
 }
+
 .percent35 {
   width: 35%;
 }
+
 .percent40 {
   width: 40%;
 }
+
 .percent50 {
   width: 50%;
 }
+
 .percent60 {
   width: 60%;
 }
+
 .percent70 {
   width: 70%;
 }
+
 .percent80 {
   width: 80%;
 }
@@ -295,7 +340,7 @@ li .progress {
 
 /*############# formation ##############*/
 
-#formation{
+#formation {
   background-color: #000;
   color: #fec63e;
 }
@@ -304,15 +349,15 @@ li .progress {
   color: #888888;
 }
 
-#formation #tcc{
+#formation #tcc {
   color: #fff;
 }
 
-#certificate-courses{
+#certificate-courses {
   margin: 4rem auto 2rem auto;
 }
 
-#formation p{
+#formation p {
   color: #fff;
 }
 
@@ -325,7 +370,26 @@ li .progress {
   opacity: .9;
 }
 
-.curso, #formation1 {
+#formation1 {
+  display: flex;
+}
+
+#formation1 .col{
+  margin: auto;
+}
+
+#congratulation {
+	background: url("../img/Diplom.png") no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+  width: 125px;
+  height: 125px;
+  position: relative;
+}
+
+
+.curso,
+#formation1 {
   background-color: rgb(31, 31, 36);
   padding: 20px;
   border-radius: 5px;
@@ -335,9 +399,10 @@ li .progress {
 
 
 /*    experiencia   */
-#experience{
+
+#experience {
   background: rgb(26, 25, 23);
-  
+
   color: #fec63e;
 }
 
@@ -345,12 +410,12 @@ li .progress {
   color: #fff;
 }
 
-#jobs{
- display: flex;  
+#jobs {
+  display: flex;
 }
 
 .job {
-	background-color: rgb(31, 31, 36);
+  background-color: rgb(31, 31, 36);
   padding: 20px;
   border-radius: 5px;
   margin: .5rem;
@@ -361,11 +426,17 @@ li .progress {
 }
 
 #experience ul,
-#experience ul li{
+#experience ul li {
   padding-left: 0;
 }
 
-#formation li{
+#experience li {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+#formation li {
   color: #000;
 }
 
@@ -375,24 +446,10 @@ li .progress {
 
 
 /*    additional-information    */
-#additional-information{
+#additional-information {
   display: flex;
+  flex-wrap: wrap;
   color: #000;
-}
-
-#infadd {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/*Linha abaixo do Nome*/
-#infadd::after{
-  content: "";
-  display: block;
-  width: 300px;
-  height: 2px;
-  background: #daa520;
-  margin: 10px auto;
 }
 
 .information {
@@ -409,7 +466,8 @@ li .progress {
   transition: all 0.2s ease-in-out;
 }
 
-.information:hover, .information:focus {
+.information:hover,
+.information:focus {
   opacity: 1;
   box-shadow: 0 8px 6px -6px black;
   transform: translateY(-0.25em);
@@ -442,7 +500,7 @@ li .progress {
 }
 
 /*footer*/
-footer{
+footer {
   bottom: 0;
   width: 100%;
   background-color: #1d171f;
@@ -452,12 +510,12 @@ footer{
 }
 
 #contact,
-#message{
+#message {
   margin: 0 auto;
 
 }
 
-.contact-info li{
+.contact-info li {
   margin: 15px auto;
   padding: 7px 0 7px 0;
   width: 70%;
@@ -475,7 +533,7 @@ footer .contact-info img {
   text-decoration: none;
 }
 
-.contact-info a:hover{
+.contact-info a:hover {
   color: #fff;
   opacity: 0.50;
   text-decoration: none;
@@ -489,12 +547,12 @@ footer .contact-info img {
   margin-bottom: 0;
 }
 
-.contact-info #btndownloadfooter{
+.contact-info #btndownloadfooter {
   color: #ffc107;
   padding: 2%;
 }
 
-.contact-info #btndownloadfooter:hover{
+.contact-info #btndownloadfooter:hover {
   color: #000;
   opacity: 0.90 !important;
 }
@@ -504,7 +562,7 @@ footer #SendMessage form {
   padding: 0;
 }
 
-#SendMessage{
+#SendMessage {
   text-align: center;
 }
 
@@ -532,12 +590,12 @@ input[type="submit"] {
 }
 
 .contact-info,
-#SendMessage{
+#SendMessage {
   margin-left: 10%;
 }
 
 .contact-info ul,
-#SendMessage ul{
+#SendMessage ul {
   margin: 10px 15px;
   width: 100%;
   float: left;
@@ -545,63 +603,68 @@ input[type="submit"] {
   list-style-type: none;
 }
 
-#SendMessage ul{
-  margin-bottom: 0! important;
+#SendMessage ul {
+  margin-bottom: 0 ! important;
 }
 
-.contact-info .tituloRodape, 
-#SendMessage .form-titulo{
+.contact-info .tituloRodape,
+#SendMessage .form-titulo {
   text-transform: uppercase;
   text-align: left;
   padding-left: 0;
   margin: 15px auto 15px 0;
 }
 
-#SendMessage .form-titulo{
+#SendMessage .form-titulo {
   padding: 7px 0 0 0;
   margin-bottom: 0;
 }
 
 #form-name,
-#form-email{
+#form-email {
   margin-top: 0;
 }
 
-#SendMessage li{
+#SendMessage li {
   padding: auto;
   margin: auto;
   width: 80%;
 }
 
 .blockquote {
-  padding: 15px 0!important;
+  padding: 15px 0 !important;
   text-align: center;
   margin-top: 1rem;
-  margin-bottom: 0!important;
+  margin-bottom: 0 !important;
 }
 
 blockquote,
-blockquote footer{
+blockquote footer {
   margin: 0;
   padding: 0;
   background: #fec63e;
 }
 
-blockquote p{
+blockquote p {
   font-size: 15px;
   color: #000;
   margin-bottom: 0;
 }
 
 /*Animation home bolline */
-#animationbox{
+#animationbox {
   width: 160px;
   margin: 0 auto;
 }
 
 @keyframes linha {
-  0% {margin-left: 0%;}
-  100% {margin-left: 96%;}
+  0% {
+    margin-left: 0%;
+  }
+
+  100% {
+    margin-left: 96%;
+  }
 }
 
 .linhaNome {

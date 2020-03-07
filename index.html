@@ -7,8 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
   <meta name="author" content="Felipe Costa">
   <!-- Definindo uma descrição para o site, melhora a performance nas buscas do google -->
-  <meta name="description" content="Portfólio, Portfólio Felipe Costa">
+  <meta name="description" content="Bacharel em Ciência da computação e desenvolvedor Front-End. Entusiasta da tecnologia, amo programação, inovação e mais que o mundo digital pode nos proporcionar">
   <title>Felipe Costa</title>
+  <link rel="base" href="felipecosta-silva.github.io">
+  <link rel="canonical" href="felipecosta-silva.github.io">
   <!-- icone aba do navegador -->
   <link rel="shortcut icon" href="img/icon-navbar/lg-narbar-brand.png" type="image/x-icon" />
   <!-- CSS -->
@@ -56,12 +58,12 @@
           <!-- Função para Download do curriculo -->
           <ul class="navbar-nav ml-auto btnbaixar">
             <li>
-              <a class="nav-link" href="documents/pdf/Curr%C3%ADculo%20Felipe%20Costa%20da%20Silva.pdf" id="btnDownload" download="Currículo Felipe Costa da Silva.pdf">Curriculo <i style="font-size:15px" class="fa">&#xf1c1;</i></a>
+              <a class="nav-link" href="documents/pdf/Curr%C3%ADculo%20Felipe%20Costa%20da%20Silva.pdf" id="btnDownload" download="Currículo Felipe Costa da Silva.pdf">Download CV</a>
             </li>
           </ul>
           <!-- Tradutor da página inglês e português -->
           <div class="boxTradutor" id="google_translate_element"></div>
-          <a href="javascript:trocarIdioma('pt')"><img id="flagBr" alt="Traduzir para o Portugues-br" src="img/icon-navbar/Brazil.ico"></a>
+          <a class="zoom" href="javascript:trocarIdioma('pt')"><img id="flagBr" alt="Traduzir para o Portugues-br" src="img/icon-navbar/Brazil.ico"></a>
           <a href="javascript:trocarIdioma('en')"><img id="flagEn" alt="Traduzir para o Ingles" src="img/icon-navbar/United-States.ico"></a>
         </div>
       </div>
@@ -112,101 +114,107 @@
   <!-- Início do corpo -->
   <main>
     <!-- Início da section Sobre -->
-    <section class="container section" id="about">
+    <section class="container section linha" id="about">
       <div>
         <div>
-          <h4 class="mb-3 title-section">Sobre</h4>
+          <h4 class="title-section">Sobre</h4>
           <div class="img-about">
             <h6>Paciência e perseverança tem o efeito mágico de fazer as dificuldades desaparecerem e os obstáculos sumirem.<cite> - John Quincy Adams</cite></h6>
           </div>
           <div class="px-2" id="introduction">
-           <p>Buscando novos horizontes na área da programação. Tenho a pretensão de atuar inicialmente como Desenvolvedor Web front-end, querendo apenas uma chance de mostrar o quanto sou dedicado e estou disposto a aprender.</p>
+            <p>Buscando novos horizontes na área da programação. Tenho a pretensão de atuar inicialmente como Desenvolvedor Web front-end, querendo apenas uma chance de mostrar o quanto sou dedicado e estou disposto a aprender.</p>
             <p>Trabalho bem em equipe, gosto de interagir com pessoas, conhecer gente nova e diferente. Tenho uma boa comunicação com os colegas de trabalho e procuro sempre manter essa relação a melhor possível. Focado, entusiasmado e de rápida aprendizagem, sou bastante realista ao estabelecer as minhas metas, sempre faço o possível para alcança-las e esforço-me mais ainda para tentar superá-las.<br>
             </p>
             <p>Procuro ajudar as pessoas sempre que posso, o bom senso auxilia nas minhas tomadas de decisões, ofereço sempre o meu melhor em busca de progredir pelos meus próprios méritos.</p>
           </div>
         </div>
-        <div class="container mt-5 about-and-skills">
-          <div class="row">
-            <div class="col-sm-12 col-md-6 pl-sm-5">
-              <h5 id="profile-title">Perfil</h5>
-              <ul class="profile">
-                <li>
-                  <strong id="profile-name"><i class="far fa-user"></i> Nome</strong>
-                  <span>Felipe Costa da Silva</span>
-                </li>
-                <li>
-                  <strong id="profile-birth"><i class="fas fa-gift"></i> Aniversário</strong>
-                  <span>13/03/1992</span>
-                </li>
-                <li>
-                  <strong><i class="fas fa-at"></i> E-mail</strong>
-                  <span>felipecostati@gmail.com</span>
-                </li>
-                <li>
-                  <strong id="profile-address"><i class="fas fa-map-marker-alt"></i> Endereço</strong>
-                  <span id="profile-address-text">Av. Floriano Peixoto, Santana - Jaboatão, PE</span>
-                </li>
-                <li>
-                  <strong><i class="fas fa-mobile-alt"></i><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5581995236005" alt="81 99523-6005" target="_blank"><i class="fab fa-whatsapp ml-1"></i> Fone</strong>
-                  <span>+55 (81) 99523-6005</span></a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-sm-12 col-md-6 pl-md-5 skills">
-              <h5 id="skills-title">Habilidades </h5>
-              <ul>
-                <li>
-                  <strong><i class="fab fa-html5"></i> HTML5</strong>
-                  <div class="progress box-shadow">
-                    <div class="percent60"></div>
-                  </div>
-                </li>
-                <li>
-                  <strong><i class="fab fa-css3-alt"></i> CSS</strong>
-                  <div class="progress box-shadow">
-                    <div class="percent60"></div>
-                  </div>
-                </li>
-                <li>
-                  <strong><i class="fab fa-java"></i> Java</strong>
-                  <div class="progress box-shadow">
-                    <div class="percent35"></div>
-                  </div>
-                </li>
-                <li>
-                  <strong><i class="fab fa-js-square"></i> JavaScript</strong>
-                  <div class="progress box-shadow">
-                    <div class="percent20"></div>
-                  </div>
-                </li>
-                <li>
-                  <strong><i class="fab fa-bootstrap"></i> Bootstrap</strong>
-                  <div class="progress box-shadow">
-                    <div class="percent30"></div>
-                  </div>
-                </li>
-              </ul>
-            </div>
+      </div>
+    </section>
+    <section class="section linha">
+      <div class="container">
+        <div>
+          <h4 class="mb-5 title-section habi">Habilidades</h4>
+        </div>
+        <div class="col-12" id="skills">
+          <div class="col-sm-12 col-md-4">
+            <h5 class="skills-title">Linguagens</h5>
+            <ul>
+              <li>
+                <strong> HTML5</strong>
+                <div class="progress box-shadow">
+                  <div class="percent70" id="html"></div>
+                </div>
+              </li>
+              <li>
+                <strong> CSS</strong>
+                <div class="progress box-shadow">
+                  <div class="percent70" id="css"></div>
+                </div>
+              </li>
+              <li>
+                <strong> Sass</strong>
+                <div class="progress box-shadow">
+                  <div class="percent20" id="sass"></div>
+                </div>
+              </li>
+              <li>
+                <strong> Java</strong>
+                <div class="progress box-shadow">
+                  <div class="percent20" id="java"></div>
+                </div>
+              </li>
+              <li>
+                <strong> JavaScript</strong>
+                <div class="progress box-shadow">
+                  <div class="percent35" id="js"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h5 class="skills-title">Frameworks</h5>
+            <ul>
+              <li>
+                <strong> Bootstrap</strong>
+                <div class="progress box-shadow">
+                  <div class="percent40" id="bootstrap"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h5 class="skills-title">Ferramentas</h5>
+            <ul>
+              <li>
+                <strong> Git/Github</strong>
+                <div class="progress box-shadow">
+                  <div class="percent20" id="github"></div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
     <!-- Fim da section sobre -->
     <!-- Início da section Formação -->
-    <section class="section" id="formation">
+    <section class="section linha" id="formation">
       <div class="container">
         <div class="title-section">
           <h4>Formação Acadêmica</h4>
         </div>
         <div class="row" id="formationblock">
-          <div id="formation1">
-            <i class="fas fa-user-graduate"></i>
-            <h5 id="formation-1">FATECPE - Faculdade de Tecnologia e Ciência de Pernambuco - BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO</h5>
-            <p>Recife - PE | 01/2013 - 06/2017</p>
-            <h5>Trabalho de conclusão de curso</h5>
-            <p id="tcc">A Internet das Coisas - Aspectos e Funcionalidades. 2017.<br>Graduação em BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO - FACULDADE DE TECNOLOGIA E CIÊNCIAS DE PERNAMBUCO.<br>
-              Orientador: <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4010576T5" target="_blank">Áurea Roberta de Azevedo Rodrigues.</a></p>
+          <div class="col" id="formation1">
+            <div class="col">
+              <div class="" id="congratulation"></div>
+            </div>
+            <div class="col-xs-12 col-10">
+              <h5 id="formation-1">FATECPE - Faculdade de Tecnologia e Ciência de Pernambuco - BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO</h5>
+              <p>Recife - PE | 01/2013 - 06/2017</p>
+              <h5>Trabalho de conclusão de curso</h5>
+              <p id="tcc">A Internet das Coisas - Aspectos e Funcionalidades. 2017.<br>Graduação em BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO - FACULDADE DE TECNOLOGIA E CIÊNCIAS DE PERNAMBUCO.<br>
+                Orientador: <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4010576T5" target="_blank">Áurea Roberta de Azevedo Rodrigues.</a></p>
+            </div>
           </div>
           <div class="title-section" id="certificate-courses">
             <h4>Cursos e certificados</h4>
@@ -238,27 +246,33 @@
           <div class="curso">
             <i class="fas fa-laptop-code"></i>
             <i class="fas fa-layer-group"></i>
-            <h5 id="formation-3"><a href="/certificados/Desenvolvedor-Front-End-Web.webp" target="_blank">Desenvolvedor front-End Web: Html5, Bootstrap e CSS3 - Udemy</a></h5>
+            <h5><a href="/certificados/Desenvolvedor-Front-End-Web.webp" target="_blank">Desenvolvedor front-End Web: Html5, Bootstrap e CSS3 - Udemy</a></h5>
             <p>Recife - PE | 01/2020 - 02/2020</p>
           </div>
           <div class="curso">
             <i class="fas fa-laptop-code"></i>
-            <i class="fas fa-layer-group"></i>
-            <h5><a href="/certificados/Certificate_CSS_Flexbox.webp" target="_blank">CSS FLEXBOX - Origamid</a></h5>
-            <p>Recife - PE | 02/2020</p>
+            <i class="fab fa-js-square"></i>
+            <h5><a href="#" target="_blank">Curso Web moderno com JavaScript Completo - Cod3r.com (77h) - Udemy</a></h5>
+            <p>Recife - PE | início 01/2020</p>
           </div>
           <div class="curso">
             <i class="fas fa-laptop-code"></i>
-            <i class="fab fa-js-square"></i>
-            <h5>Curso Web moderno com JavaScript Completo - Udemy</h5>
-            <p>Recife - PE | início 01/2020</p>
+            <i class="fas fa-layer-group"></i>
+            <h5><a href="/certificados/Certificate_CSS_Flexbox.webp" target="_blank">CSS FLEXBOX (6h)- Origamid</a></h5>
+            <p>Recife - PE | 12/2019 - 02/2020</p>
+          </div>
+          <div class="curso">
+            <i class="fas fa-laptop-code"></i>
+            <i class="fas fa-layer-group"></i>
+            <h5><a href="/certificados/certificate-Bootstrap4.webp" target="_blank">Bootstrap 4 (5h)- Origamid</a></h5>
+            <p>Recife - PE | 02/2020 - 02/2020</p>
           </div>
         </div>
       </div>
     </section>
     <!-- Fim da section Formação -->
     <!-- Início da section Experiência -->
-    <section class="section" id="experience">
+    <section class="section linha" id="experience">
       <div class="container">
         <div>
           <h4 class="mb-5 title-section">Experiências Profissionais</h4>
@@ -274,7 +288,7 @@
               <li> Instalação e remoção de programas (windows/Linux);</li>
               <li> Manutenção Hardware e software (windows/Linux);</li>
               <li> Desenvolvimento de rotinas de suporte;</li>
-              <li> Manutenção de usuários e resolução de problemas;</li> 
+              <li> Manutenção de usuários e resolução de problemas;</li>
               <li> Suporte remoto via ferramentas diversas (Teamviewer, Anydesk, etc...);</li>
               <li> Suporte ao usuário/funcionário em todos os departamentos;</li>
               <li> Treinamento aos funcionários internos com relação ao sistema.</li>
@@ -291,7 +305,7 @@
               <li> Manutenção Hardware e software (windows/Linux);</li>
               <li> Instalação e manutenção Raspberry PI;</li>
               <li> Desenvolvimento de rotinas de suporte;</li>
-              <li> Manutenção de usuários e resolução de problemas;</li> 
+              <li> Manutenção de usuários e resolução de problemas;</li>
               <li> Suporte remoto via ferramentas diversas (Teamviewer, Anydesk, etc...);</li>
               <li> Suporte ao usuário/funcionário em todos os departamentos;</li>
               <li> Suporte interno ao sistema vision (homologado pela Honda);</li>
@@ -304,12 +318,12 @@
     </section>
     <!-- Fim da section Experiência -->
     <!-- Início da section Informações Adicionais -->
-    <section class="container section" id="additional-information">
+    <section class="container section linha">
       <div class="container px-md-3">
         <div>
-          <h4 class="title-section" id="infadd">Informações Adicionais</h4>
+          <h4 class="title-section">Informações Adicionais</h4>
         </div>
-        <div class="row pt-3">
+        <div class="row pt-3" id="additional-information">
           <div class="col-xs-12 col-md-6 information personalidade">
             <h3 id="personality-title">Personalidade</h3>
             <p id="personality-text">Tenho uma personalidade calma e tranquila, proativo, procuro sempre ajudar quando me for permitido ofereçendo o meu melhor.
@@ -367,9 +381,6 @@
                   <span>CEP 54.160-425</span>
                   , Jaboatão/PE - Brasil
                 </a>
-              </li>
-              <li id="downloadfooter">
-                <a class="btn btn-outline-warning" href="documents/pdf/Curr%C3%ADculo%20Felipe%20Costa%20da%20Silva.pdf" id="btndownloadfooter" download="Currículo Felipe Costa da Silva.pdf">Curriculo <i style="font-size:15px" class="fa">&#xf1c1;</i></a>
               </li>
             </ul>
           </div>

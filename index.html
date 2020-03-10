@@ -114,8 +114,8 @@
   <!-- Início do corpo -->
   <main>
     <!-- Início da section Sobre -->
-    <section class="container section linha" id="about">
-      <div>
+    <section class="section linha" id="about">
+      <div class="container">
         <div>
           <h4 class="title-section">Sobre</h4>
           <div class="img-about">
@@ -136,7 +136,7 @@
           <h4 class="mb-5 title-section habi">Habilidades</h4>
         </div>
         <div class="col-12" id="skills">
-          <div class="col-sm-12 col-md-4">
+          <div class="col-sm-12 col-md-4 pb-5">
             <h5 class="skills-title">Linguagens</h5>
             <ul>
               <li>
@@ -171,7 +171,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-sm-12 col-md-4">
+          <div class="col-sm-12 col-md-4 pb-5">
             <h5 class="skills-title">Frameworks</h5>
             <ul>
               <li>
@@ -182,7 +182,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-sm-12 col-md-4">
+          <div class="col-sm-12 col-md-4 pb-5">
             <h5 class="skills-title">Ferramentas</h5>
             <ul>
               <li>
@@ -204,11 +204,11 @@
           <h4>Formação Acadêmica</h4>
         </div>
         <div class="row" id="formationblock">
-          <div class="col" id="formation1">
-            <div class="col">
-              <div class="" id="congratulation"></div>
+          <div class="col d-flex flex-wrap" id="formation1">
+            <div class="col d-none d-md-block">
+              <div class="congratulation"></div>
             </div>
-            <div class="col-xs-12 col-10">
+            <div class="col-sm-12 col-md-10">
               <h5 id="formation-1">FATECPE - Faculdade de Tecnologia e Ciência de Pernambuco - BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO</h5>
               <p>Recife - PE | 01/2013 - 06/2017</p>
               <h5>Trabalho de conclusão de curso</h5>
@@ -220,52 +220,108 @@
             <h4>Cursos e certificados</h4>
           </div>
           <div class="curso">
-            <i class="fa fa-graduation-cap"></i>
-            <h5>Projeto Integrado de Cursos - Curso de Inglês básico</h5>
-            <p>Jaboatão dos Guararapes - PE | 10/2011</p>
+            <div class="col d-flex flex-wrap certification-course">
+              <div class="col courses d-none d-md-block">
+                <div class="certification"></div>
+              </div>
+              <div class="col-md-10 p-xs-0">
+                <i class="fa fa-graduation-cap"></i>
+                <h5>Projeto Integrado de Cursos - Curso de Inglês básico</h5>
+                <p>Jaboatão dos Guararapes - PE | 10/2011</p>
+              </div>
+            </div>
           </div>
           <div class="curso">
-            <i class="fa fa-graduation-cap"></i>
-            <i class="fab fa-java"></i>
-            <h5><a href="/certificados/Academia_java-FelipeCosta.webp" target="_blank">Academia JAVA (102h) - Fuctura Tecnologia - Certificação Java</a></h5>
-            <p>Recife - PE | 06/2018 - 12/2018</p>
+            <div class="col certification-course">
+              <div class="col courses d-none d-md-block">
+                <div class="certification"></div>
+              </div>
+              <div class="col-md-10">
+                <i class="fa fa-graduation-cap"></i>
+                <i class="fab fa-java"></i>
+                <h5><a href="/certificados/Academia_java-FelipeCosta.webp" target="_blank">Academia JAVA (102h) - Fuctura Tecnologia - Certificação Java</a></h5>
+                <p>Recife - PE | 06/2018 - 12/2018</p>
+              </div>
+            </div>
           </div>
           <div class="curso">
-            <i class="fa fa-graduation-cap"></i>
-            <i class="fab fa-linux"></i><i class="fas fa-laptop-code"></i>
-            <h5><a href="/certificados/Academia_Linux-FelipeCosta.webp" target="_blank">Academia LINUX (108h) - Fuctura Tecnologia - Certificação Linux LPI Essentials</a></h5>
-            <p>Recife - PE | 04/2019 - 09/2019</p>
+            <div class="col certification-course">
+              <div class="col courses d-none d-md-block">
+                <div class="certification"></div>
+              </div>
+              <div class="col-md-10">
+                <i class="fa fa-graduation-cap"></i>
+                <i class="fab fa-linux"></i><i class="fas fa-laptop-code"></i>
+                <h5><a href="/certificados/Academia_Linux-FelipeCosta.webp" target="_blank">Academia LINUX (108h) - Fuctura Tecnologia - Certificação Linux LPI Essentials</a></h5>
+                <p>Recife - PE | 04/2019 - 09/2019</p>
+              </div>
+            </div>
           </div>
           <div class="curso">
-            <i class="fas fa-laptop-code"></i>
-            <i class="fab fa-html5"></i>
-            <i class="fab fa-css3-alt"></i>
-            <h5><a href="/certificados/HTML5-e-CSS3-Técnicas-Avançadas-_Com-Flexbox-e-4-Projetos_.webp" target="_blank">HTML5 e CSS3 - Técnicas Avançadas (Com Flexbox e 4 Projetos) - Udemy</a></h5>
-            <p>Recife - PE | 11/2019</p>
+            <div class="col certification-course">
+              <div class="col courses d-none d-md-block">
+                <div class="certification"></div>
+              </div>
+              <div class="col-md-10">
+                <i class="fas fa-laptop-code"></i>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <h5><a href="/certificados/HTML5-e-CSS3-Técnicas-Avançadas-_Com-Flexbox-e-4-Projetos_.webp" target="_blank">HTML5 e CSS3 - Técnicas Avançadas (Com Flexbox e 4 Projetos) - Udemy</a></h5>
+                <p>Recife - PE | 11/2019</p>
+              </div>
+            </div>
           </div>
           <div class="curso">
-            <i class="fas fa-laptop-code"></i>
-            <i class="fas fa-layer-group"></i>
-            <h5><a href="/certificados/Desenvolvedor-Front-End-Web.webp" target="_blank">Desenvolvedor front-End Web: Html5, Bootstrap e CSS3 - Udemy</a></h5>
-            <p>Recife - PE | 01/2020 - 02/2020</p>
+            <div class="col certification-course">
+              <div class="col courses d-none d-md-block">
+                <div class="certification"></div>
+              </div>
+              <div class="col-md-10">
+                <i class="fas fa-laptop-code"></i>
+                <i class="fas fa-layer-group"></i>
+                <h5><a href="/certificados/Desenvolvedor-Front-End-Web.webp" target="_blank">Desenvolvedor front-End Web: Html5, Bootstrap e CSS3 - Udemy</a></h5>
+                <p>Recife - PE | 01/2020 - 02/2020</p>
+              </div>
+            </div>
           </div>
           <div class="curso">
-            <i class="fas fa-laptop-code"></i>
-            <i class="fab fa-js-square"></i>
-            <h5><a href="#" target="_blank">Curso Web moderno com JavaScript Completo - Cod3r.com (77h) - Udemy</a></h5>
-            <p>Recife - PE | início 01/2020</p>
+            <div class="col certification-course">
+              <div class="col courses d-none d-md-block">
+                <div class="certification"></div>
+              </div>
+              <div class="col-md-10">
+                <i class="fas fa-laptop-code"></i>
+                <i class="fab fa-js-square"></i>
+                <h5><a href="#" target="_blank">Curso Web moderno com JavaScript Completo - Cod3r.com (77h) - Udemy</a></h5>
+                <p>Recife - PE | início 01/2020</p>
+              </div>
+            </div>
           </div>
           <div class="curso">
-            <i class="fas fa-laptop-code"></i>
-            <i class="fas fa-layer-group"></i>
-            <h5><a href="/certificados/Certificate_CSS_Flexbox.webp" target="_blank">CSS FLEXBOX (6h)- Origamid</a></h5>
-            <p>Recife - PE | 12/2019 - 02/2020</p>
+            <div class="col certification-course">
+              <div class="col courses d-none d-md-block">
+                <div class="certification"></div>
+              </div>
+              <div class="col-md-10">
+                <i class="fas fa-laptop-code"></i>
+                <i class="fas fa-layer-group"></i>
+                <h5><a href="/certificados/Certificate_CSS_Flexbox.webp" target="_blank">CSS FLEXBOX (6h)- Origamid</a></h5>
+                <p>Recife - PE | 12/2019 - 02/2020</p>
+              </div>
+            </div>
           </div>
           <div class="curso">
-            <i class="fas fa-laptop-code"></i>
-            <i class="fas fa-layer-group"></i>
-            <h5><a href="/certificados/certificate-Bootstrap4.webp" target="_blank">Bootstrap 4 (5h)- Origamid</a></h5>
-            <p>Recife - PE | 02/2020 - 02/2020</p>
+            <div class="col certification-course">
+              <div class="col courses d-none d-md-block">
+                <div class="certification"></div>
+              </div>
+              <div class="col-md-10">
+                <i class="fas fa-laptop-code"></i>
+                <i class="fas fa-layer-group"></i>
+                <h5><a href="/certificados/certificate-Bootstrap4.webp" target="_blank">Bootstrap 4 (5h)- Origamid</a></h5>
+                <p>Recife - PE | 02/2020 - 02/2020</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

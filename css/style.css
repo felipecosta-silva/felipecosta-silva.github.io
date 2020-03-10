@@ -208,7 +208,6 @@ nav img {
   text-indent: 1.5em;
 }
 
-#about .about-content,
 #formationblock {
   display: block;
   max-width: 850px;
@@ -370,21 +369,40 @@ li .progress {
   opacity: .9;
 }
 
-#formation1 {
+#formation1,
+.certification-course {
   display: flex;
 }
 
-#formation1 .col{
-  margin: auto;
+#formation1 .col,
+.certification-course .col {
+  margin: auto 20px;
+  height: 80%;
+  width: 60px;
+  background: #daa520;
+  border-radius: 10px;
 }
 
-#congratulation {
-	background: url("../img/Diplom.png") no-repeat;
-  background-size: contain;
+
+.courses {
+  height: 80%;
+  width: 60px;
+  padding: 10px;
+  background: #daa520;
   border-radius: 10px;
-  width: 125px;
-  height: 125px;
-  position: relative;
+}
+
+
+.certification {
+  background: url("../img/certificate_2.png") no-repeat;
+  background-size: contain;
+  height: 80px;
+}
+
+.congratulation {
+	background: url("../img/diploma.png") no-repeat;
+  background-size: contain;
+  height: 80px;
 }
 
 
@@ -392,10 +410,9 @@ li .progress {
 #formation1 {
   background-color: rgb(31, 31, 36);
   padding: 20px;
-  border-radius: 5px;
-  margin: .5rem 0;
+  border-radius: 8px;
+  margin: 2rem 0;
 }
-
 
 
 /*    experiencia   */

@@ -28,8 +28,7 @@
 
   /* About */
   #about {
-    padding: 40px 0;
-    display: flex;
+    padding: 30px 0;
   }
   
   .img-about {
@@ -53,7 +52,6 @@
   #about p {
     max-width: 100%;
     margin-bottom: 0;
-    margin:0 10px 0 10px;
   }
 
   #about .about-and-skills .profile,
@@ -101,6 +99,12 @@
   }
   
   /* Formation and Certificates */
+  
+  #formation .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
   #formation,
   #experience,
   #additional-information{
@@ -121,7 +125,14 @@
   #formation1,
   .curso{
     margin: 2rem auto;
+    padding-right: 0;
+    padding-left: 0;
   }
+  
+  .certification-course .col-md-10 {
+	padding-left: 0;
+  padding-right: 0;
+}
 
   /*additional-information*/
   .information {

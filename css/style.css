@@ -302,6 +302,10 @@ li .progress {
   background-color: #4dac6c;
 }
 
+.progress #insomnia {
+  background-color: rgb(66, 60, 148);
+}
+
 /* Referente as linhas de progresso */
 
 .percent20 {
@@ -412,6 +416,18 @@ li .progress {
   padding: 20px;
   border-radius: 8px;
   margin: 2rem 0;
+}
+
+.project p a {
+  color: #acacac! important;
+}
+
+.project p a:hover {
+  opacity: 50%!important;
+}
+
+.project p {
+  margin: 0;
 }
 
 

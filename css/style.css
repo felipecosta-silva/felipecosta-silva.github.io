@@ -293,21 +293,19 @@ li .progress {
 }
 
 .progress #html {
-  background-color: #e26932;
+  background-color: #E44D26;
 }
 
 .progress #css {
-  background-color: #3d58ff;
+  background-color: #42A5F5;
 }
 
 .progress #java {
-  background-color: #ec5453;
+  background-color: #E44D26;
 }
-.progress #js {
-  background-color: #f9bf3e;
-}
+
 .progress #bootstrap {
-  background-color: rgb(170,104,241);
+  background-color: #563D7C;
 }
 
 .progress #sass {
@@ -315,11 +313,27 @@ li .progress {
 }
 
 .progress #github {
-  background-color: #4dac6c;
+  background-color: #F05133;
 }
 
 .progress #insomnia {
   background-color: rgb(66, 60, 148);
+}
+
+.progress #javascript {
+  background-color: #fde635;
+}
+
+.progress #react {
+  background-color: #3bc0dd;
+}
+
+.progress #reactnative {
+  background-color: #61dafb;
+}
+
+.progress #angular {
+  background-color: #e53935;
 }
 
 /* Referente as linhas de progresso */

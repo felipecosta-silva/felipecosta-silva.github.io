@@ -176,8 +176,24 @@ nav img {
   color: #000;
 }
 
-#social i:hover {
-  color: #f4cc6c;
+#social .git:hover {
+  color: #24292e;
+}
+
+#social .rocke:hover {
+  color: #714cd2;
+}
+
+#social .linkedin:hover {
+  color: #0077b5;
+}
+
+#social .instagram:hover {
+  color: #fa0378;
+}
+
+#social .rocket:hover {
+  color: #714cd2;
 }
 
 /* About */

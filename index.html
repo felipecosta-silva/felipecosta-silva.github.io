@@ -27,11 +27,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
-<body class="corfundo">
+<body class="corfundo" data-spy="scroll" data-target="#scrollbar">
   <!-- Cabeçalho -->
   <header>
     <!-- Início Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg box-shadow">
+    <nav class="navbar fixed-top navbar-expand-lg box-shadow" id="scrollbar">
       <div class="container">
         <a href="#"><img src="img/icon-navbar/Leao_fc.png" width="100" height="50" alt="Logo" class="mr-3"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li>
-              <a class="nav-link" href="#">Inicio</a>
+              <a class="nav-link" href="#home">Inicio</a>
             </li>
             <li>
               <a class="nav-link" href="#about">Sobre</a>
@@ -121,7 +121,7 @@
     <!-- Início da section Sobre -->
     <section class="section linha" id="about">
       <div class="container">
-        <div>
+        <div class="col-12">
           <h4 class="title-section">Sobre</h4>
           <div class="img-about">
             <h6>Paciência e perseverança tem o efeito mágico de fazer as dificuldades desaparecerem e os obstáculos sumirem.<cite> - John Quincy Adams</cite></h6>
@@ -147,13 +147,13 @@
               <li>
                 <strong> Sass</strong>
                 <div class="progress box-shadow">
-                  <div class="percent20" id="sass"></div>
+                  <div class="percent20 sass_color"></div>
                 </div>
               </li>
               <li>
                 <strong> Java</strong>
                 <div class="progress box-shadow">
-                  <div class="percent20" id="java"></div>
+                  <div class="percent20 java_color"></div>
                 </div>
               </li>
             </ul>
@@ -164,30 +164,30 @@
               <li>
                 <strong> HTML5</strong>
                 <div class="progress box-shadow">
-                  <div class="percent70" id="html"></div>
+                  <div class="percent70 html_color"></div>
                 </div>
               </li>
               <li>
                 <strong> CSS</strong>
                 <div class="progress box-shadow">
-                  <div class="percent70" id="css"></div>
+                  <div class="percent70 css_color"></div>
                 </div>
               </li>
               <li>
                 <strong> Bootstrap</strong>
                 <div class="progress box-shadow">
-                  <div class="percent40" id="bootstrap"></div>
+                  <div class="percent40 bootstrap_color"></div>
                 </div>
               </li>
               <li>
                 <strong> GitHub</strong>
                 <div class="progress box-shadow">
-                  <div class="percent30" id="github"></div>
+                  <div class="percent30 github_color"></div>
                 </div>
                 <li>
                   <strong> Insomnia</strong>
                   <div class="progress box-shadow">
-                    <div class="percent30" id="insomnia"></div>
+                    <div class="percent30 insomnia_color"></div>
                   </div>
               </li>
             </ul>
@@ -197,26 +197,26 @@
             <ul>
               <li>
                 <strong> JavaScript</strong>
-                <div class="progress box-shadow">
-                  <div class="percent30" id="javascript"></div>
+                <div class="progress">
+                  <div class="percent30 javascript_color"></div>
                 </div>
               </li>
               <li>
                 <strong> ReactJS</strong>
-                <div class="progress box-shadow">
-                  <div class="percent30" id="react"></div>
+                <div class="progress">
+                  <div class="percent30 react_color"></div>
                 </div>
               </li>
               <li>
                 <strong> React Native</strong>
-                <div class="progress box-shadow">
-                  <div class="percent20" id="reactnative"></div>
+                <div class="progress">
+                  <div class="percent20 reactnative_color"></div>
                 </div>
               </li>
               <li>
                 <strong> AngularJS</strong>
-                <div class="progress box-shadow">
-                  <div class="percent20" id="angular"></div>
+                <div class="progress">
+                  <div class="percent20 angular_color"></div>
                 </div>
               </li>
             </ul>
@@ -299,11 +299,8 @@
                   <p>Recife - PE | 11/2019</p>
                 </div>
                 <div class="project">
-                  <h5>Projetos:</h5>
-                  <p><a href="https://hdchost.netlify.app" target="_blank">HDC Host</a></p>
-                  <p><a href="https://onepagedoceria.netlify.app" target="_blank">LandingPage Doceria</a></p>
-                  <p><a href="https://clonewhatsappweb.netlify.app/" target="_blank">Clone whatsappWeb</a></p>
-                  <p><a href="https://clonepesquisagoogleallanturing.netlify.app/" target="_blank">Clone Pesquisa Google</a></p>
+                  <h6>Projetos realizados:</h6>
+                  <p>HDC Host, LandingPage Doceria, Clone whatsappWeb, Clone Pesquisa Google</a></p>
                 </div>
               </div>
             </div>
@@ -320,8 +317,8 @@
                   <p>Recife - PE | 01/2020 - 02/2020</p>
                 </div>
                 <div class="project">
-                  <h5>Projeto:</h5>
-                  <p><a href="https://portal-q-cursos.000webhostapp.com/" target="_blank">Portal Q-Cursos</a></p>
+                  <h6>Projetos realizados: </h6>
+                  <p>Portal Q-Cursos</p>
                 </div>
               </div>
             </div>
@@ -338,8 +335,8 @@
                   <p>Recife - PE | 12/2019 - 02/2020</p>
                 </div>
                 <div class="project">
-                  <h5>Projeto:</h5>
-                  <p><a href="https://projectflexblog.netlify.app" target="_blank">FlexBlog</a></p>
+                  <h6>Projeto realizado: </h6>
+                  <p>FlexBlog</p>
                 </div>
               </div>
             </div>
@@ -357,8 +354,8 @@
                 <p>Recife - PE | 02/2020 - 02/2020</p>
                </div>
                <div class="project">
-                <h5>Projeto:</h5>
-                <p><a href="https://caravan-viagens.netlify.app" target="_blank">Caravan Viagens</a></p>
+                <h6>Projeto realizado: </h6>
+                <p>Caravan Viagens</p>
               </div>
               </div>
             </div>
@@ -385,10 +382,71 @@
                 <i class="fas fa-laptop-code"></i>
                 <i class="fab fa-js-square"></i>
                 <h5><a href="#" target="_blank">Curso Web moderno com JavaScript Completo - Cod3r.com (77h) - Udemy</a></h5>
-                <p>Recife - PE | início 01/2020</p>
+                <p>Recife - PE | início 05/2020</p>
               </div>
             </div>
           </div>
+
+          <div id="projects" class="row">
+              <div class="title-section col-12">
+                <h4>Projetos</h4>
+              </div>
+                <div class="col-4 image mb-4">
+                  <img class="img-fluid rounded grow" src="img/Projects/caravan_viagens.webp" alt="Card image cap">
+                  <div class="texto card-img-overlay position-absolute d-flex justify-content-center align-items-center">
+                      <h2>
+                        <a href="https://caravan-viagens.netlify.app" target="_blank">Caravan Viagens</a>
+                      </h2>
+                  </div>
+                </div>
+       
+                <div class="col-4 image mb-4">
+                  <img class="img-fluid rounded" src="img/Projects/clone_whatsappWeb.webp" alt="Card image cap">
+                  <div class="texto card-img-overlay position-absolute d-flex justify-content-center align-items-center">
+                      <h2>
+                        <a href="https://clonewhatsappweb.netlify.app/" target="_blank">whatsappWeb</a>                        
+                      </h2>
+                  </div>
+                </div>
+       
+                <div class="col-4 image mb-4">
+                  <img class="img-fluid rounded" src="img/Projects/hdc_host.webp" alt="Card image cap">
+                  <div class="texto card-img-overlay position-absolute d-flex justify-content-center align-items-center">
+                      <h2>
+                        <a href="https://hdchost.netlify.app" target="_blank">HDC Host</a>
+                      </h2>
+                  </div>
+                </div>
+       
+                <div class="col-4 image mb-4">
+                  <img class="img-fluid rounded" src="img/Projects/doceria.webp" alt="Card image cap">
+                  <div class="texto card-img-overlay position-absolute d-flex justify-content-center align-items-center">
+                      <h2>
+                        <a href="https://onepagedoceria.netlify.app" target="_blank">Doceria</a>
+                      </h2>
+                  </div>
+                </div>
+       
+                <div class="col-md-4 image mb-4">
+                  <img class="img-fluid rounded" src="img/Projects/pesquisa_google.webp" alt="Card image cap">
+                  <div class="texto card-img-overlay position-absolute d-flex justify-content-center align-items-center ">
+                      <h2>
+                        <a href="https://clonepesquisagoogleallanturing.netlify.app/" target="_blank">Clone Pesquisa Google</a>
+                      </h2>
+                  </div>
+                </div>
+   
+                <div class="col-4 image mb-4">
+                  <img class="img-fluid rounded" src="img/Projects/flexblog.webp" alt="Card image cap">
+                  <div class="texto card-img-overlay position-absolute d-flex justify-content-center align-items-center">
+                      <h2>
+                        <a href="https://projectflexblog.netlify.app" target="_blank">FlexBlog</a>
+                      </h2>
+                  </div>
+                </div>
+           </div>
+              
+                           
         </div>
       </div>
     </section>
@@ -440,12 +498,12 @@
     </section>
     <!-- Fim da section Experiência -->
     <!-- Início da section Informações Adicionais -->
-    <section class="container section linha">
+    <section class="container section linha" id="additional-information">
       <div class="container px-md-3">
         <div>
           <h4 class="title-section">Informações Adicionais</h4>
         </div>
-        <div class="row pt-3" id="additional-information">
+        <div class="row pt-3" >
           <div class="col-xs-12 col-md-6 information personalidade">
             <h3 id="personality-title">Personalidade</h3>
             <p id="personality-text">Tenho uma personalidade calma e tranquila, proativo, procuro sempre ajudar quando me for permitido ofereçendo o meu melhor.
@@ -541,4 +599,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script type="text/javascript" src="./js/tradutor.js"></script>
+<script type="text/javascript" src="./js/smoothscroll.js"></script>
 <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></html>

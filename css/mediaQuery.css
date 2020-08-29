@@ -39,6 +39,10 @@
   .img-about {
     padding: 1em 0;
   }
+
+  .img-about h6 {
+    font-size: 1.3rem;
+  }
   
   #about .about-content {
     max-width: 100%;

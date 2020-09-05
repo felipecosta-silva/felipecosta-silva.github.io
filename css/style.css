@@ -348,6 +348,10 @@ li .progress {
   background-color: #e53935;
 }
 
+.typescript_color {
+  background-color: #0288D1;
+}
+
 /* Referente as linhas de progresso */
 
 .percent20 {

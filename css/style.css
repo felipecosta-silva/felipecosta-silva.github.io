@@ -232,12 +232,6 @@ nav img {
   text-indent: 1.5em;
 }
 
-#formationblock {
-  display: block;
-  max-width: 850px;
-  margin: 0 auto;
-}
-
 #introduction {
   margin-bottom: 50px;
 }
@@ -418,12 +412,15 @@ li .progress {
   color: #888888;
 }
 
-#formation #tcc {
-  color: #fff;
+
+#formationblock {
+  display: block;
+  max-width: 850px;
+  margin: 0 auto;
 }
 
-#certificate-courses {
-  margin: 4rem auto 2rem auto;
+#formation #tcc {
+  color: #fff;
 }
 
 #formation p {
@@ -439,22 +436,19 @@ li .progress {
   opacity: .9;
 }
 
-#formation1,
 .certification-course {
   display: flex;
 }
 
-#formation1 .col,
 .certification-course .col {
   margin: auto 20px;
-  height: 80%;
+  height: 80px;
   width: 60px;
-  background: #daa520;
+  background: #121214;
   border-radius: 10px;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
-
 
 .courses {
   height: 80%;
@@ -462,7 +456,11 @@ li .progress {
   padding: 10px;
 }
 
-#formation1 .col:hover,
+#certificate-courses{
+  margin: 4rem auto 2rem auto;
+}
+
+
 .certification-course .col:hover {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
@@ -470,19 +468,48 @@ li .progress {
 }
 
 
-.certification {
-  background: url("../img/certificate_2.png") no-repeat;
-  background-size: contain;
-  height: 80px;
-}
-
-
 .congratulation {
-	background: url("../img/diploma.png") no-repeat;
+	background: url("../img/icon-sites-certificado/1390785.svg") no-repeat;
   background-size: contain;
-  height: 80px;
+  height: 60px;
 }
 
+.certification {
+  background: url("../img/icon-sites-certificado/certificado.png") no-repeat;
+  background-size: contain;
+  height: 60px;
+}
+
+#certification-Cod3r {
+  background: url("../img/icon-sites-certificado/Cod3r.png") no-repeat;
+  background-size: contain;
+  height: 60px;
+}
+
+#certification-Udemy {
+  background: url("../img/icon-sites-certificado/Udemy.png") no-repeat;
+  background-size: contain;
+  height: 60px;
+}
+
+#certification-Fuctura {
+  background: url("../img/icon-sites-certificado/Fuctura.ico") no-repeat;
+  background-size: contain;
+  height: 60px;
+}
+
+#certification-Origamid {
+  background: url("../img/icon-sites-certificado/Origamid.svg") no-repeat;
+  background-size: contain;
+  fill:yellow;
+  height: 60px;
+}
+
+#certification-RocketSeat {
+  background: url("../img/icon-sites-certificado/RocketSeat.png") no-repeat;
+  background-size: contain;
+  height: 60px;
+}
 
 .curso,
 #formation1 {

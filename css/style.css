@@ -111,7 +111,7 @@ nav img {
 #flagBr:focus,
 #flagEn:focus {
   transform: scale(1.2);
-  
+
 }
 
 /* parte inicial da página #home */
@@ -432,8 +432,7 @@ li .progress {
 }
 
 #formation a:hover {
-  color: #daa520;
-  opacity: .9;
+  opacity: .7;
 }
 
 .certification-course {
@@ -492,6 +491,12 @@ li .progress {
   height: 60px;
 }
 
+#certification-alfahelix {
+  background: url("../img/icon-sites-certificado/alfahelix.png") no-repeat;
+  background-size: contain;
+  height: 60px;
+}
+
 #certification-Fuctura {
   background: url("../img/icon-sites-certificado/Fuctura.ico") no-repeat;
   background-size: contain;
@@ -511,6 +516,10 @@ li .progress {
   height: 60px;
 }
 
+#formation a.github{
+  color: #F05133!important;
+}
+
 .curso,
 #formation1 {
   background-color: rgb(31, 31, 36);
@@ -526,6 +535,12 @@ li .progress {
 
 .project p {
   margin: 0;
+}
+
+/* Projects  */
+
+#projects span{
+  font-size: 1.2rem;
 }
 
 

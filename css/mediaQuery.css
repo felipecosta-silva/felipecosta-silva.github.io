@@ -1,5 +1,5 @@
-@media only screen and (max-width: 1200px){ 
-  
+@media only screen and (max-width: 1200px){
+
   .nav-link {
     padding: 1rem;
     line-height: 30px;
@@ -19,7 +19,7 @@
   .navbar-nav #btnDownload{
     padding-left: 0;
   }
-  
+
 
   /* home */
   #home {
@@ -29,13 +29,13 @@
   #home img {
     max-width: 80%;
   }
-  
+
 
   /* About */
   #about {
     padding: 30px 0;
   }
-  
+
   .img-about {
     padding: 1em 0;
   }
@@ -43,7 +43,7 @@
   .img-about h6 {
     font-size: 1.3rem;
   }
-  
+
   #about .about-content {
     max-width: 100%;
     margin: 0 20px;
@@ -86,34 +86,34 @@
   }
 
   /* experience  */
-  
+
   #experience .container{
     padding-left: 0;
     padding-right: 0;
   }
-  
+
   #jobs {
 	flex-wrap: wrap;
 }
-  
+
   .job{
     margin: 1rem auto;
     padding-left: auto! important;
     padding-right: auto! important;
   }
-  
+
  #jobs ul li{
     margin: 0 auto;
     padding: 0 auto;
   }
-  
+
   /* Formation and Certificates */
-  
+
   #formation .container {
     padding-left: 0;
     padding-right: 0;
   }
-  
+
   #formation,
   #experience,
   #additional-information{
@@ -130,14 +130,17 @@
     margin-bottom: 25px;
     margin: 2rem auto;
   }
-  
+
   #formation1,
   .curso{
     margin: 2rem auto;
+  }
+
+  .curso {
     padding-right: 0;
     padding-left: 0;
   }
-  
+
   .certification-course .col-md-10 {
 	padding-left: 0;
   padding-right: 0;
@@ -147,11 +150,11 @@
   .information {
     text-align: center;
   }
-  
+
   #infadd::after {
     width: auto;
   }
-  
+
   #frase {
   margin-left: auto;
   margin-right: auto;

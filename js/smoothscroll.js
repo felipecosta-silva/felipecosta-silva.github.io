@@ -2,8 +2,8 @@ $('.navbar a[href^="#"]').on('click', function(e) {
     e.preventDefault();
     var id = $(this).attr('href'),
     targetOffset = $(id).offset().top;
-      
-    $('html, body').animate({ 
+
+    $('html, body').animate({
       scrollTop: targetOffset - 100
-    }, 2000);
+    }, 1000);
   });

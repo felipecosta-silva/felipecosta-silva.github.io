@@ -572,6 +572,12 @@ li .progress {
   margin: .5rem;
 }
 
+.job a img {
+  background-color: rgb(221, 217, 217);
+  width: 25%;
+  border-radius: 5px;
+}
+
 #jobs li {
   color: rgb(168, 168, 179);
 }

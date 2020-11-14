@@ -184,7 +184,7 @@ nav img {
   transform: translateY(-0.25em);
 }
 
-#social .git:hover {
+#social .github:hover {
   color: #F05133;
 }
 
@@ -318,7 +318,7 @@ li .progress {
   background-color: rgb(207,100,154);
 }
 
-.github_color {
+.git_color {
   background-color: #F05133;
 }
 
@@ -511,7 +511,7 @@ li .progress {
   height: 60px;
 }
 
-#formation a.github{
+#formation a.git{
   color: #F05133!important;
 }
 

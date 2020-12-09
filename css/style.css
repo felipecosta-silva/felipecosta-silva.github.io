@@ -486,6 +486,12 @@ li .progress {
   height: 60px;
 }
 
+#certification-Digital-Innovation {
+  background: url("../img/icon-sites-certificado/DigitalInovation.png") no-repeat;
+  background-size: contain;
+  height: 60px;
+}
+
 #certification-alfahelix {
   background: url("../img/icon-sites-certificado/alfahelix.png") no-repeat;
   background-size: contain;

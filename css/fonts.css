@@ -1,20 +1,27 @@
 @font-face {
     src: url(../webfonts/Tamira-lwA0.ttf);
-    font-family: 'Tamira';    
+    font-family: 'Tamira';
     font-weight: normal;
-} 
+}
 
 @font-face {
     src: url(../webfonts/aladdin.ttf);
-    font-family: 'aladdin';    
+    font-family: 'aladdin';
     font-weight: normal;
-} 
+}
 
 @font-face {
     src: url(../webfonts/BLKCHCRY.ttf);
-    font-family: 'BLKCHCRY';    
+    font-family: 'BLKCHCRY';
     font-weight: normal;
-} 
+}
+
+@font-face {
+  src: url(../webfonts/Roboto-Italic.ttf);
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+
 
 #NomePerfil{
   font-family: 'BLKCHCRY';

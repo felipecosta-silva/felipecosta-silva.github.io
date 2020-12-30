@@ -159,6 +159,13 @@ nav img {
   font-weight: 1rem;
 }
 
+.text {
+  color: #000;
+  opacity: 0.75;
+  margin: auto;
+  width: 14em;
+}
+
 #social {
   position: relative;
   flex-wrap: wrap;
@@ -833,9 +840,9 @@ blockquote p {
 .line {
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   color: rgba(255, 255, 255, 0.75);
-  font-size: 1.5em;
+  font-size: 3em;
   text-align: center;
-  margin: 0 auto;
+  padding: auto;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -843,12 +850,16 @@ blockquote p {
 
 .bannerInitial {
   height: 100vh;
-  background: darkgreen;
+  background: rgb(221, 181, 71);
+  color: #d8d8d8!important;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1031;
   opacity: 1;
+  padding: 12rem 3rem;
+  text-transform: uppercase;
+  font-family: "Russo One", sans-serif;
 }
 

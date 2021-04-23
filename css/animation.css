@@ -63,6 +63,7 @@
  100% {
    opacity: 0;
    z-index: 0;
+   visibility:hidden;
  }
 }
 
@@ -95,5 +96,5 @@
 
 .typing-animation {
   animation: blinkCursor 500ms steps(40) infinite normal,
-    typing 4s steps(40) 1s normal both;
+  typing 4s steps(40) 1s normal both;
 }

@@ -8,7 +8,19 @@
 
 }
 
+@media only screen and (max-width: 320px){
+
+  .bannerInitial {
+    visibility:hidden;
+  }
+}
+
 @media only screen and (max-width: 768px){
+
+  .line {
+    font-size: 1.5em;
+  }
+
   /* Header */
   header {
     justify-content: flex-end;

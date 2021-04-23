@@ -576,16 +576,11 @@ li .progress {
 
 #experience {
   background: rgb(26, 25, 23);
-
-  color: #fec63e;
+    color: #fec63e;
 }
 
 #experience i {
   color: #fff;
-}
-
-#jobs {
-  display: flex;
 }
 
 .job {
@@ -845,6 +840,7 @@ blockquote p {
   padding: auto;
   white-space: nowrap;
   overflow: hidden;
+  font-family: 'Roboto';
 }
 
 
